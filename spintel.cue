@@ -1,20 +1,20 @@
 package data
 
-providers: leaptel: #Provider & {
-	name:            "Leaptel"
-	slug:            "leaptel"
-	website_url:     "https://leaptel.com.au"
+providers: spintel: #Provider & {
+	name:            "SpinTel"
+	slug:            "spintel"
+	website_url:     "https://www.spintel.net.au"
 	connection_type: "PPPoE"
 	uses_cgnat:      false
-	cgnat_opt_out:   "unavailable"
+	cgnat_opt_out:   "unknown"
 	plans: [{
-		name:          "Pronto"
+		name:          "25/10Mbps"
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 69.95
+		monthly_price: 64.95
 		promo: {
-			price:  49.95
+			price:  51.0
 			months: 6
 		}
 		category: "residential"
@@ -28,13 +28,13 @@ providers: leaptel: #Provider & {
 			backup_4g:   false
 		}
 	}, {
-		name:          "Accelerated"
+		name:          "50/20Mbps"
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   20
-		monthly_price: 82.95
+		monthly_price: 81.95
 		promo: {
-			price:  74.95
+			price:  71.0
 			months: 6
 		}
 		category: "residential"
@@ -48,14 +48,14 @@ providers: leaptel: #Provider & {
 			backup_4g:   false
 		}
 	}, {
-		name:          "Full Throttle"
+		name:          "100/20Mbps"
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 92.95
+		monthly_price: 86.95
 		promo: {
-			price:  79.95
-			months: 12
+			price:  73.0
+			months: 6
 		}
 		category: "residential"
 		features: {
@@ -68,14 +68,14 @@ providers: leaptel: #Provider & {
 			backup_4g:   false
 		}
 	}, {
-		name:          "Fast"
+		name:          "500/50Mbps"
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 92.95
+		monthly_price: 86.95
 		promo: {
-			price:  79.95
-			months: 12
+			price:  76.0
+			months: 6
 		}
 		category: "residential"
 		features: {
@@ -88,54 +88,34 @@ providers: leaptel: #Provider & {
 			backup_4g:   false
 		}
 	}, {
-		name:          "Ultrafast"
+		name:          "750/50Mbps"
+		speed_tier:    "NBN750"
+		download_mbps: 750
+		upload_mbps:   50
+		monthly_price: 90.95
+		promo: {
+			price:  8e+1
+			months: 6
+		}
+		category: "residential"
+		features: {
+			static_ip: {
+				available:    false
+				monthly_cost: 0.0
+			}
+			esla:        false
+			symmetrical: false
+			backup_4g:   false
+		}
+	}, {
+		name:          "1000/100Mbps"
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
-		monthly_price: 114.0
+		monthly_price: 99.95
 		promo: {
-			price:  99.0
-			months: 12
-		}
-		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-	}, {
-		name:          "Hyperfast HFC"
-		speed_tier:    "NBN2000"
-		download_mbps: 2000
-		upload_mbps:   100
-		monthly_price: 165.0
-		promo: {
-			price:  155.0
-			months: 12
-		}
-		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-	}, {
-		name:          "Hyperfast FTTP"
-		speed_tier:    "NBN2000"
-		download_mbps: 2000
-		upload_mbps:   200
-		monthly_price: 165.0
-		promo: {
-			price:  155.0
-			months: 12
+			price:  89.0
+			months: 6
 		}
 		category: "residential"
 		features: {
