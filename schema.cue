@@ -1,7 +1,7 @@
 package data
 
 #SpeedTier:      "NBN12" | "NBN25" | "NBN50" | "NBN100" | "NBN250" | "NBN500" | "NBN1000" | "NBN2000"
-#ContractTerm:   "month-to-month" | "fixed-12" | "fixed-24"
+
 #ConnectionType: "PPPoE" | "IPoE" | "unknown"
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A"
 
@@ -13,7 +13,6 @@ package data
 	monthly_price:  number & >0  // ongoing price
 	intro_price?:   number & >0  // discounted price during intro period
 	intro_months?:  number & >0       // length of intro period in months
-	contract_term:  #ContractTerm | *"month-to-month"
 	data_cap_gb?:   int & >0 // absent = unlimited
 	notes?:         string
 }
@@ -27,4 +26,5 @@ package data
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
 	plans: [...#Plan]
 	notes?: string
+	referral_params?: string
 }
