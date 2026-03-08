@@ -7,6 +7,10 @@ providers: exetel: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      true
 	cgnat_opt_out:   "available"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "One Plan"
 		speed_tier:    "NBN500"
@@ -14,14 +18,5 @@ providers: exetel: #Provider & {
 		upload_mbps:   50
 		monthly_price: 8e+1
 		category:      "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }

@@ -4,9 +4,13 @@ providers: superloop: #Provider & {
 	name:            "Superloop"
 	slug:            "superloop"
 	website_url:     "https://www.superloop.com"
-	connection_type: "PPPoE"
-	uses_cgnat:      false
-	cgnat_opt_out:   "unavailable"
+	connection_type: "IPoE"
+	uses_cgnat:      true
+	cgnat_opt_out:   "available"
+	static_ip: {
+		available:    true
+		monthly_cost: 5.0
+	}
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"
@@ -18,15 +22,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Extra Value"
 		speed_tier:    "NBN50"
@@ -38,15 +33,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Superfast Plus"
 		speed_tier:    "NBN250"
@@ -58,15 +44,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Family Max"
 		speed_tier:    "NBN500"
@@ -78,15 +55,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Megaspeed"
 		speed_tier:    "NBN750"
@@ -98,15 +66,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Lightspeed"
 		speed_tier:    "NBN1000"
@@ -118,15 +77,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Hyperspeed"
 		speed_tier:    "NBN2000"
@@ -138,14 +88,5 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }

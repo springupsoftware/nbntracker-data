@@ -28,14 +28,6 @@ package data
 	data_cap_gb?: int & >0
 	category:     "residential" | "business" | "enterprise"
 
-	features: {
-		static_ip: #StaticIP | *{available: false}
-		esla:        bool | *false
-		symmetrical: bool | *false
-		// New for 2026: 4G/5G backup inclusion
-		backup_4g: bool | *false
-	}
-
 	cis_url?: string
 	notes?:   string
 }
@@ -47,9 +39,7 @@ package data
 	connection_type: #ConnectionType | *"unknown"
 	uses_cgnat:      bool | *false
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
-
-	// Strategic: Add a global "Default Static IP" for the provider
-	default_static_ip_cost?: number
+	static_ip:       #StaticIP | *{available: false}
 
 	plans: [...#Plan]
 

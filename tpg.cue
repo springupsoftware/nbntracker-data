@@ -7,6 +7,10 @@ providers: tpg: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      false
 	cgnat_opt_out:   "unavailable"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "NBN100"
 		speed_tier:    "NBN100"
@@ -18,15 +22,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN12"
 		speed_tier:    "NBN12"
@@ -38,15 +33,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN25"
 		speed_tier:    "NBN25"
@@ -58,15 +44,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN50"
 		speed_tier:    "NBN50"
@@ -78,15 +55,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN500"
 		speed_tier:    "NBN500"
@@ -98,15 +66,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN Home Superfast"
 		speed_tier:    "NBN750"
@@ -118,15 +77,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "NBN Home Ultrafast"
 		speed_tier:    "NBN1000"
@@ -138,14 +88,5 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }

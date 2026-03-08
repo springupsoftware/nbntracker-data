@@ -7,6 +7,10 @@ providers: telstra: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      true
 	cgnat_opt_out:   "unavailable"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"
@@ -18,16 +22,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Essential nbn"
 		speed_tier:    "NBN50"
@@ -39,16 +34,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Essential nbn"
 		speed_tier:    "NBN100"
@@ -60,16 +46,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Premium nbn"
 		speed_tier:    "NBN100"
@@ -81,16 +58,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Premium nbn"
 		speed_tier:    "NBN500"
@@ -102,16 +70,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Ultimate nbn"
 		speed_tier:    "NBN750"
@@ -123,16 +82,7 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}, {
 		name:          "Ultrafast nbn"
 		speed_tier:    "NBN1000"
@@ -144,15 +94,6 @@ providers: telstra: #Provider & {
 			months: 2
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
-		notes: "Coupon ONLINE50: Get 50% off for 2 months"
+		notes:    "Coupon ONLINE50: Get 50% off for 2 months"
 	}]
 }

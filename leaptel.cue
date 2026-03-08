@@ -7,6 +7,10 @@ providers: leaptel: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      false
 	cgnat_opt_out:   "unavailable"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"
@@ -18,15 +22,6 @@ providers: leaptel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Accelerated"
 		speed_tier:    "NBN50"
@@ -38,15 +33,6 @@ providers: leaptel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Full Throttle"
 		speed_tier:    "NBN100"
@@ -58,15 +44,6 @@ providers: leaptel: #Provider & {
 			months: 12
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Fast"
 		speed_tier:    "NBN500"
@@ -78,15 +55,6 @@ providers: leaptel: #Provider & {
 			months: 12
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Ultrafast"
 		speed_tier:    "NBN1000"
@@ -98,15 +66,6 @@ providers: leaptel: #Provider & {
 			months: 12
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Hyperfast HFC"
 		speed_tier:    "NBN2000"
@@ -118,15 +77,6 @@ providers: leaptel: #Provider & {
 			months: 12
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Hyperfast FTTP"
 		speed_tier:    "NBN2000"
@@ -138,14 +88,5 @@ providers: leaptel: #Provider & {
 			months: 12
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }

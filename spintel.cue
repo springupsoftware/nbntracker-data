@@ -7,6 +7,10 @@ providers: spintel: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      false
 	cgnat_opt_out:   "unknown"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"
@@ -18,15 +22,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "50/20Mbps"
 		speed_tier:    "NBN50"
@@ -38,15 +33,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "100/20Mbps"
 		speed_tier:    "NBN100"
@@ -58,15 +44,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "500/50Mbps"
 		speed_tier:    "NBN500"
@@ -78,15 +55,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "750/50Mbps"
 		speed_tier:    "NBN750"
@@ -98,15 +66,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "1000/100Mbps"
 		speed_tier:    "NBN1000"
@@ -118,14 +77,5 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }

@@ -7,6 +7,10 @@ providers: more: #Provider & {
 	connection_type: "PPPoE"
 	uses_cgnat:      false
 	cgnat_opt_out:   "unavailable"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"
@@ -18,15 +22,6 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Value Plus"
 		speed_tier:    "NBN50"
@@ -38,15 +33,6 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Fast Max"
 		speed_tier:    "NBN500"
@@ -58,15 +44,6 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}, {
 		name:          "Ultrafast"
 		speed_tier:    "NBN1000"
@@ -78,14 +55,5 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
-		features: {
-			static_ip: {
-				available:    false
-				monthly_cost: 0.0
-			}
-			esla:        false
-			symmetrical: false
-			backup_4g:   false
-		}
 	}]
 }
