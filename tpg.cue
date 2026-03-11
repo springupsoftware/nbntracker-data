@@ -5,7 +5,7 @@ providers: tpg: #Provider & {
 	slug:            "tpg"
 	website_url:     "https://www.tpg.com.au"
 	connection_type: "PPPoE"
-	uses_cgnat:      false
+	cgnat:      false
 	cgnat_opt_out:   "unavailable"
 	static_ip: {
 		available:    false

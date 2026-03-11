@@ -5,7 +5,7 @@ providers: optus: #Provider & {
 	slug:            "optus"
 	website_url:     "https://www.optus.com.au"
 	connection_type: "IPoE"
-	uses_cgnat:      false
+	cgnat:      false
 	cgnat_opt_out:   "N/A"
 	static_ip: {
 		available:    false

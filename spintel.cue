@@ -5,7 +5,7 @@ providers: spintel: #Provider & {
 	slug:            "spintel"
 	website_url:     "https://www.spintel.net.au"
 	connection_type: "PPPoE"
-	uses_cgnat:      false
+	cgnat:      false
 	cgnat_opt_out:   "unknown"
 	static_ip: {
 		available:    false

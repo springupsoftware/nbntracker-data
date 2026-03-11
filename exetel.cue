@@ -4,12 +4,12 @@ providers: exetel: #Provider & {
 	name:            "Exetel"
 	slug:            "exetel"
 	website_url:     "https://www.exetel.com.au"
-	connection_type: "PPPoE"
-	uses_cgnat:      true
-	cgnat_opt_out:   "available"
+	connection_type: "IPoE"
+	cgnat:      true
+	cgnat_opt_out:   "paid_static_ip"
 	static_ip: {
 		available:    false
-		monthly_cost: 0.0
+		monthly_cost: 5.0
 	}
 	plans: [{
 		name:          "One Plan"

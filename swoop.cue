@@ -1,58 +1,58 @@
 package data
 
-providers: more: #Provider & {
-	name:            "More Telecom"
-	slug:            "more"
-	website_url:     "https://www.more.com.au"
+providers: swoop: #Provider & {
+	name:            "Swoop"
+	slug:            "swoop"
+	website_url:     "https://www.swoop.com.au"
 	connection_type: "PPPoE"
-	cgnat:      false
-	cgnat_opt_out:   "unavailable"
+	cgnat:      true
+	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
 	plans: [{
-		name:          "Value"
+		name:          "nbn® 25/10"
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 78.0
+		monthly_price: 69.0
 		promo: {
-			price:  63.0
-			months: 36
+			price:  54.0
+			months: 6
 		}
 		category: "residential"
 	}, {
-		name:          "Value Plus"
+		name:          "nbn® 50/20"
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   20
-		monthly_price: 95.0
+		monthly_price: 84.0
 		promo: {
-			price:  8e+1
-			months: 36
+			price:  69.0
+			months: 6
 		}
 		category: "residential"
 	}, {
-		name:          "Fast Max"
+		name:          "nbn® 500/50"
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 1e+2
+		monthly_price: 94.0
 		promo: {
-			price:  85.0
-			months: 36
+			price:  72.0
+			months: 6
 		}
 		category: "residential"
 	}, {
-		name:          "Ultrafast"
+		name:          "nbn® 1000/100"
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
-		monthly_price: 129.0
+		monthly_price: 109.0
 		promo: {
-			price:  114.0
-			months: 36
+			price:  85.0
+			months: 6
 		}
 		category: "residential"
 	}]

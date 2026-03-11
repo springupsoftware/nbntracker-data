@@ -4,7 +4,7 @@ package data
 #SpeedTier: "NBN12" | "NBN25" | "NBN50" | "NBN100" | "NBN250" | "NBN500" | "NBN750" | "NBN1000" | "NBN2000"
 
 #ConnectionType: "PPPoE" | "IPoE" | "unknown"
-#CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A"
+#CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
 
 #StaticIP: {
 	available:    bool | *true
@@ -37,7 +37,7 @@ package data
 	slug:            string & !=""
 	website_url:     string & !=""
 	connection_type: #ConnectionType | *"unknown"
-	uses_cgnat:      bool | *false
+	cgnat:           bool | *false
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
 	static_ip:       #StaticIP | *{available: false}
 
