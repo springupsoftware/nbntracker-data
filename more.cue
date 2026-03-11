@@ -5,7 +5,7 @@ providers: more: #Provider & {
 	slug:            "more"
 	website_url:     "https://www.more.com.au"
 	connection_type: "PPPoE"
-	cgnat:      false
+	cgnat:           false
 	cgnat_opt_out:   "unavailable"
 	static_ip: {
 		available:    false

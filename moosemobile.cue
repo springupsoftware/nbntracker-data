@@ -5,7 +5,7 @@ providers: moosemobile: #Provider & {
 	slug:            "moosemobile"
 	website_url:     "https://moosemobile.com.au"
 	connection_type: "PPPoE"
-	cgnat:      false
+	cgnat:           false
 	cgnat_opt_out:   "unknown"
 	static_ip: {
 		available:    false

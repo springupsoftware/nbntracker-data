@@ -5,7 +5,7 @@ providers: leaptel: #Provider & {
 	slug:            "leaptel"
 	website_url:     "https://leaptel.com.au"
 	connection_type: "IPoE"
-	cgnat:      false
+	cgnat:           false
 	cgnat_opt_out:   "unavailable"
 	static_ip: {
 		available:    false

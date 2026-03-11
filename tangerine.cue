@@ -5,7 +5,7 @@ providers: tangerine: #Provider & {
 	slug:            "tangerine"
 	website_url:     "https://www.tangerine.com.au"
 	connection_type: "PPPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    false

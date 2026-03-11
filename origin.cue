@@ -5,7 +5,7 @@ providers: origin: #Provider & {
 	slug:            "origin"
 	website_url:     "https://www.originenergy.com.au"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "paid_static_ip"
 	static_ip: {
 		available:    true

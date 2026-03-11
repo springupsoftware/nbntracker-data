@@ -5,7 +5,7 @@ providers: launtel: #Provider & {
 	slug:            "launtel"
 	website_url:     "https://launtel.com.au"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    false

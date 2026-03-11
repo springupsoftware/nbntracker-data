@@ -5,7 +5,7 @@ providers: belong: #Provider & {
 	slug:            "belong"
 	website_url:     "https://www.belong.com.au"
 	connection_type: "PPPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "unavailable"
 	static_ip: {
 		available:    false

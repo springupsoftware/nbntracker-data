@@ -5,11 +5,11 @@ providers: aussie: #Provider & {
 	slug:            "aussie"
 	website_url:     "https://www.aussiebroadband.com.au"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    true
-		monthly_cost: 5
+		monthly_cost: 5.0
 	}
 	plans: [{
 		name:          "Basic"

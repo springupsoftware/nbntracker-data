@@ -31,7 +31,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 80.0
+		monthly_price: 8e+1
 		category:      "residential"
 	}, {
 		name:          "Carbon Home Fast 100/40 nbn™"
@@ -45,7 +45,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 80.0
+		monthly_price: 8e+1
 		category:      "residential"
 	}, {
 		name:          "Carbon Home Superfast 750/50 nbn™"
@@ -66,14 +66,14 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN2000"
 		download_mbps: 2000
 		upload_mbps:   100
-		monthly_price: 150.0
+		monthly_price: 1.5e+2
 		category:      "residential"
 	}, {
 		name:          "Carbon Hyperfast FTTP 2000/200 nbn™"
 		speed_tier:    "NBN2000"
 		download_mbps: 2000
 		upload_mbps:   200
-		monthly_price: 150.0
+		monthly_price: 1.5e+2
 		category:      "residential"
 	}, {
 		name:          "Carbon Business Fast 100/40 nbn™"

@@ -5,7 +5,7 @@ providers: neptune: #Provider & {
 	slug:            "neptune"
 	website_url:     "https://www.neptune.net.au"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    true

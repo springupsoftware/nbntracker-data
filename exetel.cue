@@ -5,7 +5,7 @@ providers: exetel: #Provider & {
 	slug:            "exetel"
 	website_url:     "https://www.exetel.com.au"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "paid_static_ip"
 	static_ip: {
 		available:    false

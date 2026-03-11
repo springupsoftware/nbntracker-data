@@ -5,7 +5,7 @@ providers: superloop: #Provider & {
 	slug:            "superloop"
 	website_url:     "https://www.superloop.com"
 	connection_type: "IPoE"
-	cgnat:      true
+	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    true
