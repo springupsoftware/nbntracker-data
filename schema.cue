@@ -45,4 +45,5 @@ package data
 
 	referral_params?: string
 	notes?:           string
+	support_location: "Australia" | "Offshore" | "Hybrid"
 }

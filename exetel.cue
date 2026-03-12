@@ -11,6 +11,7 @@ providers: exetel: #Provider & {
 		available:    false
 		monthly_cost: 5.0
 	}
+	support_location: "Offshore"
 	plans: [{
 		name:          "One Plan"
 		speed_tier:    "NBN500"

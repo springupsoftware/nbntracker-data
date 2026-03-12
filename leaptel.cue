@@ -11,6 +11,7 @@ providers: leaptel: #Provider & {
 		available:    true
 		monthly_cost: 10.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"

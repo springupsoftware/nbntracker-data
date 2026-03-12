@@ -12,6 +12,7 @@ providers: carboncomms: #Provider & {
 		monthly_cost: 0.0
 		notes:        "Static IP (IPv4) included as standard"
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"
 		speed_tier:    "NBN25"

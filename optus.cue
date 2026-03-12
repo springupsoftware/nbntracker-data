@@ -11,6 +11,7 @@ providers: optus: #Provider & {
 		available:    true
 		monthly_cost: 10.0
 	}
+	support_location: "Hybrid"
 	plans: [{
 		name:          "Basic Plan"
 		speed_tier:    "NBN25"

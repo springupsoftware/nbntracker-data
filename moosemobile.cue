@@ -11,6 +11,7 @@ providers: moosemobile: #Provider & {
 		available:    true
 		monthly_cost: 5.5
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

@@ -11,6 +11,7 @@ providers: dodo: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Offshore"
 	plans: [{
 		name:          "nbn25"
 		speed_tier:    "NBN25"

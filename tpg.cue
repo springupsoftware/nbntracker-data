@@ -11,6 +11,7 @@ providers: tpg: #Provider & {
 		available:    true
 		monthly_cost: 5
 	}
+	support_location: "Offshore"
 	plans: [{
 		name:          "NBN500"
 		speed_tier:    "NBN500"

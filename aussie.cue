@@ -11,6 +11,7 @@ providers: aussie: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"

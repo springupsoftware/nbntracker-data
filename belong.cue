@@ -11,6 +11,7 @@ providers: belong: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
+	support_location: "Hybrid"
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

@@ -11,6 +11,7 @@ providers: southernphone: #Provider & {
 		available:    true
 		monthly_cost: 7.5
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "nbn Fast X"
 		speed_tier:    "NBN500"

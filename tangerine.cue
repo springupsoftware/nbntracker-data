@@ -11,6 +11,7 @@ providers: tangerine: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

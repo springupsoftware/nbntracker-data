@@ -11,6 +11,7 @@ providers: launtel: #Provider & {
 		available:    true
 		monthly_cost: 4.5
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "nbn100/20"
 		speed_tier:    "NBN100"

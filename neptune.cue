@@ -11,6 +11,7 @@ providers: neptune: #Provider & {
 		available:    true
 		monthly_cost: 0.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Home Fast 25/10"
 		speed_tier:    "NBN25"

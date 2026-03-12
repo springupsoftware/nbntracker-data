@@ -11,6 +11,7 @@ providers: superloop: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"

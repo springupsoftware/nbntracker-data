@@ -11,6 +11,7 @@ providers: telstra: #Provider & {
 		available:    true
 		monthly_cost: 10.0
 	}
+	support_location: "Hybrid"
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"

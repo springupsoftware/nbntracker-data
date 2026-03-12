@@ -11,6 +11,7 @@ providers: origin: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Hybrid"
 	plans: [{
 		name:          "Everyday nbn™ 25/10"
 		speed_tier:    "NBN25"

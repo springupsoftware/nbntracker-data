@@ -11,6 +11,7 @@ providers: spintel: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	support_location: "Australia"
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"
