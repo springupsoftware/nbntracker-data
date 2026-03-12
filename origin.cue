@@ -9,7 +9,7 @@ providers: origin: #Provider & {
 	cgnat_opt_out:   "paid_static_ip"
 	static_ip: {
 		available:    true
-		monthly_cost: 0.0
+		monthly_cost: 5.0
 	}
 	plans: [{
 		name:          "Everyday nbn™ 25/10"

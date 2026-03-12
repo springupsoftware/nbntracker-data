@@ -4,7 +4,7 @@ providers: dodo: #Provider & {
 	name:            "Dodo"
 	slug:            "dodo"
 	website_url:     "https://www.dodo.com"
-	connection_type: "IPoE"
+	connection_type: "PPPoE"
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {

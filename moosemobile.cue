@@ -4,12 +4,12 @@ providers: moosemobile: #Provider & {
 	name:            "Moose Mobile"
 	slug:            "moosemobile"
 	website_url:     "https://moosemobile.com.au"
-	connection_type: "PPPoE"
-	cgnat:           false
-	cgnat_opt_out:   "unknown"
+	connection_type: "IPoE"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 5.5
 	}
 	plans: [{
 		name:          "Value"

@@ -5,11 +5,11 @@ providers: more: #Provider & {
 	slug:            "more"
 	website_url:     "https://www.more.com.au"
 	connection_type: "PPPoE"
-	cgnat:           false
-	cgnat_opt_out:   "unavailable"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 5.0
 	}
 	plans: [{
 		name:          "Value"

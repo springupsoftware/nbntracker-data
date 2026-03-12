@@ -8,8 +8,8 @@ providers: optus: #Provider & {
 	cgnat:           false
 	cgnat_opt_out:   "N/A"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 10.0
 	}
 	plans: [{
 		name:          "Basic Plan"

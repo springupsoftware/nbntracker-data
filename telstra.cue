@@ -5,11 +5,11 @@ providers: telstra: #Provider & {
 	slug:            "telstra"
 	website_url:     "https://www.telstra.com.au"
 	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "unavailable"
+	cgnat:           false
+	cgnat_opt_out:   "N/A"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 10.0
 	}
 	plans: [{
 		name:          "Basic nbn"

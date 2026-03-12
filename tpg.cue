@@ -5,10 +5,10 @@ providers: tpg: #Provider & {
 	slug:            "tpg"
 	website_url:     "https://www.tpg.com.au"
 	connection_type: "PPPoE"
-	cgnat:           true
-	cgnat_opt_out:   "paid_static_ip"
+	cgnat:           false
+	cgnat_opt_out:   "N/A"
 	static_ip: {
-		available:    false
+		available:    true
 		monthly_cost: 5
 	}
 	plans: [{

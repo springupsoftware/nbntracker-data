@@ -8,8 +8,8 @@ providers: launtel: #Provider & {
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 4.5
 	}
 	plans: [{
 		name:          "nbn100/20"

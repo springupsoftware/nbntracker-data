@@ -4,12 +4,12 @@ providers: swoop: #Provider & {
 	name:            "Swoop"
 	slug:            "swoop"
 	website_url:     "https://www.swoop.com.au"
-	connection_type: "PPPoE"
+	connection_type: "IPoE"
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 5.5
 	}
 	plans: [{
 		name:          "nbn® 25/10"
