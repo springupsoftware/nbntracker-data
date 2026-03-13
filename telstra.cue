@@ -1,17 +1,25 @@
 package data
 
 providers: telstra: #Provider & {
-	name:            "Telstra"
-	slug:            "telstra"
-	website_url:     "https://www.telstra.com.au"
-	connection_type: "IPoE"
-	cgnat:           false
-	cgnat_opt_out:   "N/A"
+	name:             "Telstra"
+	slug:             "telstra"
+	website_url:      "https://www.telstra.com.au"
+	connection_type:  "IPoE"
+	cgnat:            false
+	cgnat_opt_out:    "N/A"
+	support_location: "Hybrid"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       9.9
+		latency_busy_ms:  1e+1
+		page_load_s:      2.3
+		page_load_busy_s: 2.3
+		outage_pct:       0.11
+	}
 	static_ip: {
 		available:    true
-		monthly_cost: 10.0
+		monthly_cost: 1e+1
 	}
-	support_location: "Hybrid"
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"

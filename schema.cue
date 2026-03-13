@@ -32,6 +32,15 @@ package data
 	notes?:   string
 }
 
+#ACCCPerformance: {
+	report_period:    string
+	latency_ms:       number
+	latency_busy_ms:  number
+	page_load_s:      number
+	page_load_busy_s: number
+	outage_pct:       number
+}
+
 #Provider: {
 	name:            string & !=""
 	slug:            string & !=""
@@ -46,4 +55,5 @@ package data
 	referral_params?: string
 	notes?:           string
 	support_location: "Australia" | "Offshore" | "Hybrid"
+	accc_performance?: #ACCCPerformance
 }

@@ -1,17 +1,25 @@
 package data
 
 providers: aussie: #Provider & {
-	name:            "Aussie Broadband"
-	slug:            "aussie"
-	website_url:     "https://www.aussiebroadband.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Aussie Broadband"
+	slug:             "aussie"
+	website_url:      "https://www.aussiebroadband.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       9.9
+		latency_busy_ms:  10.1
+		page_load_s:      2.4
+		page_load_busy_s: 2.5
+		outage_pct:       0.17
+	}
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"

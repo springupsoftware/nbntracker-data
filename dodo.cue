@@ -1,17 +1,25 @@
 package data
 
 providers: dodo: #Provider & {
-	name:            "Dodo"
-	slug:            "dodo"
-	website_url:     "https://www.dodo.com"
-	connection_type: "PPPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Dodo"
+	slug:             "dodo"
+	website_url:      "https://www.dodo.com"
+	connection_type:  "PPPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Offshore"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       10.7
+		latency_busy_ms:  10.9
+		page_load_s:      2.3
+		page_load_busy_s: 2.4
+		outage_pct:       0.18
+	}
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Offshore"
 	plans: [{
 		name:          "nbn25"
 		speed_tier:    "NBN25"

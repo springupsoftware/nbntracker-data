@@ -1,17 +1,25 @@
 package data
 
 providers: leaptel: #Provider & {
-	name:            "Leaptel"
-	slug:            "leaptel"
-	website_url:     "https://leaptel.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Leaptel"
+	slug:             "leaptel"
+	website_url:      "https://leaptel.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       7.8
+		latency_busy_ms:  7.9
+		page_load_s:      2.3
+		page_load_busy_s: 2.3
+		outage_pct:       0.14
+	}
 	static_ip: {
 		available:    true
-		monthly_cost: 10.0
+		monthly_cost: 1e+1
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"

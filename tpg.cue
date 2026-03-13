@@ -1,17 +1,25 @@
 package data
 
 providers: tpg: #Provider & {
-	name:            "TPG"
-	slug:            "tpg"
-	website_url:     "https://www.tpg.com.au"
-	connection_type: "PPPoE"
-	cgnat:           false
-	cgnat_opt_out:   "N/A"
+	name:             "TPG"
+	slug:             "tpg"
+	website_url:      "https://www.tpg.com.au"
+	connection_type:  "PPPoE"
+	cgnat:            false
+	cgnat_opt_out:    "N/A"
+	support_location: "Offshore"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       9.4
+		latency_busy_ms:  9.4
+		page_load_s:      2.6
+		page_load_busy_s: 2.6
+		outage_pct:       0.18
+	}
 	static_ip: {
 		available:    true
-		monthly_cost: 5
+		monthly_cost: 5.0
 	}
-	support_location: "Offshore"
 	plans: [{
 		name:          "NBN500"
 		speed_tier:    "NBN500"

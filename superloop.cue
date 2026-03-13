@@ -1,17 +1,25 @@
 package data
 
 providers: superloop: #Provider & {
-	name:            "Superloop"
-	slug:            "superloop"
-	website_url:     "https://www.superloop.com"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Superloop"
+	slug:             "superloop"
+	website_url:      "https://www.superloop.com"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       8.3
+		latency_busy_ms:  8.7
+		page_load_s:      2.2
+		page_load_busy_s: 2.2
+		outage_pct:       0.08
+	}
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"

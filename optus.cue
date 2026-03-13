@@ -1,17 +1,25 @@
 package data
 
 providers: optus: #Provider & {
-	name:            "Optus"
-	slug:            "optus"
-	website_url:     "https://www.optus.com.au"
-	connection_type: "IPoE"
-	cgnat:           false
-	cgnat_opt_out:   "N/A"
+	name:             "Optus"
+	slug:             "optus"
+	website_url:      "https://www.optus.com.au"
+	connection_type:  "IPoE"
+	cgnat:            false
+	cgnat_opt_out:    "N/A"
+	support_location: "Hybrid"
+	accc_performance: {
+		report_period:    "2025-Q4"
+		latency_ms:       9.5
+		latency_busy_ms:  9.6
+		page_load_s:      2.3
+		page_load_busy_s: 2.4
+		outage_pct:       0.13
+	}
 	static_ip: {
 		available:    true
-		monthly_cost: 10.0
+		monthly_cost: 1e+1
 	}
-	support_location: "Hybrid"
 	plans: [{
 		name:          "Basic Plan"
 		speed_tier:    "NBN25"
