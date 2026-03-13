@@ -1,17 +1,17 @@
 package data
 
 providers: neptune: #Provider & {
-	name:            "Neptune"
-	slug:            "neptune"
-	website_url:     "https://www.neptune.net.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Neptune"
+	slug:             "neptune"
+	website_url:      "https://www.neptune.net.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 0.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Home Fast 25/10"
 		speed_tier:    "NBN25"

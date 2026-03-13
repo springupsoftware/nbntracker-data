@@ -1,17 +1,17 @@
 package data
 
 providers: tangerine: #Provider & {
-	name:            "Tangerine Telecom"
-	slug:            "tangerine"
-	website_url:     "https://www.tangerine.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Tangerine Telecom"
+	slug:             "tangerine"
+	website_url:      "https://www.tangerine.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

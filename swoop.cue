@@ -1,17 +1,17 @@
 package data
 
 providers: swoop: #Provider & {
-	name:            "Swoop"
-	slug:            "swoop"
-	website_url:     "https://www.swoop.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Swoop"
+	slug:             "swoop"
+	website_url:      "https://www.swoop.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.5
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "nbn® 25/10"
 		speed_tier:    "NBN25"

@@ -1,17 +1,17 @@
 package data
 
 providers: origin: #Provider & {
-	name:            "Origin Energy"
-	slug:            "origin"
-	website_url:     "https://www.originenergy.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "paid_static_ip"
+	name:             "Origin Energy"
+	slug:             "origin"
+	website_url:      "https://www.originenergy.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "paid_static_ip"
+	support_location: "Hybrid"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Hybrid"
 	plans: [{
 		name:          "Everyday nbn™ 25/10"
 		speed_tier:    "NBN25"

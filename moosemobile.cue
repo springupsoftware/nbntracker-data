@@ -1,17 +1,17 @@
 package data
 
 providers: moosemobile: #Provider & {
-	name:            "Moose Mobile"
-	slug:            "moosemobile"
-	website_url:     "https://moosemobile.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Moose Mobile"
+	slug:             "moosemobile"
+	website_url:      "https://moosemobile.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.5
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

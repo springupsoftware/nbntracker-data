@@ -1,17 +1,17 @@
 package data
 
 providers: spintel: #Provider & {
-	name:            "SpinTel"
-	slug:            "spintel"
-	website_url:     "https://www.spintel.net.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "SpinTel"
+	slug:             "spintel"
+	website_url:      "https://www.spintel.net.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"
@@ -19,7 +19,7 @@ providers: spintel: #Provider & {
 		upload_mbps:   10
 		monthly_price: 64.95
 		promo: {
-			price:  51.0
+			price:  39.95
 			months: 6
 		}
 		category: "residential"

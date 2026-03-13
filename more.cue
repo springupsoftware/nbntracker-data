@@ -1,17 +1,17 @@
 package data
 
 providers: more: #Provider & {
-	name:            "More Telecom"
-	slug:            "more"
-	website_url:     "https://www.more.com.au"
-	connection_type: "PPPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "More Telecom"
+	slug:             "more"
+	website_url:      "https://www.more.com.au"
+	connection_type:  "PPPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"
