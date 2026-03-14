@@ -5,11 +5,11 @@ providers: iprimus: #Provider & {
 	slug:            "iprimus"
 	website_url:     "https://www.iprimus.com.au"
 	connection_type: "PPPoE"
-	cgnat:           false
-	cgnat_opt_out:   "unavailable"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    false
-		monthly_cost: 0.0
+		monthly_cost: 5
 	}
 	plans: [{
 		name:          "nbn® Standard Plus"
