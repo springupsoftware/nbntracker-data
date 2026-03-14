@@ -7,8 +7,9 @@ providers: iprimus: #Provider & {
 	connection_type: "PPPoE"
 	cgnat:           true
 	cgnat_opt_out:   "available"
+	support_location: "Offshore"
 	static_ip: {
-		available:    false
+		available:    true
 		monthly_cost: 5
 	}
 	plans: [{
