@@ -1,16 +1,16 @@
 package data
 
 providers: iprimus: #Provider & {
-	name:            "iPrimus"
-	slug:            "iprimus"
-	website_url:     "https://www.iprimus.com.au"
-	connection_type: "PPPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "iPrimus"
+	slug:             "iprimus"
+	website_url:      "https://www.iprimus.com.au"
+	connection_type:  "PPPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
 	support_location: "Offshore"
 	static_ip: {
 		available:    true
-		monthly_cost: 5
+		monthly_cost: 5.0
 	}
 	plans: [{
 		name:          "nbn® Standard Plus"
