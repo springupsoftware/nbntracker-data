@@ -1,17 +1,17 @@
 package data
 
 providers: belong: #Provider & {
-	name:            "Belong"
-	slug:            "belong"
-	website_url:     "https://www.belong.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "unavailable"
+	name:             "Belong"
+	slug:             "belong"
+	website_url:      "https://www.belong.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "unavailable"
+	support_location: "Hybrid"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	support_location: "Hybrid"
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

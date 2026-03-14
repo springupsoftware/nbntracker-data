@@ -1,17 +1,17 @@
 package data
 
 providers: southernphone: #Provider & {
-	name:            "Southern Phone"
-	slug:            "southernphone"
-	website_url:     "https://www.southernphone.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Southern Phone"
+	slug:             "southernphone"
+	website_url:      "https://www.southernphone.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 7.5
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "nbn Fast X"
 		speed_tier:    "NBN500"

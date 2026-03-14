@@ -30,6 +30,7 @@ package data
 
 	cis_url?: string
 	notes?:   string
+	cis?: string
 }
 
 #ACCCPerformance: {

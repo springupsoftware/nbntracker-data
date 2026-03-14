@@ -1,0 +1,58 @@
+package data
+
+providers: iprimus: #Provider & {
+	name:            "iPrimus"
+	slug:            "iprimus"
+	website_url:     "https://www.iprimus.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unavailable"
+	static_ip: {
+		available:    false
+		monthly_cost: 0.0
+	}
+	plans: [{
+		name:          "nbn® Standard Plus"
+		speed_tier:    "NBN50"
+		download_mbps: 50
+		upload_mbps:   17
+		monthly_price: 87.0
+		category:      "residential"
+	}, {
+		name:          "nbn® Premium"
+		speed_tier:    "NBN100"
+		download_mbps: 100
+		upload_mbps:   17
+		monthly_price: 97.0
+		promo: {
+			price:  67.0
+			months: 6
+		}
+		category: "residential"
+	}, {
+		name:          "nbn® Premium plus"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   47
+		monthly_price: 97.0
+		promo: {
+			price:  67.0
+			months: 6
+		}
+		category: "residential"
+	}, {
+		name:          "nbn® Home Superfast"
+		speed_tier:    "NBN750"
+		download_mbps: 700
+		upload_mbps:   49
+		monthly_price: 104.0
+		category:      "residential"
+	}, {
+		name:          "nbn® Home Ultrafast"
+		speed_tier:    "NBN1000"
+		download_mbps: 840
+		upload_mbps:   94
+		monthly_price: 119.0
+		category:      "residential"
+	}]
+}

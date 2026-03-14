@@ -1,17 +1,17 @@
 package data
 
 providers: launtel: #Provider & {
-	name:            "Launtel"
-	slug:            "launtel"
-	website_url:     "https://launtel.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Launtel"
+	slug:             "launtel"
+	website_url:      "https://launtel.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 4.5
 	}
-	support_location: "Australia"
 	plans: [{
 		name:          "nbn100/20"
 		speed_tier:    "NBN100"
