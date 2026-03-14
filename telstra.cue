@@ -27,6 +27,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   10
 		monthly_price: 85.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Essential nbn"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   20
 		monthly_price: 95.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Essential nbn"
 		speed_tier:    "NBN100"
@@ -41,6 +43,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   25
 		monthly_price: 95.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Premium nbn"
 		speed_tier:    "NBN100"
@@ -48,6 +51,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   20
 		monthly_price: 99.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Premium nbn"
 		speed_tier:    "NBN500"
@@ -55,6 +59,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   50
 		monthly_price: 99.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Ultimate nbn"
 		speed_tier:    "NBN750"
@@ -62,6 +67,7 @@ providers: telstra: #Provider & {
 		upload_mbps:   50
 		monthly_price: 119.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Ultrafast nbn"
 		speed_tier:    "NBN1000"
@@ -69,5 +75,6 @@ providers: telstra: #Provider & {
 		upload_mbps:   50
 		monthly_price: 129.0
 		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}]
 }

@@ -27,5 +27,6 @@ providers: exetel: #Provider & {
 		upload_mbps:   50
 		monthly_price: 8e+1
 		category:      "residential"
+		cis_url:       "https://www.exetel.com.au/critical-information-summaries"
 	}]
 }

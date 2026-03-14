@@ -1,12 +1,13 @@
 package data
 
 providers: mate: #Provider & {
-	name:            "Mate"
-	slug:            "mate"
-	website_url:     "https://www.letsbemates.com.au"
-	connection_type: "PPPoE"
-	cgnat:           true
-	cgnat_opt_out:   "unknown"
+	name:             "Mate"
+	slug:             "mate"
+	website_url:      "https://www.letsbemates.com.au"
+	connection_type:  "PPPoE"
+	cgnat:            true
+	cgnat_opt_out:    "paid_static_ip"
+	support_location: "Australia"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
@@ -22,6 +23,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "Ripper"
 		speed_tier:    "NBN50"
@@ -33,6 +35,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "No Worries"
 		speed_tier:    "NBN100"
@@ -44,6 +47,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "You Beaut"
 		speed_tier:    "NBN100"
@@ -55,6 +59,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "No Worries"
 		speed_tier:    "NBN500"
@@ -66,6 +71,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "Fair Dinkum"
 		speed_tier:    "NBN750"
@@ -77,6 +83,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "Flamin' Fast"
 		speed_tier:    "NBN1000"
@@ -88,6 +95,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "Scorchin' Fast"
 		speed_tier:    "NBN2000"
@@ -99,6 +107,7 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}, {
 		name:          "Scorchin' Fast"
 		speed_tier:    "NBN2000"
@@ -110,5 +119,6 @@ providers: mate: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
 	}]
 }

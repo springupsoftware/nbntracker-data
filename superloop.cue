@@ -31,6 +31,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Extra Value"
 		speed_tier:    "NBN50"
@@ -42,6 +43,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Superfast Plus"
 		speed_tier:    "NBN250"
@@ -53,6 +55,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Family Max"
 		speed_tier:    "NBN500"
@@ -64,6 +67,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Megaspeed"
 		speed_tier:    "NBN750"
@@ -75,6 +79,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Lightspeed"
 		speed_tier:    "NBN1000"
@@ -86,6 +91,7 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}, {
 		name:          "Hyperspeed"
 		speed_tier:    "NBN2000"
@@ -97,5 +103,6 @@ providers: superloop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
 	}]
 }

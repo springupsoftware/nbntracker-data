@@ -31,6 +31,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN12"
 		speed_tier:    "NBN12"
@@ -42,6 +43,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN25"
 		speed_tier:    "NBN25"
@@ -53,6 +55,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN50"
 		speed_tier:    "NBN50"
@@ -64,6 +67,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN Home Superfast"
 		speed_tier:    "NBN750"
@@ -75,6 +79,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN Home Ultrafast"
 		speed_tier:    "NBN1000"
@@ -86,6 +91,7 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
 		name:          "NBN100"
 		speed_tier:    "NBN100"
@@ -97,5 +103,6 @@ providers: tpg: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}]
 }

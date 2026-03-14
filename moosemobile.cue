@@ -23,6 +23,7 @@ providers: moosemobile: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://moosemobile.com.au/wp-content/uploads/2026/02/MOO_C1A01_CIS_nbn_20260224.pdf"
 	}, {
 		name:          "Premium"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: moosemobile: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://moosemobile.com.au/wp-content/uploads/2026/02/MOO_C1A01_CIS_nbn_20260224.pdf"
 	}, {
 		name:          "Elite"
 		speed_tier:    "NBN100"
@@ -45,6 +47,7 @@ providers: moosemobile: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://moosemobile.com.au/wp-content/uploads/2026/02/MOO_C1A01_CIS_nbn_20260224.pdf"
 	}, {
 		name:          "Turbo"
 		speed_tier:    "NBN500"
@@ -56,5 +59,6 @@ providers: moosemobile: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://moosemobile.com.au/wp-content/uploads/2026/02/MOO_C1A01_CIS_nbn_20260224.pdf"
 	}]
 }

@@ -23,6 +23,7 @@ providers: swoop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 	}, {
 		name:          "nbn® 50/20"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: swoop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 	}, {
 		name:          "nbn® 500/50"
 		speed_tier:    "NBN500"
@@ -45,6 +47,7 @@ providers: swoop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 	}, {
 		name:          "nbn® 1000/100"
 		speed_tier:    "NBN1000"
@@ -56,5 +59,6 @@ providers: swoop: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 	}]
 }

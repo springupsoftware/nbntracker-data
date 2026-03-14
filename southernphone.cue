@@ -19,6 +19,7 @@ providers: southernphone: #Provider & {
 		upload_mbps:   45
 		monthly_price: 89.0
 		category:      "residential"
+		cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 	}, {
 		name:          "nbn Standard"
 		speed_tier:    "NBN50"
@@ -26,6 +27,7 @@ providers: southernphone: #Provider & {
 		upload_mbps:   18
 		monthly_price: 79.0
 		category:      "residential"
+		cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 	}, {
 		name:          "nbn Basic"
 		speed_tier:    "NBN25"
@@ -33,6 +35,7 @@ providers: southernphone: #Provider & {
 		upload_mbps:   4
 		monthly_price: 59.0
 		category:      "residential"
+		cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 	}, {
 		name:          "nbn Fast"
 		speed_tier:    "NBN100"
@@ -40,6 +43,7 @@ providers: southernphone: #Provider & {
 		upload_mbps:   18
 		monthly_price: 89.0
 		category:      "residential"
+		cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 	}, {
 		name:          "nbn Ultrafast"
 		speed_tier:    "NBN1000"
@@ -47,5 +51,6 @@ providers: southernphone: #Provider & {
 		upload_mbps:   90
 		monthly_price: 95.0
 		category:      "residential"
+		cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 	}]
 }

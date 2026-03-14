@@ -19,6 +19,7 @@ providers: iprimus: #Provider & {
 		upload_mbps:   17
 		monthly_price: 87.0
 		category:      "residential"
+		cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 	}, {
 		name:          "nbn® Premium"
 		speed_tier:    "NBN100"
@@ -30,6 +31,7 @@ providers: iprimus: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 	}, {
 		name:          "nbn® Premium plus"
 		speed_tier:    "NBN500"
@@ -41,6 +43,7 @@ providers: iprimus: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 	}, {
 		name:          "nbn® Home Superfast"
 		speed_tier:    "NBN750"
@@ -48,6 +51,7 @@ providers: iprimus: #Provider & {
 		upload_mbps:   49
 		monthly_price: 104.0
 		category:      "residential"
+		cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 	}, {
 		name:          "nbn® Home Ultrafast"
 		speed_tier:    "NBN1000"
@@ -55,5 +59,6 @@ providers: iprimus: #Provider & {
 		upload_mbps:   94
 		monthly_price: 119.0
 		category:      "residential"
+		cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 	}]
 }

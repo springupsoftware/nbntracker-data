@@ -23,6 +23,7 @@ providers: origin: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 	}, {
 		name:          "Experience nbn™ 50/20"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: origin: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 	}, {
 		name:          "Extra fast nbn™ 500/50"
 		speed_tier:    "NBN500"
@@ -45,6 +47,7 @@ providers: origin: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 	}, {
 		name:          "Super fast nbn™ 750/50"
 		speed_tier:    "NBN750"
@@ -56,6 +59,7 @@ providers: origin: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 	}, {
 		name:          "Ultra fast nbn™ 1000/100"
 		speed_tier:    "NBN1000"
@@ -67,5 +71,6 @@ providers: origin: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 	}]
 }

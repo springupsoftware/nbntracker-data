@@ -23,6 +23,7 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
+		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Value Plus"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
+		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Fast Max"
 		speed_tier:    "NBN500"
@@ -45,6 +47,7 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
+		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Ultrafast"
 		speed_tier:    "NBN1000"
@@ -56,5 +59,6 @@ providers: more: #Provider & {
 			months: 36
 		}
 		category: "residential"
+		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
 	}]
 }

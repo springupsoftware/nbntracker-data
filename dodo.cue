@@ -31,6 +31,7 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}, {
 		name:          "nbn50"
 		speed_tier:    "NBN50"
@@ -42,6 +43,7 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}, {
 		name:          "nbn100"
 		speed_tier:    "NBN100"
@@ -53,6 +55,7 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}, {
 		name:          "superfast"
 		speed_tier:    "NBN500"
@@ -64,6 +67,7 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}, {
 		name:          "ultrafast"
 		speed_tier:    "NBN750"
@@ -75,6 +79,7 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}, {
 		name:          "ultrafast"
 		speed_tier:    "NBN1000"
@@ -86,5 +91,6 @@ providers: dodo: #Provider & {
 			months: 12
 		}
 		category: "residential"
+		cis_url:  "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 	}]
 }

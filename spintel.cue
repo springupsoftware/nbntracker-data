@@ -23,6 +23,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "50/20Mbps"
 		speed_tier:    "NBN50"
@@ -34,6 +35,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "100/20Mbps"
 		speed_tier:    "NBN100"
@@ -45,6 +47,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "500/50Mbps"
 		speed_tier:    "NBN500"
@@ -56,6 +59,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "750/50Mbps"
 		speed_tier:    "NBN750"
@@ -67,6 +71,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "1000/100Mbps"
 		speed_tier:    "NBN1000"
@@ -78,5 +83,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}]
 }
