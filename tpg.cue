@@ -21,9 +21,20 @@ providers: tpg: #Provider & {
 		monthly_cost: 5.0
 	}
 	plans: [{
+		name:          "NBN100"
+		speed_tier:    "NBN100"
+		download_mbps: 97
+		upload_mbps:   17
+		monthly_price: 94.99
+		promo: {
+			price:  64.99
+			months: 6
+		}
+		category: "residential"
+	}, {
 		name:          "NBN12"
 		speed_tier:    "NBN12"
-		download_mbps: 11
+		download_mbps: 12
 		upload_mbps:   1
 		monthly_price: 74.99
 		promo: {
@@ -34,22 +45,11 @@ providers: tpg: #Provider & {
 	}, {
 		name:          "NBN25"
 		speed_tier:    "NBN25"
-		download_mbps: 20
+		download_mbps: 25
 		upload_mbps:   4
 		monthly_price: 76.99
 		promo: {
 			price:  56.99
-			months: 6
-		}
-		category: "residential"
-	}, {
-		name:          "NBN100"
-		speed_tier:    "NBN100"
-		download_mbps: 97
-		upload_mbps:   17
-		monthly_price: 94.99
-		promo: {
-			price:  64.99
 			months: 6
 		}
 		category: "residential"
