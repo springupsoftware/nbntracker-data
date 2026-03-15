@@ -21,10 +21,10 @@ providers: tpg: #Provider & {
 		monthly_cost: 5.0
 	}
 	plans: [{
-		name:          "NBN500"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   42
+		name:          "NBN100"
+		speed_tier:    "NBN100"
+		download_mbps: 97
+		upload_mbps:   17
 		monthly_price: 94.99
 		promo: {
 			price:  64.99
@@ -69,6 +69,18 @@ providers: tpg: #Provider & {
 		category: "residential"
 		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}, {
+		name:          "NBN500"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   42
+		monthly_price: 94.99
+		promo: {
+			price:  64.99
+			months: 6
+		}
+		category: "residential"
+		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	}, {
 		name:          "NBN Home Superfast"
 		speed_tier:    "NBN750"
 		download_mbps: 740
@@ -88,18 +100,6 @@ providers: tpg: #Provider & {
 		monthly_price: 109.99
 		promo: {
 			price:  89.99
-			months: 6
-		}
-		category: "residential"
-		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
-	}, {
-		name:          "NBN100"
-		speed_tier:    "NBN100"
-		download_mbps: 97
-		upload_mbps:   17
-		monthly_price: 94.99
-		promo: {
-			price:  64.99
 			months: 6
 		}
 		category: "residential"
