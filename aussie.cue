@@ -7,7 +7,9 @@ providers: aussie: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	support_location:   "Australia"
+	billing_policy:     "pro-rata"
+	notice_period_days: 0
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       9.9

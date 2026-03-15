@@ -7,7 +7,9 @@ providers: exetel: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "paid_static_ip"
-	support_location: "Offshore"
+	support_location:   "Offshore"
+	billing_policy:     "30-day-notice"
+	notice_period_days: 30
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       6.9

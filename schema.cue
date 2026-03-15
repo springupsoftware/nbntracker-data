@@ -52,8 +52,10 @@ package data
 
 	plans: [...#Plan]
 
-	referral_params?: string
-	notes?:           string
-	support_location: "Australia" | "Offshore" | "Hybrid"
-	accc_performance?: #ACCCPerformance
+	referral_params?:   string
+	notes?:             string
+	support_location:   "Australia" | "Offshore" | "Hybrid"
+	accc_performance?:  #ACCCPerformance
+	notice_period_days: int | *0
+	billing_policy:     "pro-rata" | "30-day-notice" | "end-of-month" | *"pro-rata"
 }
