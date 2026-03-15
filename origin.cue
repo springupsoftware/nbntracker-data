@@ -12,6 +12,7 @@ providers: origin: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Everyday nbn™ 25/10"
 		speed_tier:    "NBN25"

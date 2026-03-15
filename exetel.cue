@@ -7,9 +7,7 @@ providers: exetel: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "paid_static_ip"
-	support_location:   "Offshore"
-	billing_policy:     "30-day-notice"
-	notice_period_days: 30
+	support_location: "Offshore"
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       6.9
@@ -22,6 +20,8 @@ providers: exetel: #Provider & {
 		available:    false
 		monthly_cost: 5.0
 	}
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	plans: [{
 		name:          "One Plan"
 		speed_tier:    "NBN500"

@@ -12,6 +12,7 @@ providers: mate: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Crikey"
 		speed_tier:    "NBN25"

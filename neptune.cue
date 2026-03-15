@@ -12,6 +12,7 @@ providers: neptune: #Provider & {
 		available:    true
 		monthly_cost: 0.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Home Fast 25/10"
 		speed_tier:    "NBN25"

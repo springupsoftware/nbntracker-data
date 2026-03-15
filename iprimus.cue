@@ -7,13 +7,13 @@ providers: iprimus: #Provider & {
 	connection_type:  "PPPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location:   "Offshore"
-	billing_policy:     "30-day-notice"
-	notice_period_days: 30
+	support_location: "Offshore"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	plans: [{
 		name:          "nbn® Standard Plus"
 		speed_tier:    "NBN50"

@@ -7,9 +7,7 @@ providers: leaptel: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location:   "Australia"
-	billing_policy:     "30-day-notice"
-	notice_period_days: 30
+	support_location: "Australia"
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       7.8
@@ -22,6 +20,8 @@ providers: leaptel: #Provider & {
 		available:    true
 		monthly_cost: 1e+1
 	}
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"

@@ -7,9 +7,7 @@ providers: aussie: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location:   "Australia"
-	billing_policy:     "pro-rata"
-	notice_period_days: 0
+	support_location: "Australia"
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       9.9
@@ -22,6 +20,7 @@ providers: aussie: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"

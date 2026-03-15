@@ -12,6 +12,7 @@ providers: southernphone: #Provider & {
 		available:    true
 		monthly_cost: 7.5
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "nbn Fast X"
 		speed_tier:    "NBN500"

@@ -12,6 +12,7 @@ providers: spintel: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"

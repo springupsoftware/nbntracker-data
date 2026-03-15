@@ -12,6 +12,7 @@ providers: more: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

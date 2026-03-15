@@ -7,9 +7,7 @@ providers: tpg: #Provider & {
 	connection_type:  "PPPoE"
 	cgnat:            false
 	cgnat_opt_out:    "N/A"
-	support_location:   "Offshore"
-	billing_policy:     "30-day-notice"
-	notice_period_days: 30
+	support_location: "Offshore"
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       9.4
@@ -22,6 +20,8 @@ providers: tpg: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	plans: [{
 		name:          "NBN100"
 		speed_tier:    "NBN100"

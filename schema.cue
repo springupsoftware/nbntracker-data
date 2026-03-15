@@ -27,6 +27,7 @@ package data
 
 	data_cap_gb?: int & >0
 	category:     "residential" | "business" | "enterprise"
+	technology:   "nbn" | "nbn-fw" | "5g" | "4g" | *"nbn"
 
 	cis_url?: string
 	notes?:   string

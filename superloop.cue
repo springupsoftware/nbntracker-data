@@ -7,9 +7,7 @@ providers: superloop: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location:   "Australia"
-	billing_policy:     "30-day-notice"
-	notice_period_days: 30
+	support_location: "Australia"
 	accc_performance: {
 		report_period:    "2025-Q4"
 		latency_ms:       8.3
@@ -22,6 +20,8 @@ providers: superloop: #Provider & {
 		available:    true
 		monthly_cost: 5.0
 	}
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"

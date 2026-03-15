@@ -13,6 +13,7 @@ providers: carboncomms: #Provider & {
 		monthly_cost: 0.0
 		notes:        "Static IP (IPv4) included as standard"
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"
 		speed_tier:    "NBN25"

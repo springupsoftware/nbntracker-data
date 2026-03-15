@@ -20,6 +20,7 @@ providers: telstra: #Provider & {
 		available:    true
 		monthly_cost: 1e+1
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"

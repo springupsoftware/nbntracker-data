@@ -12,6 +12,7 @@ providers: belong: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

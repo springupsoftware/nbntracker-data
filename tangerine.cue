@@ -7,13 +7,12 @@ providers: tangerine: #Provider & {
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
-	support_location:   "Australia"
-	billing_policy:     "pro-rata"
-	notice_period_days: 0
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 5.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

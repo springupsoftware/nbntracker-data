@@ -12,6 +12,7 @@ providers: swoop: #Provider & {
 		available:    true
 		monthly_cost: 5.5
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "nbn® 25/10"
 		speed_tier:    "NBN25"
