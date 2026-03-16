@@ -106,5 +106,77 @@ providers: superloop: #Provider & {
 		}
 		category: "residential"
 		cis_url:  "https://files.superloop.com/cis/residential/nbn/2025-09/SL_CIS_Residential_nbn.pdf"
+	}, {
+		name:          "Totalbiz 50/20"
+		speed_tier:    "NBN50"
+		download_mbps: 50
+		upload_mbps:   20
+		monthly_price: 9e+1
+		promo: {
+			price:  75.0
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
+	}, {
+		name:          "Totalbiz 250/100"
+		speed_tier:    "NBN250"
+		download_mbps: 250
+		upload_mbps:   100
+		monthly_price: 105.0
+		promo: {
+			price:  9e+1
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
+	}, {
+		name:          "Totalbiz 500/50"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   50
+		monthly_price: 1e+2
+		promo: {
+			price:  85.0
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
+	}, {
+		name:          "Totalbiz 500/200"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   200
+		monthly_price: 125.0
+		promo: {
+			price:  1.1e+2
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
+	}, {
+		name:          "Totalbiz 750/50"
+		speed_tier:    "NBN750"
+		download_mbps: 750
+		upload_mbps:   50
+		monthly_price: 109.0
+		promo: {
+			price:  94.0
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdfhttps://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
+	}, {
+		name:          "Totalbiz 1000/100"
+		speed_tier:    "NBN1000"
+		download_mbps: 1000
+		upload_mbps:   100
+		monthly_price: 119.0
+		promo: {
+			price:  105.0
+			months: 6
+		}
+		category: "business"
+		cis_url:  "https://files.superloop.com/cis/smb/nbn/2025-09/CIS_Superloop_totalbiz.pdf"
 	}]
 }
