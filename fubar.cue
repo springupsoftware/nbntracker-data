@@ -4,9 +4,10 @@ providers: fubar: #Provider & {
 	name:            "IT'S FUBAR"
 	slug:            "fubar"
 	website_url:     "https://www.itsfubar.com.au"
-	connection_type: "unknown"
-	cgnat:           false
-	cgnat_opt_out:   "unknown"
+	connection_type: "IPoE"
+	cgnat:           true
+	cgnat_opt_out:   "true"
+	support_location: "Australia"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
