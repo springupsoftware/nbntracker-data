@@ -39,18 +39,6 @@ providers: spintel: #Provider & {
 		technology: "nbn-fw"
 		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
-		name:          "50/20Mbps"
-		speed_tier:    "NBN50"
-		download_mbps: 50
-		upload_mbps:   20
-		monthly_price: 81.95
-		promo: {
-			price:  71.0
-			months: 6
-		}
-		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
-	}, {
 		name:          "100/20Mbps"
 		speed_tier:    "NBN100"
 		download_mbps: 100
@@ -113,18 +101,6 @@ providers: spintel: #Provider & {
 		category:   "residential"
 		technology: "nbn-fw"
 		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
-	}, {
-		name:          "750/50Mbps"
-		speed_tier:    "NBN750"
-		download_mbps: 750
-		upload_mbps:   50
-		monthly_price: 90.95
-		promo: {
-			price:  8e+1
-			months: 6
-		}
-		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}, {
 		name:          "1000/100Mbps"
 		speed_tier:    "NBN1000"
