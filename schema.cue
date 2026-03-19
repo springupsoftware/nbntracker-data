@@ -5,6 +5,7 @@ package data
 
 #ConnectionType: "PPPoE" | "IPoE" | "unknown"
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
+#State:          "NSW" | "VIC" | "QLD" | "WA" | "SA" | "TAS" | "NT" | "ACT"
 
 #StaticIP: {
 	available:    bool | *true
@@ -59,4 +60,9 @@ package data
 	accc_performance?:  #ACCCPerformance
 	notice_period_days: int | *0
 	billing_policy:     "pro-rata" | "30-day-notice" | "end-of-month" | *"pro-rata"
+
+	pop_states?:         [...#State]
+	global_transit?:     bool | *false
+	plan_change_period?: "daily" | "monthly" | "anytime" | "unknown"
+	ipv6?:               "available" | "unavailable" | "on-request" | "unknown"
 }
