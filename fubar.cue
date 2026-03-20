@@ -6,11 +6,11 @@ providers: fubar: #Provider & {
 	website_url:     "https://www.itsfubar.com.au"
 	connection_type: "IPoE"
 	cgnat:           true
-	cgnat_opt_out:   "unknown"
+	cgnat_opt_out:   "available"
 	support_location: "Australia"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 7.5
 	}
 	plans: [{
 		name:          "nbn Home Basic II (25/10)"
