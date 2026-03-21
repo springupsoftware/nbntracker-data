@@ -1,16 +1,18 @@
 package data
 
 providers: futurebroadband: #Provider & {
-	name:            "Future Broadband"
-	slug:            "futurebroadband"
-	website_url:     "https://futurebroadband.com.au"
-	connection_type: "unknown"
-	cgnat:           false
-	cgnat_opt_out:   "N/A"
+	name:             "Future Broadband"
+	slug:             "futurebroadband"
+	website_url:      "https://futurebroadband.com.au"
+	connection_type:  "unknown"
+	cgnat:            false
+	cgnat_opt_out:    "N/A"
+	support_location: "Australia"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
+	billing_policy: "pro-rata"
 	plans: [{
 		name:          "Value NBN 25M / 8M"
 		speed_tier:    "NBN25"
