@@ -7,6 +7,7 @@ providers: iinet: #Provider & {
 	connection_type: "PPPoE"
 	cgnat:           false
 	cgnat_opt_out:   "N/A"
+	support_location: "Offshore"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
@@ -18,7 +19,7 @@ providers: iinet: #Provider & {
 		upload_mbps:   1
 		monthly_price: 74.99
 		promo: {
-			price:  54.989999999999995
+			price:  54.99
 			months: 6
 		}
 		category: "residential"
@@ -29,7 +30,7 @@ providers: iinet: #Provider & {
 		upload_mbps:   4
 		monthly_price: 76.99
 		promo: {
-			price:  56.989999999999995
+			price:  56.99
 			months: 6
 		}
 		category: "residential"
