@@ -9,8 +9,8 @@ providers: fubar: #Provider & {
 	cgnat_opt_out:    "available"
 	support_location: "Australia"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
 	plans: [{
