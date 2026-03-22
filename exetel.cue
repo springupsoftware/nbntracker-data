@@ -22,6 +22,7 @@ providers: exetel: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
+	upstream: {}
 	plans: [{
 		name:          "One Plan"
 		speed_tier:    "NBN500"

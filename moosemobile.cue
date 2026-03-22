@@ -13,6 +13,7 @@ providers: moosemobile: #Provider & {
 		monthly_cost: 5.5
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

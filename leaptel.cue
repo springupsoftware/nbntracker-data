@@ -22,6 +22,7 @@ providers: leaptel: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
+	upstream: {}
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"

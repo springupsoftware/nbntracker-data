@@ -21,6 +21,7 @@ providers: optus: #Provider & {
 		monthly_cost: 1e+1
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "Basic Plan"
 		speed_tier:    "NBN25"

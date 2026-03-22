@@ -43,6 +43,17 @@ package data
 	outage_pct:       number
 }
 
+#Upstream: {
+    // The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
+    enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "None"
+    
+    // The physical Backhaul provider to the 121 POIs
+    backhaul?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
+    
+    // The Domestic Transit provider (often different from backhaul)
+    domestic_transit?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
+}
+
 #Provider: {
 	name:            string & !=""
 	slug:            string & !=""
@@ -65,4 +76,11 @@ package data
 	global_transit?:     bool | *false
 	plan_change_period?: "daily" | "monthly" | "anytime" | "unknown"
 	ipv6?:               "available" | "unavailable" | "on-request" | "unknown"
+
+
+	// Linking the upstream
+    	upstream: #Upstream
+    
+       // Specific tag for the GSL-backed gamers we discussed
+       transit_quality: "GSL" | "Standard" | "Premium" | * "Standard"
 }

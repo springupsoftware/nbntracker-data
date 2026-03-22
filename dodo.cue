@@ -21,6 +21,7 @@ providers: dodo: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "nbn25"
 		speed_tier:    "NBN25"

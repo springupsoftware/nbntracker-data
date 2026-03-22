@@ -13,6 +13,7 @@ providers: fubar: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "nbn Home Basic II (25/10)"
 		speed_tier:    "NBN25"

@@ -13,6 +13,7 @@ providers: launtel: #Provider & {
 		monthly_cost: 4.5
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "nbn100/20"
 		speed_tier:    "NBN100"

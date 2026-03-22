@@ -13,6 +13,7 @@ providers: futurebroadband: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "Value NBN 25M / 8M"
 		speed_tier:    "NBN25"

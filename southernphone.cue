@@ -13,6 +13,7 @@ providers: southernphone: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "nbn Fast X"
 		speed_tier:    "NBN500"

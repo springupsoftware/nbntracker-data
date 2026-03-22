@@ -13,6 +13,7 @@ providers: belong: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

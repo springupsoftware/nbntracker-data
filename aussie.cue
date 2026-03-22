@@ -21,6 +21,7 @@ providers: aussie: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
+	upstream: {}
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"
