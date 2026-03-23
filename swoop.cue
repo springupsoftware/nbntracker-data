@@ -13,9 +13,7 @@ providers: swoop: #Provider & {
 		monthly_cost: 5.5
 	}
 	billing_policy: "pro-rata"
-	upstream: {
-		enabler: "Aussie Broadband"
-	}
+	upstream: enabler: "Aussie Broadband"
 	plans: [{
 		name:          "nbn® 25/10"
 		speed_tier:    "NBN25"
