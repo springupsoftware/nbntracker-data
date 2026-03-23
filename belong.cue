@@ -13,7 +13,10 @@ providers: belong: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		backhaul:         "Telstra"
+		domestic_transit: "Telstra"
+	}
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

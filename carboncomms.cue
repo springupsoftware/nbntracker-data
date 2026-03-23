@@ -14,7 +14,9 @@ providers: carboncomms: #Provider & {
 		notes:        "Static IP (IPv4) included as standard"
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		enabler: "Aussie Broadband"
+	}
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"
 		speed_tier:    "NBN25"

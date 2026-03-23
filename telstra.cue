@@ -21,7 +21,10 @@ providers: telstra: #Provider & {
 		monthly_cost: 1e+1
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		backhaul:         "Own"
+		domestic_transit: "Own"
+	}
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"

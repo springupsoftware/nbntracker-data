@@ -13,7 +13,9 @@ providers: iinet: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		backhaul: "Own"
+	}
 	plans: [{
 		name:          "NBN12 FTTP Liimitless"
 		speed_tier:    "NBN12"

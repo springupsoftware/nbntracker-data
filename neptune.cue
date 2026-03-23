@@ -13,7 +13,9 @@ providers: neptune: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		enabler: "Aussie Broadband"
+	}
 	plans: [{
 		name:          "Home Fast 25/10"
 		speed_tier:    "NBN25"

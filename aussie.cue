@@ -21,7 +21,10 @@ providers: aussie: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
-	upstream: {}
+	upstream: {
+		backhaul:         "Own"
+		domestic_transit: "Own"
+	}
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"
