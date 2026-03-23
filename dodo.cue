@@ -24,6 +24,11 @@ providers: dodo: #Provider & {
 	upstream: {
 		backhaul: "Vocus"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 	plans: [{
 		name:          "nbn25"
 		speed_tier:    "NBN25"

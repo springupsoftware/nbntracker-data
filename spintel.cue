@@ -16,6 +16,11 @@ providers: spintel: #Provider & {
 	upstream: {
 		enabler: "Superloop"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"

@@ -17,6 +17,11 @@ providers: iinet: #Provider & {
 	upstream: {
 		backhaul: "Own"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 
 	plans: [{
 		name:          "NBN12 FTTP Liimitless"

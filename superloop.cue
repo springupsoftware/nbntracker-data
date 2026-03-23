@@ -25,6 +25,11 @@ providers: superloop: #Provider & {
 	upstream: {
 		backhaul: "Own"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"

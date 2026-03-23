@@ -17,6 +17,11 @@ providers: iprimus: #Provider & {
 	upstream: {
 		backhaul: "Vocus"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 	plans: [{
 		name:          "nbn® Standard Plus"
 		speed_tier:    "NBN50"

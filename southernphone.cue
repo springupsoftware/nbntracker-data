@@ -16,6 +16,10 @@ providers: southernphone: #Provider & {
 	upstream: {
 		enabler: "Telcoinabox"
 	}
+	ipv6: {
+		available: false
+		notes:     "IPv6 not available on Telcoinabox platform"
+	}
 	plans: [{
 		name:          "nbn Basic"
 		speed_tier:    "NBN25"

@@ -25,6 +25,11 @@ providers: aussie: #Provider & {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"

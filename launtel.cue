@@ -14,6 +14,11 @@ providers: launtel: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	upstream: {}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
 	plans: [{
 		name:          "nbn100/20"
 		speed_tier:    "NBN100"

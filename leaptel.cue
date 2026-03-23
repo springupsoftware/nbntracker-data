@@ -25,6 +25,11 @@ providers: leaptel: #Provider & {
 	upstream: {
 		enabler: "Superloop"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 	plans: [{
 		name:          "Pronto"
 		speed_tier:    "NBN25"

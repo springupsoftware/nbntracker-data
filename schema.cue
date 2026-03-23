@@ -54,6 +54,26 @@ package data
     domestic_transit?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
 }
 
+
+#IPv6: {
+    available: bool | *false
+    
+    // The size of the delegated prefix (e.g., 56, 48, 64)
+    // 56 is the "Standard" for high-end Aussie RSPs
+    prefix_delegation_size?: 48 | 56 | 60 | 64
+    
+    // How the address is assigned
+    assignment: "dynamic" | "static" | "sticky" | *"dynamic"
+    
+    // Common in AU: some RSPs have it but it's disabled by default
+    default_enabled: bool | *false
+    
+    // Some RSPs (like Telstra/Optus) don't support Prefix Delegation properly
+    supports_pd: bool | *true
+
+    notes?: string
+}
+
 #Provider: {
 	name:            string & !=""
 	slug:            string & !=""
@@ -75,7 +95,9 @@ package data
 	pop_states?:         [...#State]
 	global_transit?:     bool | *false
 	plan_change_period?: "daily" | "monthly" | "anytime" | "unknown"
-	ipv6?:               "available" | "unavailable" | "on-request" | "unknown"
+
+	ipv6: #IPv6 | *{available: false}
+	
 
 
 	// Linking the upstream

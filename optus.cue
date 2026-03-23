@@ -24,6 +24,12 @@ providers: optus: #Provider & {
 	upstream: {
 		backhaul: "Own"
 	}
+	ipv6: {
+		available:       true
+		default_enabled: true
+		supports_pd:     false
+		notes:           "Dual-stack with single /64 via SLAAC; no prefix delegation"
+	}
 	plans: [{
 		name:          "Basic Plan"
 		speed_tier:    "NBN25"

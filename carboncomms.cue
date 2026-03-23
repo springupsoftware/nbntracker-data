@@ -17,6 +17,11 @@ providers: carboncomms: #Provider & {
 	upstream: {
 		enabler: "Aussie Broadband"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"
 		speed_tier:    "NBN25"

@@ -25,6 +25,11 @@ providers: tpg: #Provider & {
 	upstream: {
 		backhaul: "Own"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
 	plans: [{
 		name:          "NBN500"
 		speed_tier:    "NBN500"

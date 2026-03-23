@@ -14,6 +14,10 @@ providers: futurebroadband: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	upstream: {}
+	ipv6: {
+		available: false
+		notes:     "IPv6 status unconfirmed"
+	}
 	plans: [{
 		name:          "Value NBN 25M / 8M"
 		speed_tier:    "NBN25"

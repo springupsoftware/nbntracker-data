@@ -25,6 +25,12 @@ providers: telstra: #Provider & {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
+	ipv6: {
+		available:       true
+		default_enabled: true
+		supports_pd:     false
+		notes:           "Single /64 via SLAAC only; no prefix delegation for residential"
+	}
 	plans: [{
 		name:          "Basic nbn"
 		speed_tier:    "NBN25"

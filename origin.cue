@@ -16,6 +16,11 @@ providers: origin: #Provider & {
 	upstream: {
 		enabler: "Aussie Broadband"
 	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
 	plans: [{
 		name:          "Everyday nbn™ 25/10"
 		speed_tier:    "NBN25"
