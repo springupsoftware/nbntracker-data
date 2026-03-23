@@ -13,6 +13,7 @@ providers: spintel: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
+
 	upstream: {
 		enabler: "Superloop"
 	}
@@ -21,6 +22,7 @@ providers: spintel: #Provider & {
 		prefix_delegation_size: 56
 		default_enabled:        false
 	}
+
 	plans: [{
 		name:          "25/10Mbps"
 		speed_tier:    "NBN25"

@@ -13,6 +13,7 @@ providers: southernphone: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
+
 	upstream: {
 		enabler: "Telcoinabox"
 	}
@@ -20,6 +21,7 @@ providers: southernphone: #Provider & {
 		available: false
 		notes:     "IPv6 not available on Telcoinabox platform"
 	}
+
 	plans: [{
 		name:          "nbn Basic"
 		speed_tier:    "NBN25"

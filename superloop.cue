@@ -22,6 +22,7 @@ providers: superloop: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
+
 	upstream: {
 		backhaul: "Own"
 	}
@@ -30,6 +31,7 @@ providers: superloop: #Provider & {
 		prefix_delegation_size: 56
 		default_enabled:        true
 	}
+
 	plans: [{
 		name:          "Everyday"
 		speed_tier:    "NBN25"
