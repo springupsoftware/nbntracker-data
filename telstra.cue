@@ -22,15 +22,17 @@ providers: telstra: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	upstream: {
-		backhaul:         "Own"
-		domestic_transit: "Own"
-	}
+	transit_quality: "Standard"
 	ipv6: {
 		available:       true
+		assignment:      "dynamic"
 		default_enabled: true
 		supports_pd:     false
 		notes:           "Single /64 via SLAAC only; no prefix delegation for residential"
+	}
+	upstream: {
+		backhaul:         "Own"
+		domestic_transit: "Own"
 	}
 	plans: [{
 		name:          "Basic nbn"

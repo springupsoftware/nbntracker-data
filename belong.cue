@@ -14,15 +14,17 @@ providers: belong: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	upstream: {
-		backhaul:         "Telstra"
-		domestic_transit: "Telstra"
-	}
+	transit_quality: "Standard"
 	ipv6: {
 		available:       true
+		assignment:      "dynamic"
 		default_enabled: true
 		supports_pd:     false
 		notes:           "Telstra-backed network; single /64 via SLAAC, no prefix delegation"
+	}
+	upstream: {
+		backhaul:         "Telstra"
+		domestic_transit: "Telstra"
 	}
 	plans: [{
 		name:          "Starter"

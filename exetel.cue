@@ -23,12 +23,14 @@ providers: exetel: #Provider & {
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	upstream: {}
+	transit_quality: "Standard"
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56
-		default_enabled:        false
+		assignment:             "dynamic"
+		supports_pd:            true
 	}
+	upstream: {}
 	plans: [{
 		name:          "One Plan"
 		speed_tier:    "NBN500"
