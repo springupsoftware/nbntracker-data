@@ -22,6 +22,7 @@ providers: exetel: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {}
 	ipv6: {
 		available:              true

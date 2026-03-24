@@ -13,6 +13,7 @@ providers: fubar: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {}
 	ipv6: {
 		available:              true

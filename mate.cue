@@ -13,6 +13,7 @@ providers: mate: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {}
 	ipv6: {
 		available:              true

@@ -14,6 +14,9 @@ providers: carboncomms: #Provider & {
 		notes:        "Static IP (IPv4) included as standard"
 	}
 	billing_policy: "pro-rata"
+	pop_states: ["NSW"]
+	# Currently only in NSW
+	# https://forums.whirlpool.net.au/thread/3vw4yjyr
 
 	upstream: {
 		enabler: "Aussie Broadband"

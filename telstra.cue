@@ -21,6 +21,7 @@ providers: telstra: #Provider & {
 		monthly_cost: 1e+1
 	}
 	billing_policy: "pro-rata"
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
