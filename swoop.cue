@@ -16,7 +16,8 @@ providers: swoop: #Provider & {
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 
 	upstream: {
-		enabler: "Aussie Broadband"
+		backhaul: "Own"
+		domestic_transit: "Own"
 	}
 	ipv6: {
 		available:              true
