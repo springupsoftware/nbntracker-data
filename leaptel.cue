@@ -22,16 +22,6 @@ providers: leaptel: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
-
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		default_enabled:        false
-	}
-
-
 	upstream: enabler: "Superloop"
 	plans: [{
 		name:          "Pronto"

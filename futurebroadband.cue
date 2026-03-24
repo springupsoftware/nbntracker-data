@@ -13,12 +13,7 @@ providers: futurebroadband: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {}
-	ipv6: {
-		available: false
-		notes:     "IPv6 status unconfirmed"
-	}
 	plans: [{
 		name:          "Value NBN 25M / 8M"
 		speed_tier:    "NBN25"

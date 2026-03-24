@@ -13,13 +13,7 @@ providers: fubar: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {}
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		default_enabled:        true
-	}
 	plans: [{
 		name:          "nbn Home Basic II (25/10)"
 		speed_tier:    "NBN25"
