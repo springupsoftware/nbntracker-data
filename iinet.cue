@@ -13,7 +13,19 @@ providers: iinet: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	upstream: backhaul: "Own"
+
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
+
+
+	upstream: {
+		backhaul: "Own"
+	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
+
 	plans: [{
 		name:          "NBN12 FTTP Liimitless"
 		speed_tier:    "NBN12"

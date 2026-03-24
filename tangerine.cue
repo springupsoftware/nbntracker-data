@@ -13,7 +13,18 @@ providers: tangerine: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
-	upstream: enabler: "Superloop"
+
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
+
+	upstream: {
+		enabler: "Superloop"
+	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        false
+	}
+
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

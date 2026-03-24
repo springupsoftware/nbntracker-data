@@ -21,9 +21,15 @@ providers: aussie: #Provider & {
 		monthly_cost: 5.0
 	}
 	billing_policy: "pro-rata"
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
+	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
 	}
 	plans: [{
 		name:          "Basic"

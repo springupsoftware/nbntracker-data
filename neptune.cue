@@ -13,7 +13,18 @@ providers: neptune: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	upstream: enabler: "Aussie Broadband"
+
+	pop_states: ["NSW", "VIC", "QLD", "WA"]
+
+	upstream: {
+		enabler: "Aussie Broadband"
+	}
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		default_enabled:        true
+	}
+
 	plans: [{
 		name:          "Home Fast 25/10"
 		speed_tier:    "NBN25"
