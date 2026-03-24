@@ -14,11 +14,6 @@ providers: moosemobile: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	upstream: {}
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		default_enabled:        true
-	}
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"

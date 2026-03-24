@@ -17,12 +17,6 @@ providers: belong: #Provider & {
 		backhaul:         "Telstra"
 		domestic_transit: "Telstra"
 	}
-	ipv6: {
-		available:       true
-		default_enabled: true
-		supports_pd:     false
-		notes:           "Telstra-backed network; single /64 via SLAAC, no prefix delegation"
-	}
 	plans: [{
 		name:          "Starter"
 		speed_tier:    "NBN25"

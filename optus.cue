@@ -21,17 +21,7 @@ providers: optus: #Provider & {
 		monthly_cost: 1e+1
 	}
 	billing_policy: "pro-rata"
-
-	upstream: {
-		backhaul: "Own"
-	}
-	ipv6: {
-		available:       true
-		default_enabled: true
-		supports_pd:     false
-		notes:           "Dual-stack with single /64 via SLAAC; no prefix delegation"
-	}
-
+	upstream: backhaul: "Own"
 	plans: [{
 		name:          "Basic Plan"
 		speed_tier:    "NBN25"

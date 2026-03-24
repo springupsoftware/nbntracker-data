@@ -14,11 +14,6 @@ providers: mate: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	upstream: {}
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		default_enabled:        false
-	}
 	plans: [{
 		name:          "Crikey"
 		speed_tier:    "NBN25"
