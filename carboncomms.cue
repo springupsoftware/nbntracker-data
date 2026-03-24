@@ -14,6 +14,7 @@ providers: carboncomms: #Provider & {
 		notes:        "Static IP (IPv4) included as standard"
 	}
 	billing_policy: "pro-rata"
+
 	pop_states: ["NSW"]
 	# Currently only in NSW
 	# https://forums.whirlpool.net.au/thread/3vw4yjyr
@@ -27,7 +28,6 @@ providers: carboncomms: #Provider & {
 		default_enabled:        true
 	}
 
-	upstream: enabler: "Aussie Broadband"
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"
 		speed_tier:    "NBN25"
