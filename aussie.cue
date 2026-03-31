@@ -22,20 +22,19 @@ providers: aussie: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
+	transit_quality: "Standard"
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		assignment:             "dynamic"
+		default_enabled:        true
+		supports_pd:            true
+	}
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		default_enabled:        true
-	}
-	surcharges: #Surcharges & {
-		visa_mc: 0
-		amex:    0
-		notes:   "Absorbed as part of the 'Carbon' wholesale platform migration."
-	}
+
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"

@@ -13,17 +13,15 @@ providers: southernphone: #Provider & {
 		monthly_cost: 7.5
 	}
 	billing_policy: "pro-rata"
-
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-
-	upstream: {
-		enabler: "Telcoinabox"
-	}
+	transit_quality: "Standard"
 	ipv6: {
-		available: false
-		notes:     "IPv6 not available on Telcoinabox platform"
+		available:   false
+		assignment:  "dynamic"
+		supports_pd: true
+		notes:       "IPv6 not available on Telcoinabox platform"
 	}
-
+	upstream: enabler: "Telcoinabox"
 	plans: [{
 		name:          "nbn Basic"
 		speed_tier:    "NBN25"

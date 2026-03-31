@@ -88,10 +88,6 @@ package data
 	notes?: string
 }
 
-#PaymentSurcharge: {
-    pct?: number & >=0  // percentage surcharge (0.5 = 0.5%)
-    fee?: number & >=0  // flat $ fee per payment
-}
 
 #Provider: {
 	name:            string & !=""
