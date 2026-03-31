@@ -7,6 +7,21 @@ package data
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
 #State:          "NSW" | "VIC" | "QLD" | "WA" | "SA" | "TAS" | "NT" | "ACT"
 
+#PaymentMethod: {
+	available:     bool | *true
+	surcharge_pct: number & >=0 & <=10 | *0
+	notes?:        string
+}
+
+#PaymentMethods: {
+	// absent = unknown; present = explicitly modelled
+	direct_debit?: #PaymentMethod
+	bpay?:         #PaymentMethod
+	visa_mc?:      #PaymentMethod
+	amex?:         #PaymentMethod
+	paypal?:       #PaymentMethod
+}
+
 #StaticIP: {
 	available:    bool | *true
 	monthly_cost: number | *0 // 0 = Included
@@ -44,34 +59,38 @@ package data
 }
 
 #Upstream: {
-    // The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
-    enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "None"
-    
-    // The physical Backhaul provider to the 121 POIs
-    backhaul?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
-    
-    // The Domestic Transit provider (often different from backhaul)
-    domestic_transit?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
+	// The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
+	enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "None"
+
+	// The physical Backhaul provider to the 121 POIs
+	backhaul?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
+
+	// The Domestic Transit provider (often different from backhaul)
+	domestic_transit?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
 }
 
-
 #IPv6: {
-    available: bool | *false
-    
-    // The size of the delegated prefix (e.g., 56, 48, 64)
-    // 56 is the "Standard" for high-end Aussie RSPs
-    prefix_delegation_size?: 48 | 56 | 60 | 64
-    
-    // How the address is assigned
-    assignment: "dynamic" | "static" | "sticky" | *"dynamic"
-    
-    // Common in AU: some RSPs have it but it's disabled by default
-    default_enabled: bool | *false
-    
-    // Some RSPs (like Telstra/Optus) don't support Prefix Delegation properly
-    supports_pd: bool | *true
+	available: bool | *false
 
-    notes?: string
+	// The size of the delegated prefix (e.g., 56, 48, 64)
+	// 56 is the "Standard" for high-end Aussie RSPs
+	prefix_delegation_size?: 48 | 56 | 60 | 64
+
+	// How the address is assigned
+	assignment: "dynamic" | "static" | "sticky" | *"dynamic"
+
+	// Common in AU: some RSPs have it but it's disabled by default
+	default_enabled: bool | *false
+
+	// Some RSPs (like Telstra/Optus) don't support Prefix Delegation properly
+	supports_pd: bool | *true
+
+	notes?: string
+}
+
+#PaymentSurcharge: {
+    pct?: number & >=0  // percentage surcharge (0.5 = 0.5%)
+    fee?: number & >=0  // flat $ fee per payment
 }
 
 #Provider: {
@@ -81,7 +100,7 @@ package data
 	connection_type: #ConnectionType | *"unknown"
 	cgnat:           bool | *false
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
-	static_ip:       #StaticIP | *{available: false}
+	static_ip: #StaticIP | *{available: false}
 
 	plans: [...#Plan]
 
@@ -92,17 +111,16 @@ package data
 	notice_period_days: int | *0
 	billing_policy:     "pro-rata" | "30-day-notice" | "end-of-month" | *"pro-rata"
 
-	pop_states?:         [...#State]
+	payment_methods?: #PaymentMethods
+	pop_states?: [...#State]
 	global_transit?:     bool | *false
 	plan_change_period?: "daily" | "monthly" | "anytime" | "unknown"
 
 	ipv6: #IPv6 | *{available: false}
-	
-
 
 	// Linking the upstream
-    	upstream: #Upstream
-    
-       // Specific tag for the GSL-backed gamers we discussed
-       transit_quality: "GSL" | "Standard" | "Premium" | * "Standard"
+	upstream: #Upstream
+
+	// Specific tag for the GSL-backed gamers we discussed
+	transit_quality: "GSL" | "Standard" | "Premium" | *"Standard"
 }

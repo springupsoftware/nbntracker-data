@@ -17,14 +17,13 @@ providers: origin: #Provider & {
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 
 	upstream: {
-		enabler: "Aussie Broadband"
+		enabler: "Superloop"
 	}
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56
 		default_enabled:        true
 	}
-
 
 	plans: [{
 		name:          "Everyday nbn™ 25/10"

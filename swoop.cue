@@ -16,7 +16,7 @@ providers: swoop: #Provider & {
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 
 	upstream: {
-		backhaul: "Own"
+		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
 	ipv6: {

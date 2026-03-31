@@ -31,7 +31,6 @@ providers: leaptel: #Provider & {
 		default_enabled:        false
 	}
 
-
 	upstream: enabler: "Superloop"
 	plans: [{
 		name:          "Pronto"

@@ -16,7 +16,6 @@ providers: iinet: #Provider & {
 
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 
-
 	upstream: {
 		backhaul: "Own"
 	}

@@ -16,8 +16,15 @@ providers: carboncomms: #Provider & {
 	billing_policy: "pro-rata"
 
 	pop_states: ["NSW"]
- 	// Currently only in NSW
+	// Currently only in NSW
 	// https://forums.whirlpool.net.au/thread/3vw4yjyr
+
+	surcharges: #Surcharges & {
+		visa_mc: 0.89
+		amex:    1.9
+		notes:   ""
+		// https://carboncomms.com.au/pages/fees-and-charges
+	}
 
 	upstream: {
 		enabler: "Aussie Broadband"
