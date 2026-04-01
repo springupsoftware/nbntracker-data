@@ -41,7 +41,7 @@ providers: mate: #Provider & {
 		upload_mbps:   19
 		monthly_price: 86.0
 		promo: {
-			price:  71.0
+			price:  66.0
 			months: 6
 		}
 		category: "residential"

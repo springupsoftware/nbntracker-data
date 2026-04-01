@@ -39,7 +39,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   10
 		monthly_price: 72.0
 		promo: {
-			price:  42.0
+			price:  45.0
 			months: 6
 		}
 		category: "residential"
@@ -51,7 +51,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   20
 		monthly_price: 85.0
 		promo: {
-			price:  55.0
+			price:  65.0
 			months: 6
 		}
 		category: "residential"
@@ -75,7 +75,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   50
 		monthly_price: 95.0
 		promo: {
-			price:  65.0
+			price:  69.0
 			months: 6
 		}
 		category: "residential"
@@ -87,7 +87,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   50
 		monthly_price: 104.0
 		promo: {
-			price:  74.0
+			price:  75.0
 			months: 6
 		}
 		category: "residential"
@@ -99,7 +99,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   100
 		monthly_price: 109.0
 		promo: {
-			price:  79.0
+			price:  85.0
 			months: 6
 		}
 		category: "residential"

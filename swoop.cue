@@ -14,15 +14,7 @@ providers: swoop: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-
-
-	upstream: {
-		backhaul:         "Own"
-		domestic_transit: "Own"
-	}
-
 	transit_quality: "Standard"
-
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56
@@ -30,7 +22,11 @@ providers: swoop: #Provider & {
 		default_enabled:        true
 		supports_pd:            true
 	}
-	upstream: enabler: "Aussie Broadband"
+	upstream: {
+		enabler:          "Aussie Broadband"
+		backhaul:         "Own"
+		domestic_transit: "Own"
+	}
 	plans: [{
 		name:          "nbn® 25/10"
 		speed_tier:    "NBN25"
