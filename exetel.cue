@@ -6,7 +6,7 @@ providers: exetel: #Provider & {
 	website_url:      "https://www.exetel.com.au"
 	connection_type:  "IPoE"
 	cgnat:            true
-	cgnat_opt_out:    "paid_static_ip"
+	cgnat_opt_out:    "available"
 	support_location: "Offshore"
 	accc_performance: {
 		report_period:    "2025-Q4"
@@ -18,10 +18,9 @@ providers: exetel: #Provider & {
 	}
 	static_ip: {
 		available:    false
-		monthly_cost: 5.0
+		monthly_cost: 0
 	}
-	notice_period_days: 30
-	billing_policy:     "30-day-notice"
+	billing_policy:     "end-of-month"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {
