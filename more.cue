@@ -28,47 +28,31 @@ providers: more: #Provider & {
 		download_mbps: 25
 		upload_mbps:   10
 		monthly_price: 78.0
-		promo: {
-			price:  63.0
-			months: 36
-		}
-		category: "residential"
-		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
+		category:      "residential"
+		cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Value Plus"
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   20
 		monthly_price: 95.0
-		promo: {
-			price:  8e+1
-			months: 36
-		}
-		category: "residential"
-		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
+		category:      "residential"
+		cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Fast Max"
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
 		monthly_price: 1e+2
-		promo: {
-			price:  85.0
-			months: 36
-		}
-		category: "residential"
-		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
+		category:      "residential"
+		cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 	}, {
 		name:          "Ultrafast"
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
 		monthly_price: 129.0
-		promo: {
-			price:  114.0
-			months: 36
-		}
-		category: "residential"
-		cis_url:  "https://www.more.com.au/legal/critical-information-summaries/"
+		category:      "residential"
+		cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 	}]
 }

@@ -20,7 +20,7 @@ providers: leaptel: #Provider & {
 		available:    true
 		monthly_cost: 1e+1
 	}
-
+	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {
@@ -29,7 +29,6 @@ providers: leaptel: #Provider & {
 		assignment:             "dynamic"
 		supports_pd:            true
 	}
-
 	upstream: enabler: "Superloop"
 	plans: [{
 		name:          "Pronto"

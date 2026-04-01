@@ -14,13 +14,7 @@ providers: iinet: #Provider & {
 	}
 	billing_policy: "pro-rata"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-
-	upstream: {
-		backhaul: "Own"
-	}
-
 	transit_quality: "Standard"
-
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56

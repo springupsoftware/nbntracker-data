@@ -34,7 +34,6 @@ providers: aussie: #Provider & {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
-
 	plans: [{
 		name:          "Basic"
 		speed_tier:    "NBN12"
