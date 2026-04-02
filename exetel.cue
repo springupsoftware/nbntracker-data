@@ -18,9 +18,9 @@ providers: exetel: #Provider & {
 	}
 	static_ip: {
 		available:    false
-		monthly_cost: 0
+		monthly_cost: 0.0
 	}
-	billing_policy:     "end-of-month"
+	billing_policy: "end-of-month"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {
