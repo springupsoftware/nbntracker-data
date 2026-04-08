@@ -21,7 +21,7 @@ providers: tangerine: #Provider & {
 		assignment:             "dynamic"
 		supports_pd:            true
 	}
-	upstream: enabler: "Superloop"
+	upstream: enabler: "Aussie Broadband"
 	plans: [{
 		name:          "Value"
 		speed_tier:    "NBN25"
