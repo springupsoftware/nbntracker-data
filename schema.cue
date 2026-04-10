@@ -60,7 +60,7 @@ package data
 
 #Upstream: {
 	// The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
-	enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "None"
+	enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "Swoop" | "None" 
 
 	// The physical Backhaul provider to the 121 POIs
 	backhaul?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"

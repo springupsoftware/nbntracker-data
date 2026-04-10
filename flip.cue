@@ -12,7 +12,8 @@ providers: flip: #Provider & {
 		monthly_cost: 0.0
 	}
 	ipv6: available: false
-	upstream: {}
+	upstream: { enabler: "Swoop"}
+	support_location: "Australia"
 	plans: [{
 		name:          "Premium"
 		speed_tier:    "NBN25"

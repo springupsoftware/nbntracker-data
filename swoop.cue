@@ -23,7 +23,6 @@ providers: swoop: #Provider & {
 		supports_pd:            true
 	}
 	upstream: {
-		enabler:          "Aussie Broadband"
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
