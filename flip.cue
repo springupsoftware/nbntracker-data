@@ -4,12 +4,12 @@ providers: flip: #Provider & {
 	name:            "Flip"
 	slug:            "flip"
 	website_url:     "https://flipconnect.com.au"
-	connection_type: "PPPoE"
-	cgnat:           false
+	connection_type: "IPoE"
+	cgnat:           true
 	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 1.98
 	}
 	ipv6: available: false
 	upstream: { enabler: "Swoop"}
