@@ -1,20 +1,21 @@
 package data
 
 providers: flip: #Provider & {
-	name:            "Flip"
-	slug:            "flip"
-	website_url:     "https://flipconnect.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "unknown"
+	name:             "Flip"
+	slug:             "flip"
+	website_url:      "https://flipconnect.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "unknown"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 1.98
 	}
-	ipv6: available: false
-	upstream: { enabler: "Swoop"}
-	support_location: "Australia"
-	billing_policy: "end-of-month"
+	billing_policy:  "end-of-month"
+	transit_quality: "Standard"
+	ipv6: available:   false
+	upstream: enabler: "Swoop"
 	plans: [{
 		name:          "Premium"
 		speed_tier:    "NBN25"

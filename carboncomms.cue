@@ -61,7 +61,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 8e+1
+		monthly_price: 79.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
