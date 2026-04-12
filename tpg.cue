@@ -6,7 +6,8 @@ providers: tpg: #Provider & {
 	website_url:     "https://www.tpg.com.au"
 	connection_type: "PPPoE"
 	cgnat:           false
-	cgnat_opt_out:   "unavailable"
+	cgnat_opt_out:   "N/A"
+	support_location: "Offshore"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
