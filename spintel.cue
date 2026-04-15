@@ -3,7 +3,7 @@ package data
 providers: spintel: #Provider & {
 	name:             "SpinTel"
 	slug:             "spintel"
-	website_url:      "https://www.spintel.net.au"
+	website_url:      "https://www.spintel.net.au/lp/home/nbn"
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
