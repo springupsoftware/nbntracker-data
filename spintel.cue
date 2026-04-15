@@ -3,7 +3,7 @@ package data
 providers: spintel: #Provider & {
 	name:             "SpinTel"
 	slug:             "spintel"
-	website_url:      "https://www.spintel.net.au/lp/home/nbn"
+	website_url:      "https://www.spintel.net.au"
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
@@ -109,6 +109,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-git p		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
 	}]
 }
