@@ -54,7 +54,7 @@ providers: spintel: #Provider & {
 		upload_mbps:   20
 		monthly_price: 81.95
 		promo: {
-			price:  71.0
+			price:  68.0
 			months: 6
 		}
 		category:   "residential"
@@ -67,7 +67,7 @@ providers: spintel: #Provider & {
 		upload_mbps:   50
 		monthly_price: 86.95
 		promo: {
-			price:  76.0
+			price:  53.0
 			months: 6
 		}
 		category: "residential"
@@ -79,7 +79,7 @@ providers: spintel: #Provider & {
 		upload_mbps:   20
 		monthly_price: 86.95
 		promo: {
-			price:  76.0
+			price:  73.0
 			months: 6
 		}
 		category:   "residential"
