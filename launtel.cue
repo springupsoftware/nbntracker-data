@@ -59,13 +59,6 @@ providers: launtel: #Provider & {
 		monthly_price: 182.63
 		category:      "residential"
 	}, {
-		name:          "Standard Pro"
-		speed_tier:    "NBN100"
-		download_mbps: 100
-		upload_mbps:   40
-		monthly_price: 115.66
-		category:      "residential"
-	}, {
 		name:          "Fast Pro"
 		speed_tier:    "NBN250"
 		download_mbps: 250
