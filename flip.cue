@@ -28,17 +28,6 @@ providers: flip: #Provider & {
 		}
 		category: "residential"
 	}, {
-		name:          "Family"
-		speed_tier:    "NBN50"
-		download_mbps: 50
-		upload_mbps:   17
-		monthly_price: 79.9
-		promo: {
-			price:  68.0
-			months: 6
-		}
-		category: "residential"
-	}, {
 		name:          "Super Speed"
 		speed_tier:    "NBN750"
 		download_mbps: 640
@@ -47,6 +36,17 @@ providers: flip: #Provider & {
 		promo: {
 			price:  78.0
 			months: 4
+		}
+		category: "residential"
+	}, {
+		name:          "Family"
+		speed_tier:    "NBN50"
+		download_mbps: 50
+		upload_mbps:   17
+		monthly_price: 79.9
+		promo: {
+			price:  64.0
+			months: 6
 		}
 		category: "residential"
 	}, {
