@@ -67,7 +67,7 @@ providers: spintel: #Provider & {
 		upload_mbps:   50
 		monthly_price: 86.95
 		promo: {
-			price:  68.0
+			price:  76.0
 			months: 6
 		}
 		category: "residential"

@@ -99,7 +99,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   100
 		monthly_price: 109.0
 		promo: {
-			price:  85.0
+			price:  79.0
 			months: 6
 		}
 		category: "residential"
