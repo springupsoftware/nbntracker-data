@@ -51,15 +51,8 @@ providers: optus: #Provider & {
 		download_mbps: 500
 		upload_mbps:   100
 		monthly_price: 99.0
-		category:      "residential"
-	}, {
-		name:          "Promo Plan"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   100
-		monthly_price: 119.0
 		promo: {
-			price:  109.0
+			price:  79.0
 			months: 12
 		}
 		category: "residential"
@@ -69,6 +62,10 @@ providers: optus: #Provider & {
 		download_mbps: 1000
 		upload_mbps:   100
 		monthly_price: 129.0
-		category:      "residential"
+		promo: {
+			price:  109.0
+			months: 12
+		}
+		category: "residential"
 	}]
 }
