@@ -23,24 +23,13 @@ providers: iinet: #Provider & {
 	}
 	upstream: backhaul: "Own"
 	plans: [{
-		name:          "NBN12 FTTP Liimitless"
-		speed_tier:    "NBN12"
-		download_mbps: 12
-		upload_mbps:   1
-		monthly_price: 74.99
-		promo: {
-			price:  54.989999999999995
-			months: 6
-		}
-		category: "residential"
-	}, {
 		name:          "NBN25 FTTP Liimitless"
 		speed_tier:    "NBN25"
 		download_mbps: 25
-		upload_mbps:   4
-		monthly_price: 76.99
+		upload_mbps:   8
+		monthly_price: 79.99
 		promo: {
-			price:  56.989999999999995
+			price:  59.989999999999995
 			months: 6
 		}
 		category: "residential"
@@ -49,9 +38,9 @@ providers: iinet: #Provider & {
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   17
-		monthly_price: 84.99
+		monthly_price: 89.99
 		promo: {
-			price:  64.99
+			price:  69.99
 			months: 6
 		}
 		category: "residential"
@@ -62,7 +51,7 @@ providers: iinet: #Provider & {
 		upload_mbps:   42
 		monthly_price: 94.99
 		promo: {
-			price:  64.99
+			price:  69.99
 			months: 6
 		}
 		category: "residential"
