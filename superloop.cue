@@ -123,7 +123,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   20
 		monthly_price: 9e+1
 		promo: {
-			price:  75.0
+			price:  65.0
 			months: 6
 		}
 		category: "business"
@@ -135,7 +135,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   100
 		monthly_price: 105.0
 		promo: {
-			price:  9e+1
+			price:  8e+1
 			months: 6
 		}
 		category: "business"
@@ -147,7 +147,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   50
 		monthly_price: 1e+2
 		promo: {
-			price:  85.0
+			price:  75.0
 			months: 6
 		}
 		category: "business"
@@ -159,7 +159,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   200
 		monthly_price: 125.0
 		promo: {
-			price:  1.1e+2
+			price:  1e+2
 			months: 6
 		}
 		category: "business"
@@ -171,7 +171,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   50
 		monthly_price: 109.0
 		promo: {
-			price:  94.0
+			price:  84.0
 			months: 6
 		}
 		category: "business"
@@ -183,7 +183,7 @@ providers: superloop: #Provider & {
 		upload_mbps:   100
 		monthly_price: 119.0
 		promo: {
-			price:  105.0
+			price:  94.0
 			months: 6
 		}
 		category: "business"
