@@ -19,7 +19,7 @@ providers: tpg: #Provider & {
 	plans: [{
 		name:          "NBN100"
 		speed_tier:    "NBN100"
-		download_mbps: 99
+		download_mbps: 97
 		upload_mbps:   17
 		monthly_price: 94.99
 		promo: {

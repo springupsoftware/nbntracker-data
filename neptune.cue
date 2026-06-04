@@ -64,19 +64,19 @@ providers: neptune: #Provider & {
 		category:      "residential"
 		cis_url:       "https://www.neptune.net.au/critical-information-summary"
 	}, {
-		name:          "Home Fast 500/50"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   50
-		monthly_price: 85.0
-		category:      "residential"
-		cis_url:       "https://www.neptune.net.au/critical-information-summary"
-	}, {
 		name:          "Home Superfast 500/200"
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   200
 		monthly_price: 1.3e+2
+		category:      "residential"
+		cis_url:       "https://www.neptune.net.au/critical-information-summary"
+	}, {
+		name:          "Home Fast 500/50"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   50
+		monthly_price: 85.0
 		category:      "residential"
 		cis_url:       "https://www.neptune.net.au/critical-information-summary"
 	}, {
