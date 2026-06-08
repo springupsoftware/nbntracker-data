@@ -17,19 +17,6 @@ providers: tpg: #Provider & {
 	ipv6: available:    false
 	upstream: backhaul: "Own"
 	plans: [{
-		name:          "NBN25"
-		speed_tier:    "NBN25"
-		download_mbps: 20
-		upload_mbps:   4
-		monthly_price: 76.99
-		promo: {
-			price:  56.99
-			months: 6
-		}
-		category:   "residential"
-		technology: "nbn-fw"
-		cis_url:    "https://www.tpg.com.au/terms_conditions/CIS/nbn"
-	}, {
 		name:          "NBN100"
 		speed_tier:    "NBN100"
 		download_mbps: 97
@@ -101,5 +88,18 @@ providers: tpg: #Provider & {
 		}
 		category: "residential"
 		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	}, {
+		name:          "NBN25"
+		speed_tier:    "NBN25"
+		download_mbps: 20
+		upload_mbps:   4
+		monthly_price: 76.99
+		promo: {
+			price:  56.99
+			months: 6
+		}
+		category:   "residential"
+		technology: "nbn-fw"
+		cis_url:    "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}]
 }
