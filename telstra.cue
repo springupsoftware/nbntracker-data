@@ -53,8 +53,8 @@ providers: telstra: #Provider & {
 	}, {
 		name:          "Essential nbn"
 		speed_tier:    "NBN100"
-		download_mbps: 75
-		upload_mbps:   25
+		download_mbps: 100
+		upload_mbps:   20
 		monthly_price: 95.0
 		category:      "residential"
 		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
