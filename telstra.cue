@@ -68,10 +68,26 @@ providers: telstra: #Provider & {
 		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
 		name:          "Premium nbn"
+		speed_tier:    "NBN250"
+		download_mbps: 250
+		upload_mbps:   0
+		monthly_price: 99.0
+		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
+	}, {
+		name:          "Premium nbn"
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
 		monthly_price: 99.0
+		category:      "residential"
+		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
+	}, {
+		name:          "Ultimate nbn"
+		speed_tier:    "NBN500"
+		download_mbps: 400
+		upload_mbps:   0
+		monthly_price: 119.0
 		category:      "residential"
 		cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 	}, {
