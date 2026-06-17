@@ -27,9 +27,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 76.0
+		monthly_price: 8e+1
 		promo: {
-			price:  51.0
+			price:  55.0
 			months: 6
 		}
 		category: "residential"
@@ -39,9 +39,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN50"
 		download_mbps: 49
 		upload_mbps:   19
-		monthly_price: 86.0
+		monthly_price: 9e+1
 		promo: {
-			price:  66.0
+			price:  7e+1
 			months: 6
 		}
 		category: "residential"
@@ -51,9 +51,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 97
 		upload_mbps:   19
-		monthly_price: 96.0
+		monthly_price: 1e+2
 		promo: {
-			price:  71.0
+			price:  75.0
 			months: 6
 		}
 		category: "residential"
@@ -63,9 +63,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 97
 		upload_mbps:   36
-		monthly_price: 106.0
+		monthly_price: 1.1e+2
 		promo: {
-			price:  81.0
+			price:  85.0
 			months: 6
 		}
 		category: "residential"
@@ -75,9 +75,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 485
 		upload_mbps:   46
-		monthly_price: 96.0
+		monthly_price: 1e+2
 		promo: {
-			price:  71.0
+			price:  75.0
 			months: 6
 		}
 		category: "residential"

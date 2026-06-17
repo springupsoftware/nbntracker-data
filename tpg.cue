@@ -23,7 +23,7 @@ providers: tpg: #Provider & {
 		upload_mbps:   17
 		monthly_price: 94.99
 		promo: {
-			price:  64.99
+			price:  69.99
 			months: 6
 		}
 		category: "residential"
@@ -32,10 +32,10 @@ providers: tpg: #Provider & {
 		name:          "NBN25"
 		speed_tier:    "NBN25"
 		download_mbps: 25
-		upload_mbps:   4
-		monthly_price: 76.99
+		upload_mbps:   8
+		monthly_price: 79.99
 		promo: {
-			price:  56.99
+			price:  59.99
 			months: 6
 		}
 		category: "residential"
@@ -45,9 +45,9 @@ providers: tpg: #Provider & {
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   17
-		monthly_price: 84.99
+		monthly_price: 89.99
 		promo: {
-			price:  64.99
+			price:  69.99
 			months: 6
 		}
 		category: "residential"
@@ -59,7 +59,7 @@ providers: tpg: #Provider & {
 		upload_mbps:   42
 		monthly_price: 94.99
 		promo: {
-			price:  64.99
+			price:  69.99
 			months: 6
 		}
 		category: "residential"
@@ -69,9 +69,9 @@ providers: tpg: #Provider & {
 		speed_tier:    "NBN750"
 		download_mbps: 740
 		upload_mbps:   42
-		monthly_price: 99.99
+		monthly_price: 104.99
 		promo: {
-			price:  69.99
+			price:  74.99
 			months: 6
 		}
 		category: "residential"
@@ -81,9 +81,9 @@ providers: tpg: #Provider & {
 		speed_tier:    "NBN1000"
 		download_mbps: 820
 		upload_mbps:   85
-		monthly_price: 109.99
+		monthly_price: 114.99
 		promo: {
-			price:  79.99
+			price:  84.99
 			months: 6
 		}
 		category: "residential"
@@ -93,9 +93,9 @@ providers: tpg: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 20
 		upload_mbps:   4
-		monthly_price: 76.99
+		monthly_price: 79.99
 		promo: {
-			price:  56.99
+			price:  59.99
 			months: 6
 		}
 		category:   "residential"
