@@ -87,9 +87,9 @@ providers: mate: #Provider & {
 		speed_tier:    "NBN750"
 		download_mbps: 713
 		upload_mbps:   46
-		monthly_price: 121.0
+		monthly_price: 125.0
 		promo: {
-			price:  96.0
+			price:  1e+2
 			months: 6
 		}
 		category: "residential"
