@@ -27,9 +27,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 64.95
+		monthly_price: 69.95
 		promo: {
-			price:  39.0
+			price:  44.0
 			months: 6
 		}
 		category: "residential"
@@ -39,9 +39,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   5
-		monthly_price: 64.95
+		monthly_price: 69.95
 		promo: {
-			price:  51.0
+			price:  56.0
 			months: 6
 		}
 		category:   "residential"
@@ -52,9 +52,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 86.95
+		monthly_price: 89.95
 		promo: {
-			price:  73.0
+			price:  76.0
 			months: 6
 		}
 		category: "residential"
@@ -64,9 +64,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 81.95
+		monthly_price: 84.95
 		promo: {
-			price:  68.0
+			price:  71.0
 			months: 6
 		}
 		category:   "residential"
@@ -77,9 +77,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 86.95
+		monthly_price: 89.95
 		promo: {
-			price:  76.0
+			price:  79.0
 			months: 6
 		}
 		category: "residential"
@@ -89,9 +89,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN250"
 		download_mbps: 250
 		upload_mbps:   20
-		monthly_price: 86.95
+		monthly_price: 89.95
 		promo: {
-			price:  73.0
+			price:  76.0
 			months: 6
 		}
 		category:   "residential"
@@ -102,9 +102,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 400
 		upload_mbps:   40
-		monthly_price: 90.95
+		monthly_price: 94.95
 		promo: {
-			price:  8e+1
+			price:  84.0
 			months: 6
 		}
 		category:   "residential"
@@ -115,9 +115,9 @@ providers: spintel: #Provider & {
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
-		monthly_price: 99.95
+		monthly_price: 104.95
 		promo: {
-			price:  89.0
+			price:  94.0
 			months: 6
 		}
 		category: "residential"
