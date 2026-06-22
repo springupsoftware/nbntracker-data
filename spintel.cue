@@ -33,7 +33,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "Fixed Wireless 25/5Mbps"
 		speed_tier:    "NBN25"
@@ -46,7 +46,7 @@ providers: spintel: #Provider & {
 		}
 		category:   "residential"
 		technology: "nbn-fw"
-		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "100/20Mbps"
 		speed_tier:    "NBN100"
@@ -58,7 +58,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "Fixed Wireless Plus"
 		speed_tier:    "NBN100"
@@ -71,7 +71,7 @@ providers: spintel: #Provider & {
 		}
 		category:   "residential"
 		technology: "nbn-fw"
-		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "500/50Mbps"
 		speed_tier:    "NBN500"
@@ -83,7 +83,7 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "Fixed Wireless Home Fast"
 		speed_tier:    "NBN250"
@@ -96,7 +96,7 @@ providers: spintel: #Provider & {
 		}
 		category:   "residential"
 		technology: "nbn-fw"
-		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "Fixed Wireless Superfast"
 		speed_tier:    "NBN500"
@@ -109,7 +109,7 @@ providers: spintel: #Provider & {
 		}
 		category:   "residential"
 		technology: "nbn-fw"
-		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
 		name:          "1000/100Mbps"
 		speed_tier:    "NBN1000"
@@ -121,6 +121,6 @@ providers: spintel: #Provider & {
 			months: 6
 		}
 		category: "residential"
-		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.06.pdf"
+		cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}]
 }
