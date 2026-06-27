@@ -12,7 +12,8 @@ providers: futurebroadband: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
+	notice_period_days: 14
+	billing_policy:     "30-day-notice"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {

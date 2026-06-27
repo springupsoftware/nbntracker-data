@@ -12,7 +12,8 @@ providers: flip: #Provider & {
 		available:    true
 		monthly_cost: 1.98
 	}
-	billing_policy:  "end-of-month"
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	transit_quality: "Standard"
 	ipv6: available:   false
 	upstream: enabler: "Swoop"

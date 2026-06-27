@@ -20,7 +20,8 @@ providers: exetel: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "end-of-month"
+	notice_period_days: 30
+	billing_policy:     "30-day-notice"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {
