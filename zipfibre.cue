@@ -8,10 +8,10 @@ providers: zipfibre: #Provider & {
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
+		available:    true
 		monthly_cost: 0.0
 	}
-	ipv6: available:    false
+	ipv6: available:    true
 	upstream: backhaul: "Vocus"
 	plans: [{
 		name:          "Fast"
