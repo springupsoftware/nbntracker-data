@@ -1,27 +1,17 @@
 package data
 
 providers: neptune: #Provider & {
-	name:             "Neptune"
-	slug:             "neptune"
-	website_url:      "https://www.neptune.net.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	name:            "Neptune"
+	slug:            "neptune"
+	website_url:     "https://www.neptune.net.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
+		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		default_enabled:        true
-		supports_pd:            true
-	}
+	ipv6: available:   false
 	upstream: enabler: "Aussie Broadband"
 	plans: [{
 		name:          "Home Fast 25/10"

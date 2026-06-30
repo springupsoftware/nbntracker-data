@@ -1,26 +1,17 @@
 package data
 
 providers: more: #Provider & {
-	name:             "More Telecom"
-	slug:             "more"
-	website_url:      "https://www.more.com.au"
-	connection_type:  "PPPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	name:            "More Telecom"
+	slug:            "more"
+	website_url:     "https://www.more.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unavailable"
 	static_ip: {
-		available:    true
-		monthly_cost: 5.0
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available: false
 	upstream: {}
 	plans: [{
 		name:          "Value"

@@ -1,26 +1,17 @@
 package data
 
 providers: iinet: #Provider & {
-	name:             "iiNet"
-	slug:             "iinet"
-	website_url:      "https://www.iinet.net.au"
-	connection_type:  "PPPoE"
-	cgnat:            false
-	cgnat_opt_out:    "N/A"
-	support_location: "Offshore"
+	name:            "iiNet"
+	slug:            "iinet"
+	website_url:     "https://www.iinet.net.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "N/A"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available:    false
 	upstream: backhaul: "Own"
 	plans: [{
 		name:          "NBN25 FTTP Liimitless"

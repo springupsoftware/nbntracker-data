@@ -1,22 +1,18 @@
 package data
 
 providers: flip: #Provider & {
-	name:             "Flip"
-	slug:             "flip"
-	website_url:      "https://flipconnect.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "unknown"
-	support_location: "Australia"
+	name:            "Flip"
+	slug:            "flip"
+	website_url:     "https://flipconnect.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
-		monthly_cost: 1.98
+		available:    false
+		monthly_cost: 0.0
 	}
-	notice_period_days: 30
-	billing_policy:     "30-day-notice"
-	transit_quality:    "Standard"
-	ipv6: available:   false
-	upstream: enabler: "Swoop"
+	ipv6: available: false
+	upstream: {}
 	plans: [{
 		name:          "Premium"
 		speed_tier:    "NBN25"

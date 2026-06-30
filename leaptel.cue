@@ -1,34 +1,17 @@
 package data
 
 providers: leaptel: #Provider & {
-	name:             "Leaptel"
-	slug:             "leaptel"
-	website_url:      "https://leaptel.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
-	accc_performance: {
-		report_period:    "2025-Q4"
-		latency_ms:       7.8
-		latency_busy_ms:  7.9
-		page_load_s:      2.3
-		page_load_busy_s: 2.3
-		outage_pct:       0.14
-	}
+	name:            "Leaptel"
+	slug:            "leaptel"
+	website_url:     "https://leaptel.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unavailable"
 	static_ip: {
-		available:    true
-		monthly_cost: 1e+1
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available:   false
 	upstream: enabler: "Superloop"
 	plans: [{
 		name:          "Pronto"

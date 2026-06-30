@@ -1,27 +1,17 @@
 package data
 
 providers: futurebroadband: #Provider & {
-	name:             "Future Broadband"
-	slug:             "futurebroadband"
-	website_url:      "https://futurebroadband.com.au"
-	connection_type:  "unknown"
-	cgnat:            false
-	cgnat_opt_out:    "N/A"
-	support_location: "Australia"
+	name:            "Future Broadband"
+	slug:            "futurebroadband"
+	website_url:     "https://futurebroadband.com.au"
+	connection_type: "unknown"
+	cgnat:           false
+	cgnat_opt_out:   "N/A"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	notice_period_days: 14
-	billing_policy:     "30-day-notice"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:   false
-		assignment:  "dynamic"
-		supports_pd: true
-		notes:       "IPv6 status unconfirmed"
-	}
+	ipv6: available: false
 	upstream: {}
 	plans: [{
 		name:          "Value NBN 25M / 8M"

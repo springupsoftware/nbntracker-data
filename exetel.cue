@@ -1,35 +1,17 @@
 package data
 
 providers: exetel: #Provider & {
-	name:             "Exetel"
-	slug:             "exetel"
-	website_url:      "https://www.exetel.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Offshore"
-	accc_performance: {
-		report_period:    "2025-Q4"
-		latency_ms:       6.9
-		latency_busy_ms:  7.0
-		page_load_s:      2.3
-		page_load_busy_s: 2.3
-		outage_pct:       0.16
-	}
+	name:            "Exetel"
+	slug:            "exetel"
+	website_url:     "https://www.exetel.com.au"
+	connection_type: "PPPoE"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	notice_period_days: 30
-	billing_policy:     "30-day-notice"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available: false
 	upstream: {}
 	plans: [{
 		name:          "One Plan"
@@ -38,6 +20,5 @@ providers: exetel: #Provider & {
 		upload_mbps:   50
 		monthly_price: 8e+1
 		category:      "residential"
-		cis_url:       "https://s3.ap-southeast-2.amazonaws.com/exetel-cms-s3-prod/files/terms/2507/exetel_cis_nbn_010725.pdf"
 	}]
 }

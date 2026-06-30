@@ -1,27 +1,17 @@
 package data
 
 providers: iprimus: #Provider & {
-	name:             "iPrimus"
-	slug:             "iprimus"
-	website_url:      "https://www.iprimus.com.au"
-	connection_type:  "PPPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Offshore"
+	name:            "iPrimus"
+	slug:            "iprimus"
+	website_url:     "https://www.iprimus.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unavailable"
 	static_ip: {
-		available:    true
-		monthly_cost: 5.0
+		available:    false
+		monthly_cost: 0.0
 	}
-	notice_period_days: 30
-	billing_policy:     "30-day-notice"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available:    false
 	upstream: backhaul: "Vocus"
 	plans: [{
 		name:          "nbn® Standard Plus"

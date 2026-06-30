@@ -1,28 +1,17 @@
 package data
 
 providers: carboncomms: #Provider & {
-	name:             "Carbon Comms"
-	slug:             "carboncomms"
-	website_url:      "https://carboncomms.com.au"
-	connection_type:  "IPoE"
-	cgnat:            false
-	cgnat_opt_out:    "N/A"
-	support_location: "Australia"
+	name:            "Carbon Comms"
+	slug:            "carboncomms"
+	website_url:     "https://carboncomms.com.au"
+	connection_type: "IPoE"
+	cgnat:           false
+	cgnat_opt_out:   "N/A"
 	static_ip: {
-		available:    true
+		available:    false
 		monthly_cost: 0.0
-		notes:        "Static IP (IPv4) included as standard"
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		default_enabled:        true
-		supports_pd:            true
-	}
+	ipv6: available:   false
 	upstream: enabler: "Aussie Broadband"
 	plans: [{
 		name:          "Carbon Home Fast 25/10 nbn™"

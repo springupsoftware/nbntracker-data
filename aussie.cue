@@ -1,35 +1,17 @@
 package data
 
 providers: aussie: #Provider & {
-	name:             "Aussie Broadband"
-	slug:             "aussie"
-	website_url:      "https://www.aussiebroadband.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
-	accc_performance: {
-		report_period:    "2025-Q4"
-		latency_ms:       9.9
-		latency_busy_ms:  10.1
-		page_load_s:      2.4
-		page_load_busy_s: 2.5
-		outage_pct:       0.17
-	}
+	name:            "Aussie Broadband"
+	slug:            "aussie"
+	website_url:     "https://www.aussiebroadband.com.au"
+	connection_type: "PPPoE"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    true
-		monthly_cost: 5.0
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		default_enabled:        true
-		supports_pd:            true
-	}
+	ipv6: available: false
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"

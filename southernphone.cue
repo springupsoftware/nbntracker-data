@@ -1,26 +1,17 @@
 package data
 
 providers: southernphone: #Provider & {
-	name:             "Southern Phone"
-	slug:             "southernphone"
-	website_url:      "https://www.southernphone.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	name:            "Southern Phone"
+	slug:            "southernphone"
+	website_url:     "https://www.southernphone.com.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
-		monthly_cost: 7.5
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:   false
-		assignment:  "dynamic"
-		supports_pd: true
-		notes:       "IPv6 not available on Telcoinabox platform"
-	}
+	ipv6: available:   false
 	upstream: enabler: "Telcoinabox"
 	plans: [{
 		name:          "nbn Ultrafast"

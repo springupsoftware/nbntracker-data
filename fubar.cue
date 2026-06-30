@@ -1,27 +1,17 @@
 package data
 
 providers: fubar: #Provider & {
-	name:             "IT'S FUBAR"
-	slug:             "fubar"
-	website_url:      "https://www.itsfubar.com.au"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	name:            "IT'S FUBAR"
+	slug:            "fubar"
+	website_url:     "https://www.itsfubar.com.au"
+	connection_type: "unknown"
+	cgnat:           false
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
-		monthly_cost: 7.5
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		default_enabled:        true
-		supports_pd:            true
-	}
+	ipv6: available: false
 	upstream: {}
 	plans: [{
 		name:          "nbn Home Basic II (25/10)"

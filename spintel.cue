@@ -1,26 +1,17 @@
 package data
 
 providers: spintel: #Provider & {
-	name:             "SpinTel"
-	slug:             "spintel"
-	website_url:      "https://www.spintel.net.au/lp/home/nbn"
-	connection_type:  "IPoE"
-	cgnat:            true
-	cgnat_opt_out:    "available"
-	support_location: "Australia"
+	name:            "SpinTel"
+	slug:            "spintel"
+	website_url:     "https://www.spintel.net.au"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
-		monthly_cost: 5.0
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:              true
-		prefix_delegation_size: 56
-		assignment:             "dynamic"
-		supports_pd:            true
-	}
+	ipv6: available:   false
 	upstream: enabler: "Superloop"
 	plans: [{
 		name:          "25/10Mbps"

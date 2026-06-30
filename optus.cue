@@ -1,35 +1,17 @@
 package data
 
 providers: optus: #Provider & {
-	name:             "Optus"
-	slug:             "optus"
-	website_url:      "https://www.optus.com.au"
-	connection_type:  "IPoE"
-	cgnat:            false
-	cgnat_opt_out:    "N/A"
-	support_location: "Hybrid"
-	accc_performance: {
-		report_period:    "2025-Q4"
-		latency_ms:       9.5
-		latency_busy_ms:  9.6
-		page_load_s:      2.3
-		page_load_busy_s: 2.4
-		outage_pct:       0.13
-	}
+	name:            "Optus"
+	slug:            "optus"
+	website_url:     "https://www.optus.com.au"
+	connection_type: "PPPoE"
+	cgnat:           true
+	cgnat_opt_out:   "unknown"
 	static_ip: {
-		available:    true
-		monthly_cost: 1e+1
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
-	ipv6: {
-		available:       true
-		assignment:      "dynamic"
-		default_enabled: true
-		supports_pd:     false
-		notes:           "Dual-stack with single /64 via SLAAC; no prefix delegation"
-	}
+	ipv6: available:    false
 	upstream: backhaul: "Own"
 	plans: [{
 		name:          "Basic Plan"
