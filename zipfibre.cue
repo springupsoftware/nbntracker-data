@@ -11,7 +11,7 @@ providers: zipfibre: #Provider & {
 		available:    true
 		monthly_cost: 0.0
 	}
-	billing_policy: "30-day-notice"
+	billing_policy: "end-of-month"
 	ipv6: available:    true
 	upstream: backhaul: "Vocus"
 	plans: [{
