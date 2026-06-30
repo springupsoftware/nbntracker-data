@@ -12,7 +12,7 @@ providers: zipfibre: #Provider & {
 		monthly_cost: 0.0
 	}
 	ipv6: available:    false
-	upstream: backhaul: "Vocus"
+	upstream: backhaul: "Own"
 	plans: [{
 		name:          "Fast"
 		speed_tier:    "NBN500"
