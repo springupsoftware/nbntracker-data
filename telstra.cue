@@ -4,9 +4,10 @@ providers: telstra: #Provider & {
 	name:            "Telstra"
 	slug:            "telstra"
 	website_url:     "https://www.telstra.com.au"
-	connection_type: "PPPoE"
+	connection_type: "IPoE"
 	cgnat:           true
 	cgnat_opt_out:   "unavailable"
+	support_location: "Offshore"
 	static_ip: {
 		available:    false
 		monthly_cost: 0.0
