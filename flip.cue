@@ -14,7 +14,7 @@ providers: flip: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
-	transit_quality: "Standard"
+	transit_quality:    "Standard"
 	ipv6: available:   false
 	upstream: enabler: "Swoop"
 	plans: [{

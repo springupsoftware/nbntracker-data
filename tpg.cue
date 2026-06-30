@@ -14,10 +14,23 @@ providers: tpg: #Provider & {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
-	transit_quality: "Standard"
+	transit_quality:    "Standard"
 	ipv6: available:    false
 	upstream: backhaul: "Own"
 	plans: [{
+		name:          "NBN25"
+		speed_tier:    "NBN25"
+		download_mbps: 20
+		upload_mbps:   4
+		monthly_price: 79.99
+		promo: {
+			price:  59.99
+			months: 6
+		}
+		category:   "residential"
+		technology: "nbn-fw"
+		cis_url:    "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	}, {
 		name:          "NBN100"
 		speed_tier:    "NBN100"
 		download_mbps: 99
@@ -89,18 +102,5 @@ providers: tpg: #Provider & {
 		}
 		category: "residential"
 		cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
-	}, {
-		name:          "NBN25"
-		speed_tier:    "NBN25"
-		download_mbps: 20
-		upload_mbps:   4
-		monthly_price: 79.99
-		promo: {
-			price:  59.99
-			months: 6
-		}
-		category:   "residential"
-		technology: "nbn-fw"
-		cis_url:    "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 	}]
 }

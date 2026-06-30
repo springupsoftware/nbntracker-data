@@ -29,7 +29,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 49.0
+		monthly_price: 57.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -37,7 +37,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN50"
 		download_mbps: 50
 		upload_mbps:   20
-		monthly_price: 75.0
+		monthly_price: 81.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -45,7 +45,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 8e+1
+		monthly_price: 84.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -53,7 +53,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   40
-		monthly_price: 85.0
+		monthly_price: 88.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -61,7 +61,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 79.0
+		monthly_price: 84.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -69,7 +69,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN750"
 		download_mbps: 750
 		upload_mbps:   50
-		monthly_price: 87.0
+		monthly_price: 91.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -77,7 +77,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
-		monthly_price: 99.0
+		monthly_price: 102.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -85,7 +85,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN2000"
 		download_mbps: 2000
 		upload_mbps:   100
-		monthly_price: 1.5e+2
+		monthly_price: 153.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -93,7 +93,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN2000"
 		download_mbps: 2000
 		upload_mbps:   200
-		monthly_price: 1.5e+2
+		monthly_price: 153.0
 		category:      "residential"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -101,7 +101,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   40
-		monthly_price: 85.0
+		monthly_price: 89.0
 		category:      "business"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -109,7 +109,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN250"
 		download_mbps: 250
 		upload_mbps:   100
-		monthly_price: 85.0
+		monthly_price: 89.0
 		category:      "business"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -117,7 +117,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN250"
 		download_mbps: 250
 		upload_mbps:   100
-		monthly_price: 99.0
+		monthly_price: 101.0
 		category:      "business"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -133,7 +133,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   400
-		monthly_price: 125.0
+		monthly_price: 127.0
 		category:      "business"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}, {
@@ -141,7 +141,7 @@ providers: carboncomms: #Provider & {
 		speed_tier:    "NBN2000"
 		download_mbps: 2000
 		upload_mbps:   500
-		monthly_price: 195.0
+		monthly_price: 196.0
 		category:      "business"
 		cis_url:       "https://carboncomms.com.au/pages/critical-information-summary-nbn-residential"
 	}]
