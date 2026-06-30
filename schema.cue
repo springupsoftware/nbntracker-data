@@ -102,10 +102,10 @@ package data
 
 	referral_params?:   string
 	notes?:             string
-	support_location:   "Australia" | "Offshore" | "Hybrid"
+	support_location:   string | *"" // plain string — union removed so Go Decode works even when field is absent
 	accc_performance?:  #ACCCPerformance
 	notice_period_days: int | *0
-	billing_policy:     "pro-rata" | "30-day-notice" | "end-of-month" | *"pro-rata"
+	billing_policy:     string | *"" // plain string — union removed for same reason
 
 	payment_methods?: #PaymentMethods
 	pop_states?: [...#State]
@@ -119,4 +119,5 @@ package data
 
 	// Specific tag for the GSL-backed gamers we discussed
 	transit_quality: "GSL" | "Standard" | "Premium" | *"Standard"
+
 }
