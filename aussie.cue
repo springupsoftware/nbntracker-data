@@ -11,6 +11,7 @@ providers: aussie: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
+	billing_policy: "pro-rata"
 	ipv6: available: false
 	upstream: {
 		backhaul:         "Own"

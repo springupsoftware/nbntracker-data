@@ -12,7 +12,7 @@ providers: belong: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "pro-rata"
+	billing_policy: "end-of-cycle"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
 	transit_quality: "Standard"
 	ipv6: {
