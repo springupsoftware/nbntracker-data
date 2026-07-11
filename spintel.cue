@@ -11,7 +11,8 @@ providers: spintel: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "end-of-cycle"
+	billing_policy:  "end-of-cycle"
+	transit_quality: "Standard"
 	ipv6: available:   false
 	upstream: enabler: "Superloop"
 	plans: [{
@@ -103,13 +104,13 @@ providers: spintel: #Provider & {
 		technology: "nbn-fw"
 		cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 	}, {
-		name:          "1000/100Mbps"
-		speed_tier:    "NBN1000"
-		download_mbps: 1000
-		upload_mbps:   100
-		monthly_price: 104.95
+		name:          "750/50Mbps"
+		speed_tier:    "NBN750"
+		download_mbps: 750
+		upload_mbps:   50
+		monthly_price: 94.95
 		promo: {
-			price:  94.0
+			price:  72.95
 			months: 6
 		}
 		category: "residential"

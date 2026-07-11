@@ -11,13 +11,14 @@ providers: tpg: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "30-day-notice"
+	billing_policy:  "30-day-notice"
+	transit_quality: "Standard"
 	ipv6: available:    false
 	upstream: backhaul: "Own"
 	plans: [{
 		name:          "NBN100"
 		speed_tier:    "NBN100"
-		download_mbps: 99
+		download_mbps: 98
 		upload_mbps:   17
 		monthly_price: 94.99
 		promo: {
@@ -77,7 +78,7 @@ providers: tpg: #Provider & {
 	}, {
 		name:          "NBN Home Ultrafast"
 		speed_tier:    "NBN1000"
-		download_mbps: 820
+		download_mbps: 850
 		upload_mbps:   85
 		monthly_price: 114.99
 		promo: {

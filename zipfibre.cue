@@ -11,8 +11,13 @@ providers: zipfibre: #Provider & {
 		available:    true
 		monthly_cost: 0.0
 	}
-	billing_policy: "end-of-month"
-	ipv6: available:    true
+	billing_policy:  "end-of-month"
+	transit_quality: "Standard"
+	ipv6: {
+		available:   true
+		assignment:  "dynamic"
+		supports_pd: true
+	}
 	upstream: backhaul: "Vocus"
 	plans: [{
 		name:          "Fast"

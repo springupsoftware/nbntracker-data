@@ -11,7 +11,8 @@ providers: flip: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "30-day-notice"
+	billing_policy:  "30-day-notice"
+	transit_quality: "Standard"
 	ipv6: available: false
 	upstream: {}
 	plans: [{
@@ -43,7 +44,7 @@ providers: flip: #Provider & {
 		upload_mbps:   17
 		monthly_price: 84.9
 		promo: {
-			price:  68.0
+			price:  64.0
 			months: 6
 		}
 		category: "residential"
@@ -54,7 +55,7 @@ providers: flip: #Provider & {
 		upload_mbps:   17
 		monthly_price: 88.9
 		promo: {
-			price:  69.0
+			price:  74.0
 			months: 6
 		}
 		category: "residential"
@@ -65,7 +66,7 @@ providers: flip: #Provider & {
 		upload_mbps:   42
 		monthly_price: 88.9
 		promo: {
-			price:  69.0
+			price:  74.0
 			months: 6
 		}
 		category: "residential"

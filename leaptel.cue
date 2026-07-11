@@ -11,7 +11,8 @@ providers: leaptel: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "30-day-notice"
+	billing_policy:  "30-day-notice"
+	transit_quality: "Standard"
 	ipv6: available:   false
 	upstream: enabler: "Superloop"
 	plans: [{
@@ -19,20 +20,9 @@ providers: leaptel: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 69.95
+		monthly_price: 75.0
 		promo: {
-			price:  49.95
-			months: 6
-		}
-		category: "residential"
-	}, {
-		name:          "Accelerated"
-		speed_tier:    "NBN50"
-		download_mbps: 50
-		upload_mbps:   20
-		monthly_price: 82.95
-		promo: {
-			price:  74.95
+			price:  5e+1
 			months: 6
 		}
 		category: "residential"
@@ -41,9 +31,9 @@ providers: leaptel: #Provider & {
 		speed_tier:    "NBN100"
 		download_mbps: 100
 		upload_mbps:   20
-		monthly_price: 92.95
+		monthly_price: 97.0
 		promo: {
-			price:  79.95
+			price:  8e+1
 			months: 12
 		}
 		category: "residential"
@@ -52,9 +42,9 @@ providers: leaptel: #Provider & {
 		speed_tier:    "NBN500"
 		download_mbps: 500
 		upload_mbps:   50
-		monthly_price: 92.95
+		monthly_price: 97.0
 		promo: {
-			price:  79.95
+			price:  8e+1
 			months: 12
 		}
 		category: "residential"
@@ -63,31 +53,9 @@ providers: leaptel: #Provider & {
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
 		upload_mbps:   100
-		monthly_price: 114.0
+		monthly_price: 119.0
 		promo: {
 			price:  99.0
-			months: 12
-		}
-		category: "residential"
-	}, {
-		name:          "Hyperfast HFC"
-		speed_tier:    "NBN2000"
-		download_mbps: 2000
-		upload_mbps:   100
-		monthly_price: 165.0
-		promo: {
-			price:  155.0
-			months: 12
-		}
-		category: "residential"
-	}, {
-		name:          "Hyperfast FTTP"
-		speed_tier:    "NBN2000"
-		download_mbps: 2000
-		upload_mbps:   200
-		monthly_price: 165.0
-		promo: {
-			price:  155.0
 			months: 12
 		}
 		category: "residential"

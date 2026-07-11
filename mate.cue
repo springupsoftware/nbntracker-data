@@ -11,7 +11,8 @@ providers: mate: #Provider & {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy: "end-of-cycle"
+	billing_policy:  "end-of-cycle"
+	transit_quality: "Standard"
 	ipv6: available: false
 	upstream: {}
 	plans: [{
