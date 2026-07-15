@@ -5,7 +5,7 @@ futurebroadband: [{
 	speed_tier:    "NBN25"
 	download_mbps: 25
 	upload_mbps:   8
-	monthly_price: 7e+1
+	monthly_price: 70.0
 	category:      "residential"
 }, {
 	name:          "Value NBN 500M / 45M"
@@ -33,7 +33,7 @@ futurebroadband: [{
 	speed_tier:    "NBN100"
 	download_mbps: 95
 	upload_mbps:   18
-	monthly_price: 9e+1
+	monthly_price: 90.0
 	category:      "residential"
 	technology:    "nbn-fw"
 }]

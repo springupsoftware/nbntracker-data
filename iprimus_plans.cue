@@ -5,7 +5,7 @@ iprimus: [{
 	speed_tier:    "NBN50"
 	download_mbps: 50
 	upload_mbps:   17
-	monthly_price: 9e+1
+	monthly_price: 90.0
 	category:      "residential"
 	cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 }, {
@@ -13,7 +13,7 @@ iprimus: [{
 	speed_tier:    "NBN100"
 	download_mbps: 100
 	upload_mbps:   17
-	monthly_price: 1e+2
+	monthly_price: 100.0
 	category:      "residential"
 	cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 }, {
@@ -21,7 +21,7 @@ iprimus: [{
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   47
-	monthly_price: 1e+2
+	monthly_price: 100.0
 	category:      "residential"
 	cis_url:       "https://www.iprimus.com.au/critical-information-summary/nbn-internet-plans-cis"
 }, {

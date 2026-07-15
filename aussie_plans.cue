@@ -69,7 +69,7 @@ aussie: [{
 	speed_tier:    "NBN1000"
 	download_mbps: 1000
 	upload_mbps:   400
-	monthly_price: 1.6e+2
+	monthly_price: 160.0
 	category:      "residential"
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
@@ -85,7 +85,7 @@ aussie: [{
 	speed_tier:    "NBN2000"
 	download_mbps: 2000
 	upload_mbps:   500
-	monthly_price: 2.2e+2
+	monthly_price: 220.0
 	category:      "residential"
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
@@ -141,7 +141,7 @@ aussie: [{
 	speed_tier:    "NBN1000"
 	download_mbps: 1000
 	upload_mbps:   400
-	monthly_price: 1.6e+2
+	monthly_price: 160.0
 	category:      "business"
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
@@ -149,7 +149,7 @@ aussie: [{
 	speed_tier:    "NBN2000"
 	download_mbps: 2000
 	upload_mbps:   500
-	monthly_price: 2.2e+2
+	monthly_price: 220.0
 	category:      "business"
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }]

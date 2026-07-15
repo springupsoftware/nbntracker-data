@@ -7,7 +7,7 @@ leaptel: [{
 	upload_mbps:   10
 	monthly_price: 75.0
 	promo: {
-		price:  5e+1
+		price:  50.0
 		months: 6
 	}
 	category: "residential"
@@ -18,7 +18,7 @@ leaptel: [{
 	upload_mbps:   20
 	monthly_price: 97.0
 	promo: {
-		price:  8e+1
+		price:  80.0
 		months: 12
 	}
 	category: "residential"
@@ -29,7 +29,7 @@ leaptel: [{
 	upload_mbps:   50
 	monthly_price: 97.0
 	promo: {
-		price:  8e+1
+		price:  80.0
 		months: 12
 	}
 	category: "residential"
