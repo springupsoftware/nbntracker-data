@@ -4,15 +4,15 @@ providers: leaptel: {
 	name:            "Leaptel"
 	slug:            "leaptel"
 	website_url:     "https://leaptel.com.au"
-	connection_type: "PPPoE"
-	cgnat:           false
-	cgnat_opt_out:   "unavailable"
+	connection_type: "IPoE"
+	cgnat:           true
+	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 10
 	}
-	billing_policy:  "30-day-notice"
+	billing_policy:  "pro-rata"
 	transit_quality: "Standard"
-	ipv6: available:   false
+	ipv6: available:   true
 	upstream: enabler: "Superloop"
 }
