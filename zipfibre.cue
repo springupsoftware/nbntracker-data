@@ -8,16 +8,10 @@ providers: zipfibre: #Provider & {
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    true
+		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy:  "end-of-month"
-	transit_quality: "Standard"
-	ipv6: {
-		available:   true
-		assignment:  "dynamic"
-		supports_pd: true
-	}
+	ipv6: available:    false
 	upstream: backhaul: "Vocus"
 	plans: [{
 		name:          "Pro 1000"
@@ -26,7 +20,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   400
 		monthly_price: 145.0
 		category:      "business"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Hyperfast"
@@ -35,7 +28,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   200
 		monthly_price: 175.0
 		category:      "residential"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Pro 500"
@@ -44,7 +36,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   200
 		monthly_price: 116.0
 		category:      "business"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Hyperfast"
@@ -53,7 +44,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   100
 		monthly_price: 175.0
 		category:      "residential"
-		technology:    "hfc"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Pro Hyperfast"
@@ -62,7 +52,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   500
 		monthly_price: 224.0
 		category:      "business"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Ultrafast"
@@ -71,7 +60,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   100
 		monthly_price: 105.0
 		category:      "residential"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Ultrafast"
@@ -80,7 +68,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   100
 		monthly_price: 105.0
 		category:      "residential"
-		technology:    "hfc"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Superfast"
@@ -89,7 +76,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   50
 		monthly_price: 99.0
 		category:      "residential"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Fast"
@@ -98,7 +84,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   50
 		monthly_price: 85.0
 		category:      "residential"
-		technology:    "hfc"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Superfast"
@@ -107,7 +92,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   50
 		monthly_price: 99.0
 		category:      "residential"
-		technology:    "hfc"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Fast"
@@ -116,7 +100,6 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   50
 		monthly_price: 85.0
 		category:      "residential"
-		technology:    "fttp"
 		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}]
 }
