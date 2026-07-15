@@ -13,6 +13,10 @@ providers: neptune: {
 	}
 	billing_policy:  "end-of-cycle"
 	transit_quality: "Standard"
-	ipv6: available:   true
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 48
+		supports_pd:            true
+	}
 	upstream: enabler: "Aussie Broadband"
 }
