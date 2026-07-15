@@ -41,7 +41,7 @@ belong: [{
 	speed_tier:    "NBN1000"
 	download_mbps: 1000
 	upload_mbps:   100
-	monthly_price: 1.1e+2
+	monthly_price: 110.0
 	promo: {
 		price:  55.0
 		months: 2
