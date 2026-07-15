@@ -5,9 +5,9 @@ amaysim: [{
 	speed_tier:    "NBN25"
 	download_mbps: 25
 	upload_mbps:   8
-	monthly_price: 7e+1
+	monthly_price: 70.0
 	promo: {
-		price:  3e+1
+		price:  30.0
 		months: 6
 	}
 	category: "residential"
@@ -29,9 +29,9 @@ amaysim: [{
 	speed_tier:    "NBN100"
 	download_mbps: 100
 	upload_mbps:   18
-	monthly_price: 9e+1
+	monthly_price: 90.0
 	promo: {
-		price:  5e+1
+		price:  50.0
 		months: 6
 	}
 	category: "residential"
@@ -41,9 +41,9 @@ amaysim: [{
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   43
-	monthly_price: 9e+1
+	monthly_price: 90.0
 	promo: {
-		price:  5e+1
+		price:  50.0
 		months: 6
 	}
 	category:   "residential"
@@ -54,9 +54,9 @@ amaysim: [{
 	speed_tier:    "NBN750"
 	download_mbps: 680
 	upload_mbps:   43
-	monthly_price: 1e+2
+	monthly_price: 100.0
 	promo: {
-		price:  6e+1
+		price:  60.0
 		months: 6
 	}
 	category:   "residential"
@@ -67,9 +67,9 @@ amaysim: [{
 	speed_tier:    "NBN1000"
 	download_mbps: 820
 	upload_mbps:   85
-	monthly_price: 1.1e+2
+	monthly_price: 110.0
 	promo: {
-		price:  1e+2
+		price:  100.0
 		months: 6
 	}
 	category:   "residential"
