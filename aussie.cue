@@ -4,12 +4,12 @@ providers: aussie: #Provider & {
 	name:            "Aussie Broadband"
 	slug:            "aussie"
 	website_url:     "https://www.aussiebroadband.com.au"
-	connection_type: "PPPoE"
+	connection_type: "IPoE"
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
-		monthly_cost: 0.0
+		available:    true
+		monthly_cost: 5
 	}
 	billing_policy:  "pro-rata"
 	transit_quality: "Standard"
