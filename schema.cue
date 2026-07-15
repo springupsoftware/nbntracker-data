@@ -49,15 +49,6 @@ package data
 	notes?:   string
 }
 
-#ACCCPerformance: {
-	report_period:    string
-	latency_ms:       number
-	latency_busy_ms:  number
-	page_load_s:      number
-	page_load_busy_s: number
-	outage_pct:       number
-}
-
 #Upstream: {
 	// The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
 	enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "Swoop" | "None" 
@@ -98,12 +89,11 @@ package data
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
 	static_ip: #StaticIP | *{available: false}
 
-	plans: [...#Plan]
+	plans: [...#Plan] // embedded (legacy); plans loaded from _plans map for split format
 
 	referral_params?:   string
 	notes?:             string
 	support_location:   string | *"" // plain string — union removed so Go Decode works even when field is absent
-	accc_performance?:  #ACCCPerformance
 	notice_period_days: int | *0
 	billing_policy:     string | *"" // plain string — union removed for same reason
 
@@ -121,3 +111,9 @@ package data
 	transit_quality: "GSL" | "Standard" | "Premium" | *"Standard"
 
 }
+
+// Top-level _plans map keyed by provider slug. Each slug_plans.cue file
+// contributes one key so CUE merges them into a single map.
+_plans: {[string]: [{#Plan}]}
+
+...
