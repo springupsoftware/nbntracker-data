@@ -1,6 +1,6 @@
 package data
 
-providers: belong: #Provider & {
+providers: belong: {
 	name:             "Belong"
 	slug:             "belong"
 	website_url:      "https://www.belong.com.au"
@@ -14,7 +14,6 @@ providers: belong: #Provider & {
 	}
 	billing_policy: "end-of-cycle"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
 	ipv6: {
 		available:       true
 		assignment:      "dynamic"
@@ -26,40 +25,4 @@ providers: belong: #Provider & {
 		backhaul:         "Telstra"
 		domestic_transit: "Telstra"
 	}
-	plans: [{
-		name:          "Starter"
-		speed_tier:    "NBN25"
-		download_mbps: 25
-		upload_mbps:   10
-		monthly_price: 72.0
-		category:      "residential"
-	}, {
-		name:          "Standard Plus"
-		speed_tier:    "NBN50"
-		download_mbps: 50
-		upload_mbps:   20
-		monthly_price: 88.0
-		category:      "residential"
-	}, {
-		name:          "Premium"
-		speed_tier:    "NBN100"
-		download_mbps: 100
-		upload_mbps:   20
-		monthly_price: 95.0
-		category:      "residential"
-	}, {
-		name:          "Fast"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   50
-		monthly_price: 95.0
-		category:      "residential"
-	}, {
-		name:          "Ultrafast"
-		speed_tier:    "NBN1000"
-		download_mbps: 1000
-		upload_mbps:   100
-		monthly_price: 1.1e+2
-		category:      "residential"
-	}]
 }

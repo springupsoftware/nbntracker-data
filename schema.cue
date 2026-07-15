@@ -1,26 +1,11 @@
 package data
 
-// 1. Updated for 2026 "Accelerate Great" tiers
+// Updated for 2026 "Accelerate Great" tiers
 #SpeedTier: "NBN12" | "NBN25" | "NBN50" | "NBN100" | "NBN250" | "NBN500" | "NBN750" | "NBN1000" | "NBN2000"
 
 #ConnectionType: "PPPoE" | "IPoE" | "unknown"
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
 #State:          "NSW" | "VIC" | "QLD" | "WA" | "SA" | "TAS" | "NT" | "ACT"
-
-#PaymentMethod: {
-	available:     bool | *true
-	surcharge_pct: number & >=0 & <=10 | *0
-	notes?:        string
-}
-
-#PaymentMethods: {
-	// absent = unknown; present = explicitly modelled
-	direct_debit?: #PaymentMethod
-	bpay?:         #PaymentMethod
-	visa_mc?:      #PaymentMethod
-	amex?:         #PaymentMethod
-	paypal?:       #PaymentMethod
-}
 
 #StaticIP: {
 	available:    bool | *true
@@ -42,31 +27,15 @@ package data
 	}
 
 	data_cap_gb?: int & >0
-	category:     "residential" | "business" | "enterprise"
-	technology:   "nbn" | "nbn-fw" | "5g" | "4g" | *"nbn"
+	category:     "residential" | "business"
 
 	cis_url?: string
-	notes?:   string
-}
-
-#ACCCPerformance: {
-	report_period:    string
-	latency_ms:       number
-	latency_busy_ms:  number
-	page_load_s:      number
-	page_load_busy_s: number
-	outage_pct:       number
 }
 
 #Upstream: {
-	// The "White Label" or Platform provider (e.g., Telcoinabox, Aussie Carbon)
-	enabler?: "Telcoinabox" | "Aussie Broadband" | "Superloop" | "Vocus" | "Swoop" | "None" 
-
-	// The physical Backhaul provider to the 121 POIs
-	backhaul?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
-
-	// The Domestic Transit provider (often different from backhaul)
-	domestic_transit?: "Aussie Broadband" | "Superloop" | "Vocus" | "Telstra" | "Own"
+	enabler?:        string | *""
+	backhaul?:       string | *""
+	domestic_transit?: string | *""
 }
 
 #IPv6: {
@@ -88,7 +57,6 @@ package data
 	notes?: string
 }
 
-
 #Provider: {
 	name:            string & !=""
 	slug:            string & !=""
@@ -98,16 +66,13 @@ package data
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
 	static_ip: #StaticIP | *{available: false}
 
-	plans: [...#Plan]
+	plans: [...#Plan] // embedded (legacy); plans loaded from _plans map for split format
 
 	referral_params?:   string
-	notes?:             string
 	support_location:   string | *"" // plain string — union removed so Go Decode works even when field is absent
-	accc_performance?:  #ACCCPerformance
 	notice_period_days: int | *0
 	billing_policy:     string | *"" // plain string — union removed for same reason
 
-	payment_methods?: #PaymentMethods
 	pop_states?: [...#State]
 	global_transit?:     bool | *false
 	plan_change_period?: "daily" | "monthly" | "anytime" | "unknown"
@@ -116,8 +81,10 @@ package data
 
 	// Linking the upstream
 	upstream: #Upstream
-
-	// Specific tag for the GSL-backed gamers we discussed
-	transit_quality: "GSL" | "Standard" | "Premium" | *"Standard"
-
 }
+
+// Top-level _plans map keyed by provider slug. Each slug_plans.cue file
+// contributes one key so CUE merges them into a single map.
+_plans: {[string]: [{#Plan}]}
+
+...

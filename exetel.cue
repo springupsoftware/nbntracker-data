@@ -1,10 +1,10 @@
 package data
 
-providers: exetel: #Provider & {
+providers: exetel: {
 	name:            "Exetel"
 	slug:            "exetel"
 	website_url:     "https://www.exetel.com.au"
-	connection_type: "PPPoE"
+	connection_type: "IPoE"
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
@@ -12,15 +12,6 @@ providers: exetel: #Provider & {
 		monthly_cost: 0.0
 	}
 	billing_policy:  "30-day-notice"
-	transit_quality: "Standard"
 	ipv6: available: false
 	upstream: {}
-	plans: [{
-		name:          "One Plan"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   50
-		monthly_price: 8e+1
-		category:      "residential"
-	}]
 }
