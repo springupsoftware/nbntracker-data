@@ -11,7 +11,6 @@ tpg: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "nbn-fw"
 	cis_url:    "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN100"

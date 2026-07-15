@@ -49,7 +49,6 @@ fubar: [{
 	upload_mbps:   5
 	monthly_price: 59.9
 	category:      "residential"
-	technology:    "nbn-fw"
 }, {
 	name:          "nbn Fixed Wireless Plus (100/20)"
 	speed_tier:    "NBN100"
@@ -57,7 +56,6 @@ fubar: [{
 	upload_mbps:   20
 	monthly_price: 94.9
 	category:      "residential"
-	technology:    "nbn-fw"
 }, {
 	name:          "nbn Fixed Wireless Home Fast (250/20)"
 	speed_tier:    "NBN250"
@@ -65,7 +63,6 @@ fubar: [{
 	upload_mbps:   20
 	monthly_price: 99.9
 	category:      "residential"
-	technology:    "nbn-fw"
 }, {
 	name:          "nbn Fixed Wireless Superfast (400/40)"
 	speed_tier:    "NBN500"
@@ -73,7 +70,6 @@ fubar: [{
 	upload_mbps:   40
 	monthly_price: 115.9
 	category:      "residential"
-	technology:    "nbn-fw"
 }, {
 	name:          "nbn Business 100 Essentials (100/40)"
 	speed_tier:    "NBN100"

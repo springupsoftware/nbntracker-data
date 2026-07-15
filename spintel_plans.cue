@@ -23,7 +23,6 @@ spintel: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "nbn-fw"
 	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "100/20Mbps"
@@ -48,7 +47,6 @@ spintel: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "nbn-fw"
 	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "500/50Mbps"
@@ -73,7 +71,6 @@ spintel: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "nbn-fw"
 	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless Superfast"
@@ -86,7 +83,6 @@ spintel: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "nbn-fw"
 	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "750/50Mbps"

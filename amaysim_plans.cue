@@ -47,7 +47,6 @@ amaysim: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "fttp"
 	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }, {
 	name:          "NBN 750"
@@ -60,7 +59,6 @@ amaysim: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "fttp"
 	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }, {
 	name:          "NBN 1000"
@@ -73,6 +71,5 @@ amaysim: [{
 		months: 6
 	}
 	category:   "residential"
-	technology: "fttp"
 	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }]

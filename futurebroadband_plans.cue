@@ -35,5 +35,4 @@ futurebroadband: [{
 	upload_mbps:   18
 	monthly_price: 90.0
 	category:      "residential"
-	technology:    "nbn-fw"
 }]
