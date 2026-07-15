@@ -12,7 +12,6 @@ providers: leaptel: {
 		monthly_cost: 10
 	}
 	billing_policy:  "pro-rata"
-	transit_quality: "Standard"
 	ipv6: available:   true
 	upstream: enabler: "Superloop"
 }

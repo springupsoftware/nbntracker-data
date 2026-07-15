@@ -12,7 +12,6 @@ providers: telstra: {
 		monthly_cost: 0.0
 	}
 	billing_policy:  "end-of-cycle"
-	transit_quality: "Standard"
 	ipv6: available: false
 	upstream: {
 		backhaul:         "Own"

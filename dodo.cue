@@ -14,7 +14,6 @@ providers: dodo: {
 	}
 	billing_policy: "end-of-cycle"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56

@@ -12,7 +12,6 @@ providers: futurebroadband: {
 		monthly_cost: 0.0
 	}
 	billing_policy:  "14-day-notice"
-	transit_quality: "Standard"
 	ipv6: available: false
 	upstream: {}
 }

@@ -11,7 +11,6 @@ providers: zipfibre: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	transit_quality: "Standard"
 	ipv6: available:    false
 	upstream: backhaul: "Vocus"
 }

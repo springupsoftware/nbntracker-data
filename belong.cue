@@ -14,7 +14,6 @@ providers: belong: {
 	}
 	billing_policy: "end-of-cycle"
 	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"]
-	transit_quality: "Standard"
 	ipv6: {
 		available:       true
 		assignment:      "dynamic"
