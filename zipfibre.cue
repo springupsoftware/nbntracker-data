@@ -20,29 +20,14 @@ providers: zipfibre: #Provider & {
 	}
 	upstream: backhaul: "Vocus"
 	plans: [{
-		name:          "Fast"
-		speed_tier:    "NBN500"
-		download_mbps: 500
-		upload_mbps:   50
-		monthly_price: 85.0
-		category:      "residential"
-		cis_url:       "https://www.zipfibre.com.au/assets/ZipFibre_Residential_CIS_2026_06_14-medIJXpr.pdf"
-	}, {
-		name:          "Superfast"
-		speed_tier:    "NBN750"
-		download_mbps: 750
-		upload_mbps:   50
-		monthly_price: 99.0
-		category:      "residential"
-		cis_url:       "https://www.zipfibre.com.au/assets/ZipFibre_Residential_CIS_2026_06_14-medIJXpr.pdf"
-	}, {
-		name:          "Ultrafast"
+		name:          "Pro 1000"
 		speed_tier:    "NBN1000"
 		download_mbps: 1000
-		upload_mbps:   100
-		monthly_price: 105.0
-		category:      "residential"
-		cis_url:       "https://www.zipfibre.com.au/assets/ZipFibre_Residential_CIS_2026_06_14-medIJXpr.pdf"
+		upload_mbps:   400
+		monthly_price: 145.0
+		category:      "business"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}, {
 		name:          "Hyperfast"
 		speed_tier:    "NBN2000"
@@ -50,6 +35,88 @@ providers: zipfibre: #Provider & {
 		upload_mbps:   200
 		monthly_price: 175.0
 		category:      "residential"
-		cis_url:       "https://www.zipfibre.com.au/assets/ZipFibre_Residential_CIS_2026_06_14-medIJXpr.pdf"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Pro 500"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   200
+		monthly_price: 116.0
+		category:      "business"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Hyperfast"
+		speed_tier:    "NBN2000"
+		download_mbps: 2000
+		upload_mbps:   100
+		monthly_price: 175.0
+		category:      "residential"
+		technology:    "hfc"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Pro Hyperfast"
+		speed_tier:    "NBN2000"
+		download_mbps: 2000
+		upload_mbps:   500
+		monthly_price: 224.0
+		category:      "business"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Ultrafast"
+		speed_tier:    "NBN1000"
+		download_mbps: 1000
+		upload_mbps:   100
+		monthly_price: 105.0
+		category:      "residential"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Ultrafast"
+		speed_tier:    "NBN1000"
+		download_mbps: 1000
+		upload_mbps:   100
+		monthly_price: 105.0
+		category:      "residential"
+		technology:    "hfc"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Superfast"
+		speed_tier:    "NBN750"
+		download_mbps: 750
+		upload_mbps:   50
+		monthly_price: 99.0
+		category:      "residential"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Fast"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   50
+		monthly_price: 85.0
+		category:      "residential"
+		technology:    "hfc"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Superfast"
+		speed_tier:    "NBN750"
+		download_mbps: 750
+		upload_mbps:   50
+		monthly_price: 99.0
+		category:      "residential"
+		technology:    "hfc"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
+	}, {
+		name:          "Fast"
+		speed_tier:    "NBN500"
+		download_mbps: 500
+		upload_mbps:   50
+		monthly_price: 85.0
+		category:      "residential"
+		technology:    "fttp"
+		cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 	}]
 }

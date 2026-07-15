@@ -31,22 +31,7 @@ providers: belong: #Provider & {
 		speed_tier:    "NBN25"
 		download_mbps: 25
 		upload_mbps:   10
-		monthly_price: 72.0
-		promo: {
-			price:  36.0
-			months: 2
-		}
-		category:      "residential"
-	}, {
-		name:          "Standard Plus"
-		speed_tier:    "NBN50"
-		download_mbps: 50
-		upload_mbps:   20
-		monthly_price: 88.0
-		promo: {
-			price:  44.0
-			months: 2
-		}
+		monthly_price: 75.0
 		category:      "residential"
 	}, {
 		name:          "Premium"
@@ -55,9 +40,16 @@ providers: belong: #Provider & {
 		upload_mbps:   20
 		monthly_price: 95.0
 		promo: {
-			price:  47.5
+			price:  47.0
 			months: 2
 		}
+		category: "residential"
+	}, {
+		name:          "Standard Plus"
+		speed_tier:    "NBN50"
+		download_mbps: 50
+		upload_mbps:   20
+		monthly_price: 91.0
 		category:      "residential"
 	}, {
 		name:          "Fast"
@@ -66,10 +58,10 @@ providers: belong: #Provider & {
 		upload_mbps:   50
 		monthly_price: 95.0
 		promo: {
-			price:  47.5
+			price:  47.0
 			months: 2
 		}
-		category:      "residential"
+		category: "residential"
 	}, {
 		name:          "Ultrafast"
 		speed_tier:    "NBN1000"
@@ -80,6 +72,6 @@ providers: belong: #Provider & {
 			price:  55.0
 			months: 2
 		}
-		category:      "residential"
+		category: "residential"
 	}]
 }
