@@ -4,14 +4,13 @@ providers: superloop: {
 	name:            "Superloop"
 	slug:            "superloop"
 	website_url:     "https://www.superloop.com"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "paid_static_ip"
+	connection_type: "PPPoE"
+	cgnat:           false
+	cgnat_opt_out:   "unavailable"
 	static_ip: {
-		available:    true
-		monthly_cost: 5.0
+		available:    false
+		monthly_cost: 0.0
 	}
-	billing_policy:  "30-day-notice"
 	ipv6: available:    false
 	upstream: backhaul: "Own"
 }

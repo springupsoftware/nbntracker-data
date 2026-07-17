@@ -9,9 +9,9 @@ providers: leaptel: {
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    true
-		monthly_cost: 10
+		monthly_cost: 10.0
 	}
-	billing_policy:  "pro-rata"
+	billing_policy: "pro-rata"
 	ipv6: available:   true
 	upstream: enabler: "Superloop"
 }

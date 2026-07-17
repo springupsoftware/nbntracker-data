@@ -29,7 +29,7 @@ tangerine: [{
 	upload_mbps:   50
 	monthly_price: 92.9
 	promo: {
-		price:  67.9
+		price:  63.9
 		months: 6
 	}
 	category: "residential"

@@ -11,7 +11,7 @@ providers: futurebroadband: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy:  "14-day-notice"
+	billing_policy: "14-day-notice"
 	ipv6: available: false
 	upstream: {}
 }

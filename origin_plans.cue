@@ -12,7 +12,6 @@ origin: [{
 	}
 	category: "residential"
 	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
-	notes:    "1-2 people watching movies or TV shows online, streaming music or browsing."
 }, {
 	name:          "Experience nbn™ 50/20"
 	speed_tier:    "NBN50"
@@ -25,7 +24,6 @@ origin: [{
 	}
 	category: "residential"
 	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
-	notes:    "2-4 people watching HD videos, casual gaming or downloading movies."
 }, {
 	name:          "Extra Fast nbn™ 500/50"
 	speed_tier:    "NBN500"
@@ -38,7 +36,6 @@ origin: [{
 	}
 	category: "residential"
 	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
-	notes:    "3-5 people watching and streaming HD videos, gaming or heavy downloaders."
 }, {
 	name:          "Ultra Fast nbn™ 1000/100"
 	speed_tier:    "NBN1000"
@@ -51,5 +48,4 @@ origin: [{
 	}
 	category: "residential"
 	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
-	notes:    "5+ people with high downloads and uploads, 8K streaming, intense gaming and more."
 }]

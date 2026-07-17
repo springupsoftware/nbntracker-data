@@ -46,8 +46,8 @@ amaysim: [{
 		price:  50.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
+	category: "residential"
+	cis_url:  "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }, {
 	name:          "NBN 750"
 	speed_tier:    "NBN750"
@@ -58,8 +58,8 @@ amaysim: [{
 		price:  60.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
+	category: "residential"
+	cis_url:  "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }, {
 	name:          "NBN 1000"
 	speed_tier:    "NBN1000"
@@ -70,6 +70,6 @@ amaysim: [{
 		price:  100.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
+	category: "residential"
+	cis_url:  "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
 }]

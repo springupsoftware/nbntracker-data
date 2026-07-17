@@ -11,7 +11,7 @@ providers: carboncomms: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	billing_policy:  "end-of-cycle"
+	billing_policy: "end-of-cycle"
 	ipv6: available:   false
 	upstream: enabler: "Aussie Broadband"
 }

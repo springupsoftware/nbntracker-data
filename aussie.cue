@@ -9,9 +9,9 @@ providers: aussie: {
 	cgnat_opt_out:   "available"
 	static_ip: {
 		available:    true
-		monthly_cost: 5
+		monthly_cost: 5.0
 	}
-	billing_policy:  "pro-rata"
+	billing_policy: "pro-rata"
 	ipv6: available: false
 	upstream: {
 		backhaul:         "Own"

@@ -19,7 +19,6 @@ providers: belong: {
 		assignment:      "dynamic"
 		default_enabled: true
 		supports_pd:     false
-		notes:           "Telstra-backed network; single /64 via SLAAC, no prefix delegation"
 	}
 	upstream: {
 		backhaul:         "Telstra"

@@ -11,6 +11,6 @@ providers: amaysim: {
 		available:    false
 		monthly_cost: 0.0
 	}
-	ipv6: available: false
+	ipv6: available:   false
 	upstream: enabler: "Optus"
 }

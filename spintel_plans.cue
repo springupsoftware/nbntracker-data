@@ -22,8 +22,8 @@ spintel: [{
 		price:  56.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	category: "residential"
+	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "100/20Mbps"
 	speed_tier:    "NBN100"
@@ -36,18 +36,6 @@ spintel: [{
 	}
 	category: "residential"
 	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
-}, {
-	name:          "Fixed Wireless Plus"
-	speed_tier:    "NBN100"
-	download_mbps: 100
-	upload_mbps:   20
-	monthly_price: 84.95
-	promo: {
-		price:  71.0
-		months: 6
-	}
-	category:   "residential"
-	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "500/50Mbps"
 	speed_tier:    "NBN500"
@@ -70,8 +58,8 @@ spintel: [{
 		price:  76.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	category: "residential"
+	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless Superfast"
 	speed_tier:    "NBN500"
@@ -82,8 +70,8 @@ spintel: [{
 		price:  84.0
 		months: 6
 	}
-	category:   "residential"
-	cis_url:    "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	category: "residential"
+	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "750/50Mbps"
 	speed_tier:    "NBN750"
