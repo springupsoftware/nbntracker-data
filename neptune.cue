@@ -16,6 +16,7 @@ providers: neptune: {
 		available:              true
 		prefix_delegation_size: 48
 		supports_pd:            true
+		default_enabled:        true
 	}
-	upstream: enabler: "Aussie Broadband"
+	upstream: enabler: "Superloop"
 }
