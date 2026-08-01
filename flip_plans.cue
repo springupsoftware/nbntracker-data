@@ -18,7 +18,7 @@ flip: [{
 	upload_mbps:   17
 	monthly_price: 84.9
 	promo: {
-		price:  64.0
+		price:  68.0
 		months: 6
 	}
 	category: ""
@@ -40,7 +40,7 @@ flip: [{
 	upload_mbps:   17
 	monthly_price: 88.9
 	promo: {
-		price:  74.0
+		price:  69.0
 		months: 6
 	}
 	category: ""
@@ -51,7 +51,7 @@ flip: [{
 	upload_mbps:   42
 	monthly_price: 88.9
 	promo: {
-		price:  74.0
+		price:  69.0
 		months: 6
 	}
 	category: ""

@@ -43,7 +43,7 @@ spintel: [{
 	upload_mbps:   50
 	monthly_price: 94.95
 	promo: {
-		price:  72.95
+		price:  84.0
 		months: 6
 	}
 	category: ""

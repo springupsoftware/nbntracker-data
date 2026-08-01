@@ -12,6 +12,24 @@ belong: [{
 	}
 	category: ""
 }, {
+	name:          "Premium"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
+	monthly_price: 95.0
+	promo: {
+		price:  47.0
+		months: 2
+	}
+	category: ""
+}, {
+	name:          "Standard Plus"
+	speed_tier:    "NBN50"
+	download_mbps: 50
+	upload_mbps:   20
+	monthly_price: 91.0
+	category:      ""
+}, {
 	name:          "Fast"
 	speed_tier:    "NBN500"
 	download_mbps: 500
@@ -29,22 +47,4 @@ belong: [{
 	upload_mbps:   10
 	monthly_price: 75.0
 	category:      ""
-}, {
-	name:          "Standard Plus"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   20
-	monthly_price: 91.0
-	category:      ""
-}, {
-	name:          "Premium"
-	speed_tier:    "NBN100"
-	download_mbps: 100
-	upload_mbps:   20
-	monthly_price: 95.0
-	promo: {
-		price:  47.0
-		months: 2
-	}
-	category: ""
 }]
