@@ -1,6 +1,18 @@
 package data
 
 kogan: [{
+	name:          "Kogan Diamond nbn® 850"
+	speed_tier:    "NBN1000"
+	download_mbps: 850
+	upload_mbps:   85
+	monthly_price: 108.9
+	promo: {
+		price:  94.9
+		months: 12
+	}
+	category: ""
+	cis_url:  "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260206_DiamondUnlimited_CIS.pdf"
+}, {
 	name:          "Kogan Bronze nbn® 25"
 	speed_tier:    "NBN25"
 	download_mbps: 25
@@ -60,16 +72,4 @@ kogan: [{
 	}
 	category: ""
 	cis_url:  "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260206_PlatinumUnlimited_CIS.pdf"
-}, {
-	name:          "Kogan Diamond nbn® 850"
-	speed_tier:    "NBN1000"
-	download_mbps: 850
-	upload_mbps:   85
-	monthly_price: 108.9
-	promo: {
-		price:  94.9
-		months: 12
-	}
-	category: ""
-	cis_url:  "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260206_DiamondUnlimited_CIS.pdf"
 }]
