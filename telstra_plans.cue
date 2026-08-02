@@ -6,7 +6,6 @@ telstra: [{
 	download_mbps: 25
 	upload_mbps:   10
 	monthly_price: 89.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Essential nbn"
@@ -14,7 +13,6 @@ telstra: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Essential nbn"
@@ -22,7 +20,6 @@ telstra: [{
 	download_mbps: 100
 	upload_mbps:   20
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Premium nbn"
@@ -30,7 +27,6 @@ telstra: [{
 	download_mbps: 100
 	upload_mbps:   20
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Premium nbn"
@@ -38,7 +34,6 @@ telstra: [{
 	download_mbps: 250
 	upload_mbps:   48
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Premium nbn"
@@ -46,7 +41,6 @@ telstra: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Ultimate nbn"
@@ -54,7 +48,6 @@ telstra: [{
 	download_mbps: 750
 	upload_mbps:   50
 	monthly_price: 119.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
 	name:          "Ultrafast nbn"
@@ -62,6 +55,5 @@ telstra: [{
 	download_mbps: 1000
 	upload_mbps:   50
 	monthly_price: 129.0
-	category:      ""
 	cis_url:       "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }]

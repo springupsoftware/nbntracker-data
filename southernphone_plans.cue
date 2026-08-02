@@ -6,7 +6,6 @@ southernphone: [{
 	download_mbps: 860
 	upload_mbps:   90
 	monthly_price: 95.0
-	category:      ""
 	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 }, {
 	name:          "nbn Fast X"
@@ -14,7 +13,6 @@ southernphone: [{
 	download_mbps: 500
 	upload_mbps:   45
 	monthly_price: 89.0
-	category:      ""
 	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 }, {
 	name:          "nbn Fast"
@@ -22,7 +20,6 @@ southernphone: [{
 	download_mbps: 87
 	upload_mbps:   18
 	monthly_price: 89.0
-	category:      ""
 	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 }, {
 	name:          "nbn Standard"
@@ -30,7 +27,6 @@ southernphone: [{
 	download_mbps: 50
 	upload_mbps:   18
 	monthly_price: 79.0
-	category:      ""
 	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 }, {
 	name:          "nbn Basic"
@@ -38,6 +34,5 @@ southernphone: [{
 	download_mbps: 25
 	upload_mbps:   4
 	monthly_price: 59.0
-	category:      ""
 	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
 }]

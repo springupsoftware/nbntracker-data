@@ -10,8 +10,7 @@ tpg: [{
 		price:  69.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN25"
 	speed_tier:    "NBN25"
@@ -22,8 +21,7 @@ tpg: [{
 		price:  59.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN50"
 	speed_tier:    "NBN50"
@@ -34,8 +32,7 @@ tpg: [{
 		price:  69.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN Home Superfast"
 	speed_tier:    "NBN750"
@@ -46,8 +43,7 @@ tpg: [{
 		price:  74.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN Home Ultrafast"
 	speed_tier:    "NBN1000"
@@ -58,8 +54,7 @@ tpg: [{
 		price:  84.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
 	name:          "NBN100"
 	speed_tier:    "NBN100"
@@ -70,6 +65,5 @@ tpg: [{
 		price:  69.99
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }]

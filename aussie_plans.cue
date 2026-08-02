@@ -6,7 +6,6 @@ aussie: [{
 	download_mbps: 12
 	upload_mbps:   1
 	monthly_price: 77.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "Basic Plus"
@@ -14,7 +13,6 @@ aussie: [{
 	download_mbps: 25
 	upload_mbps:   10
 	monthly_price: 83.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "Value"
@@ -22,7 +20,6 @@ aussie: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 95.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "Super-Fast PRO"
@@ -30,7 +27,6 @@ aussie: [{
 	download_mbps: 250
 	upload_mbps:   100
 	monthly_price: 114.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
 }, {
 	name:          "Fast"
@@ -38,7 +34,6 @@ aussie: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Hyper-Fast PRO"
@@ -46,7 +41,6 @@ aussie: [{
 	download_mbps: 500
 	upload_mbps:   200
 	monthly_price: 136.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Super-Fast"
@@ -54,7 +48,6 @@ aussie: [{
 	download_mbps: 750
 	upload_mbps:   50
 	monthly_price: 119.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Ultra-Fast"
@@ -62,7 +55,6 @@ aussie: [{
 	download_mbps: 1000
 	upload_mbps:   100
 	monthly_price: 129.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Ultra-Fast PRO"
@@ -70,7 +62,6 @@ aussie: [{
 	download_mbps: 1000
 	upload_mbps:   400
 	monthly_price: 160.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Hyper-Fast"
@@ -78,7 +69,6 @@ aussie: [{
 	download_mbps: 2000
 	upload_mbps:   200
 	monthly_price: 189.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Hyper-Fast PRO"
@@ -86,7 +76,6 @@ aussie: [{
 	download_mbps: 2000
 	upload_mbps:   500
 	monthly_price: 220.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "12-1"
@@ -94,7 +83,6 @@ aussie: [{
 	download_mbps: 12
 	upload_mbps:   1
 	monthly_price: 77.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "25-10"
@@ -102,7 +90,6 @@ aussie: [{
 	download_mbps: 25
 	upload_mbps:   10
 	monthly_price: 83.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "50-20"
@@ -110,7 +97,6 @@ aussie: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 95.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
 	name:          "250-100"
@@ -118,7 +104,6 @@ aussie: [{
 	download_mbps: 250
 	upload_mbps:   100
 	monthly_price: 114.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
 }, {
 	name:          "Fast"
@@ -126,7 +111,6 @@ aussie: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Turbofast Plus"
@@ -134,7 +118,6 @@ aussie: [{
 	download_mbps: 500
 	upload_mbps:   200
 	monthly_price: 136.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "1000-400"
@@ -142,7 +125,6 @@ aussie: [{
 	download_mbps: 1000
 	upload_mbps:   400
 	monthly_price: 160.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
 	name:          "Hyper-Fast Plus"
@@ -150,6 +132,5 @@ aussie: [{
 	download_mbps: 2000
 	upload_mbps:   500
 	monthly_price: 220.0
-	category:      ""
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }]

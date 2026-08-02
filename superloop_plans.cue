@@ -10,8 +10,7 @@ superloop: [{
 		price:  58.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Extra Value"
 	speed_tier:    "NBN50"
@@ -22,8 +21,7 @@ superloop: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Superfast Plus"
 	speed_tier:    "NBN250"
@@ -34,8 +32,7 @@ superloop: [{
 		price:  82.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Family Max"
 	speed_tier:    "NBN500"
@@ -46,8 +43,7 @@ superloop: [{
 		price:  65.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Megaspeed"
 	speed_tier:    "NBN750"
@@ -58,8 +54,7 @@ superloop: [{
 		price:  74.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Lightspeed"
 	speed_tier:    "NBN1000"
@@ -70,8 +65,7 @@ superloop: [{
 		price:  84.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Hyperspeed"
 	speed_tier:    "NBN2000"
@@ -82,8 +76,7 @@ superloop: [{
 		price:  148.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
+	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
 }, {
 	name:          "Totalbiz 50/20"
 	speed_tier:    "NBN50"
@@ -94,8 +87,7 @@ superloop: [{
 		price:  74.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }, {
 	name:          "Totalbiz 250/100"
 	speed_tier:    "NBN250"
@@ -106,8 +98,7 @@ superloop: [{
 		price:  82.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }, {
 	name:          "Totalbiz 500/50"
 	speed_tier:    "NBN500"
@@ -118,8 +109,7 @@ superloop: [{
 		price:  80.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }, {
 	name:          "Totalbiz 500/200"
 	speed_tier:    "NBN500"
@@ -130,8 +120,7 @@ superloop: [{
 		price:  103.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }, {
 	name:          "Totalbiz 750/50"
 	speed_tier:    "NBN750"
@@ -142,8 +131,7 @@ superloop: [{
 		price:  89.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }, {
 	name:          "Totalbiz 1000/100"
 	speed_tier:    "NBN1000"
@@ -154,6 +142,5 @@ superloop: [{
 		price:  104.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
+	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
 }]

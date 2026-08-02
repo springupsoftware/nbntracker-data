@@ -6,7 +6,6 @@ zipfibre: [{
 	download_mbps: 1000
 	upload_mbps:   400
 	monthly_price: 145.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Hyperfast"
@@ -14,7 +13,6 @@ zipfibre: [{
 	download_mbps: 2000
 	upload_mbps:   200
 	monthly_price: 175.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Pro 500"
@@ -22,7 +20,6 @@ zipfibre: [{
 	download_mbps: 500
 	upload_mbps:   200
 	monthly_price: 116.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Hyperfast"
@@ -30,7 +27,6 @@ zipfibre: [{
 	download_mbps: 2000
 	upload_mbps:   100
 	monthly_price: 175.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Pro Hyperfast"
@@ -38,7 +34,6 @@ zipfibre: [{
 	download_mbps: 2000
 	upload_mbps:   500
 	monthly_price: 224.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Ultrafast"
@@ -46,7 +41,6 @@ zipfibre: [{
 	download_mbps: 1000
 	upload_mbps:   100
 	monthly_price: 105.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Ultrafast"
@@ -54,7 +48,6 @@ zipfibre: [{
 	download_mbps: 1000
 	upload_mbps:   100
 	monthly_price: 105.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Superfast"
@@ -62,7 +55,6 @@ zipfibre: [{
 	download_mbps: 750
 	upload_mbps:   50
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Fast"
@@ -70,7 +62,6 @@ zipfibre: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 85.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Superfast"
@@ -78,7 +69,6 @@ zipfibre: [{
 	download_mbps: 750
 	upload_mbps:   50
 	monthly_price: 99.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }, {
 	name:          "Fast"
@@ -86,6 +76,5 @@ zipfibre: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 85.0
-	category:      ""
 	cis_url:       "https://www.zipfibre.com.au/sites/zipfibre/files/cis/ZipFibre_NBN_CIS.pdf"
 }]

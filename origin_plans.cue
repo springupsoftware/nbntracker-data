@@ -10,8 +10,7 @@ origin: [{
 		price:  85.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
+	cis_url: "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 }, {
 	name:          "Experience nbn™ 50/20"
 	speed_tier:    "NBN50"
@@ -22,8 +21,7 @@ origin: [{
 		price:  99.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
+	cis_url: "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 }, {
 	name:          "Extra Fast nbn™ 500/50"
 	speed_tier:    "NBN500"
@@ -34,8 +32,7 @@ origin: [{
 		price:  104.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
+	cis_url: "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 }, {
 	name:          "Ultra Fast nbn™ 1000/100"
 	speed_tier:    "NBN1000"
@@ -46,6 +43,5 @@ origin: [{
 		price:  134.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
+	cis_url: "https://www.originenergy.com.au/internet/terms-conditions/critical-information-summary/"
 }]

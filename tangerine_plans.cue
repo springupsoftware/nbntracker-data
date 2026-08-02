@@ -10,7 +10,6 @@ tangerine: [{
 		price:  47.9
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Value Plus"
 	speed_tier:    "NBN50"
@@ -21,7 +20,6 @@ tangerine: [{
 		price:  64.9
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Speedy Max"
 	speed_tier:    "NBN500"
@@ -32,7 +30,6 @@ tangerine: [{
 		price:  63.9
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "UltraSpeedy"
 	speed_tier:    "NBN1000"
@@ -43,5 +40,4 @@ tangerine: [{
 		price:  89.9
 		months: 6
 	}
-	category: ""
 }]

@@ -10,8 +10,7 @@ swoop: [{
 		price:  54.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
+	cis_url: "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 }, {
 	name:          "nbn® 50/20"
 	speed_tier:    "NBN50"
@@ -22,8 +21,7 @@ swoop: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
+	cis_url: "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 }, {
 	name:          "nbn® 500/50"
 	speed_tier:    "NBN500"
@@ -34,8 +32,7 @@ swoop: [{
 		price:  72.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
+	cis_url: "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 }, {
 	name:          "nbn® 1000/100"
 	speed_tier:    "NBN1000"
@@ -46,6 +43,5 @@ swoop: [{
 		price:  85.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
+	cis_url: "https://www.swoop.com.au/wp-content/uploads/2026/02/SWO_A1A01_Res_CIS_nbn_20260203.pdf"
 }]

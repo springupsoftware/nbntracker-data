@@ -10,7 +10,6 @@ optus: [{
 		price:  73.0
 		months: 12
 	}
-	category: ""
 }, {
 	name:          "Everyday Plan"
 	speed_tier:    "NBN50"
@@ -21,7 +20,6 @@ optus: [{
 		price:  87.0
 		months: 12
 	}
-	category: ""
 }, {
 	name:          "Fast Plan"
 	speed_tier:    "NBN500"
@@ -32,7 +30,6 @@ optus: [{
 		price:  89.0
 		months: 12
 	}
-	category: ""
 }, {
 	name:          "Promo plan"
 	speed_tier:    "NBN500"
@@ -43,7 +40,6 @@ optus: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Promo Plus plan"
 	speed_tier:    "NBN500"
@@ -54,7 +50,6 @@ optus: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Ultrafast Plan"
 	speed_tier:    "NBN1000"
@@ -65,5 +60,4 @@ optus: [{
 		price:  119.0
 		months: 12
 	}
-	category: ""
 }]

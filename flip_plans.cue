@@ -10,7 +10,6 @@ flip: [{
 		price:  48.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Family"
 	speed_tier:    "NBN50"
@@ -21,7 +20,6 @@ flip: [{
 		price:  68.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Super Speed"
 	speed_tier:    "NBN750"
@@ -32,7 +30,6 @@ flip: [{
 		price:  78.0
 		months: 4
 	}
-	category: ""
 }, {
 	name:          "Turbo Boost"
 	speed_tier:    "NBN100"
@@ -43,7 +40,6 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Fast Speed"
 	speed_tier:    "NBN500"
@@ -54,7 +50,6 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
-	category: ""
 }, {
 	name:          "Ultra Speed"
 	speed_tier:    "NBN1000"
@@ -65,5 +60,4 @@ flip: [{
 		price:  89.0
 		months: 4
 	}
-	category: ""
 }]

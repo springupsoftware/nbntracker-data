@@ -6,5 +6,4 @@ exetel: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 80.0
-	category:      ""
 }]

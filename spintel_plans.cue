@@ -10,8 +10,7 @@ spintel: [{
 		price:  44.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "100/20Mbps"
 	speed_tier:    "NBN100"
@@ -22,8 +21,7 @@ spintel: [{
 		price:  76.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "500/50Mbps"
 	speed_tier:    "NBN500"
@@ -34,8 +32,7 @@ spintel: [{
 		price:  79.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "750/50Mbps"
 	speed_tier:    "NBN750"
@@ -46,8 +43,7 @@ spintel: [{
 		price:  84.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless 25/5Mbps"
 	speed_tier:    "NBN25"
@@ -58,8 +54,7 @@ spintel: [{
 		price:  56.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless Home Fast"
 	speed_tier:    "NBN250"
@@ -70,8 +65,7 @@ spintel: [{
 		price:  76.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless Superfast"
 	speed_tier:    "NBN500"
@@ -82,6 +76,5 @@ spintel: [{
 		price:  84.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
+	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }]

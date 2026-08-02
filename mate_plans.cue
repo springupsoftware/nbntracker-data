@@ -10,8 +10,7 @@ mate: [{
 		price:  55.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "Ripper"
 	speed_tier:    "NBN50"
@@ -22,8 +21,7 @@ mate: [{
 		price:  70.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "No Worries"
 	speed_tier:    "NBN100"
@@ -34,8 +32,7 @@ mate: [{
 		price:  75.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "You Beaut"
 	speed_tier:    "NBN100"
@@ -46,8 +43,7 @@ mate: [{
 		price:  85.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "No Worries"
 	speed_tier:    "NBN500"
@@ -58,8 +54,7 @@ mate: [{
 		price:  75.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "Fair Dinkum"
 	speed_tier:    "NBN750"
@@ -70,8 +65,7 @@ mate: [{
 		price:  100.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "Flamin' Fast"
 	speed_tier:    "NBN1000"
@@ -82,8 +76,7 @@ mate: [{
 		price:  101.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "Scorchin' Fast"
 	speed_tier:    "NBN2000"
@@ -94,8 +87,7 @@ mate: [{
 		price:  141.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }, {
 	name:          "Scorchin' Fast"
 	speed_tier:    "NBN2000"
@@ -106,6 +98,5 @@ mate: [{
 		price:  141.0
 		months: 6
 	}
-	category: ""
-	cis_url:  "https://www.letsbemates.com.au/critical-information-summary/"
+	cis_url: "https://www.letsbemates.com.au/critical-information-summary/"
 }]

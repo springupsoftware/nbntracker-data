@@ -6,7 +6,6 @@ more: [{
 	download_mbps: 25
 	upload_mbps:   10
 	monthly_price: 80.0
-	category:      ""
 	cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 }, {
 	name:          "Value Plus"
@@ -14,7 +13,6 @@ more: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 100.0
-	category:      ""
 	cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 }, {
 	name:          "Fast Max"
@@ -22,7 +20,6 @@ more: [{
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 105.0
-	category:      ""
 	cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 }, {
 	name:          "Ultrafast"
@@ -30,6 +27,5 @@ more: [{
 	download_mbps: 1000
 	upload_mbps:   100
 	monthly_price: 125.0
-	category:      ""
 	cis_url:       "https://www.more.com.au/legal/critical-information-summaries/"
 }]
