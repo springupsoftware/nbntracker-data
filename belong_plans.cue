@@ -1,6 +1,16 @@
 package data
 
 belong: [{
+	name:          "Premium"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
+	monthly_price: 95.0
+	promo: {
+		price:  47.0
+		months: 2
+	}
+}, {
 	name:          "Fast"
 	speed_tier:    "NBN500"
 	download_mbps: 500
@@ -26,16 +36,6 @@ belong: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 91.0
-}, {
-	name:          "Premium"
-	speed_tier:    "NBN100"
-	download_mbps: 100
-	upload_mbps:   20
-	monthly_price: 95.0
-	promo: {
-		price:  47.0
-		months: 2
-	}
 }, {
 	name:          "Starter"
 	speed_tier:    "NBN25"
