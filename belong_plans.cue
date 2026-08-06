@@ -13,18 +13,8 @@ belong: [{
 	upload_mbps:   50
 	monthly_price: 95.0
 	promo: {
-		price:  47.0
-		months: 2
-	}
-}, {
-	name:          "Ultrafast"
-	speed_tier:    "NBN1000"
-	download_mbps: 1000
-	upload_mbps:   100
-	monthly_price: 110.0
-	promo: {
-		price:  55.0
-		months: 2
+		price:  69.0
+		months: 6
 	}
 }, {
 	name:          "Premium"
@@ -33,8 +23,8 @@ belong: [{
 	upload_mbps:   20
 	monthly_price: 95.0
 	promo: {
-		price:  47.0
-		months: 2
+		price:  69.0
+		months: 6
 	}
 }, {
 	name:          "Standard Plus"
@@ -42,4 +32,10 @@ belong: [{
 	download_mbps: 50
 	upload_mbps:   20
 	monthly_price: 91.0
+}, {
+	name:          "Ultrafast"
+	speed_tier:    "NBN1000"
+	download_mbps: 1000
+	upload_mbps:   100
+	monthly_price: 110.0
 }]

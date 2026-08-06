@@ -29,7 +29,7 @@ spintel: [{
 	upload_mbps:   50
 	monthly_price: 89.95
 	promo: {
-		price:  79.0
+		price:  69.0
 		months: 6
 	}
 	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
