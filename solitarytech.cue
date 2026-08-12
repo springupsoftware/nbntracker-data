@@ -16,6 +16,7 @@ providers: solitarytech: {
 		available:  true
 		prefix_delegation_size: 56
 		default_enabled: true
+		supports_pd: true
 	      
 	}
 	upstream: enabler: "Superloop"
