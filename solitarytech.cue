@@ -1,24 +1,22 @@
 package data
 
 providers: solitarytech: {
-	name:            "Solitary Technology"
-	slug:            "solitarytech"
-	website_url:     "https://solitarytech.com.au"
-	connection_type: "IPoE"
-	cgnat:           true
-	cgnat_opt_out:   "available"
+	name:             "Solitary Technology"
+	slug:             "solitarytech"
+	website_url:      "https://solitarytech.com.au"
+	connection_type:  "IPoE"
+	cgnat:            true
+	cgnat_opt_out:    "available"
+	support_location: "Australia"
 	static_ip: {
 		available:    true
 		monthly_cost: 0.0
-		notes: "Available on request"
 	}
 	ipv6: {
-		available:  true
+		available:              true
 		prefix_delegation_size: 56
-		default_enabled: true
-		supports_pd: true
-	      
+		default_enabled:        true
+		supports_pd:            true
 	}
 	upstream: enabler: "Superloop"
-	support_location: "Australia"
 }
