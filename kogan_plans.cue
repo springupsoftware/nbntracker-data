@@ -1,17 +1,6 @@
 package data
 
 kogan: [{
-	name:          "Kogan Silver nbn® 50"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   17
-	monthly_price: 80.9
-	promo: {
-		price:  69.9
-		months: 12
-	}
-	cis_url: "https://kwalify-media-prod.s3.amazonaws.com/documents/260602_SilverUnlimited_CIS..pdf"
-}, {
 	name:          "Kogan Gold nbn® 98"
 	speed_tier:    "NBN100"
 	download_mbps: 98
@@ -66,4 +55,15 @@ kogan: [{
 		months: 12
 	}
 	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260130_BronzeUnlimited_CIS.pdf"
+}, {
+	name:          "Kogan Silver nbn® 50"
+	speed_tier:    "NBN50"
+	download_mbps: 50
+	upload_mbps:   17
+	monthly_price: 80.9
+	promo: {
+		price:  69.9
+		months: 12
+	}
+	cis_url: "https://kwalify-media-prod.s3.amazonaws.com/documents/260602_SilverUnlimited_CIS..pdf"
 }]
