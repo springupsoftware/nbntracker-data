@@ -13,13 +13,13 @@ providers: neptune: {
 		monthly_cost: 0.0
 	}
 	billing_policy: "pro-rata"
-	pop_states: ["NSW", "VIC", "QLD", "WA"]
+	pop_states: ["NSW", "VIC", "QLD", "WA", "SA", "ACT"]
 	ipv6: {
 		available:              true
-		prefix_delegation_size: 56
+		prefix_delegation_size: 48
 		assignment:             "dynamic"
 		default_enabled:        true
 		supports_pd:            true
 	}
-	upstream: enabler: "Aussie Broadband"
+	upstream: enabler: "Superloop"
 }
