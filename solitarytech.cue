@@ -14,7 +14,7 @@ providers: solitarytech: {
 	}
 	ipv6: {
 		available:              true
-		prefix_delegation_size: 56
+		prefix_delegation_size: 48
 		default_enabled:        true
 		supports_pd:            true
 	}

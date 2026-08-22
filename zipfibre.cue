@@ -8,9 +8,16 @@ providers: zipfibre: {
 	cgnat:           true
 	cgnat_opt_out:   "available"
 	static_ip: {
-		available:    false
+		available:    true
 		monthly_cost: 0.0
 	}
-	ipv6: available:    false
+	ipv6: available:    true
 	upstream: backhaul: "Vocus"
+	ipv6: {
+		available:              true
+		prefix_delegation_size: 56
+		assignment:             "dynamic"
+		default_enabled:        true
+		supports_pd:            true
+	}
 }
