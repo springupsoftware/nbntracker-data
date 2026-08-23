@@ -11,8 +11,6 @@ providers: zipfibre: {
 		available:    true
 		monthly_cost: 0.0
 	}
-	ipv6: available:    true
-	upstream: backhaul: "Vocus"
 	ipv6: {
 		available:              true
 		prefix_delegation_size: 56
@@ -20,4 +18,5 @@ providers: zipfibre: {
 		default_enabled:        true
 		supports_pd:            true
 	}
+	upstream: backhaul: "Vocus"
 }
