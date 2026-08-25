@@ -7,7 +7,7 @@ tangerine: [{
 	upload_mbps:   10
 	monthly_price: 72.9
 	promo: {
-		price:  47.9
+		price:  42.9
 		months: 6
 	}
 }, {
@@ -27,7 +27,7 @@ tangerine: [{
 	upload_mbps:   50
 	monthly_price: 92.9
 	promo: {
-		price:  63.9
+		price:  62.9
 		months: 6
 	}
 }, {
