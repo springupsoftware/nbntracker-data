@@ -17,12 +17,6 @@ belong: [{
 	upload_mbps:   100
 	monthly_price: 110.0
 }, {
-	name:          "Standard Plus"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   20
-	monthly_price: 91.0
-}, {
 	name:          "Fast"
 	speed_tier:    "NBN500"
 	download_mbps: 500
@@ -38,4 +32,10 @@ belong: [{
 	download_mbps: 25
 	upload_mbps:   10
 	monthly_price: 75.0
+}, {
+	name:          "Standard Plus"
+	speed_tier:    "NBN50"
+	download_mbps: 50
+	upload_mbps:   20
+	monthly_price: 91.0
 }]
