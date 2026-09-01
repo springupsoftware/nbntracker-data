@@ -10,8 +10,9 @@ quokkanet: [{
 		price:  49.0
 		months: 6
 	}
-	data_cap_gb:   500
-	technology:    "nbn-fw"
+	data_cap_gb: 500
+	cis_url:     "https://quokkanet.au/cis-nbn-fw-broadband/"
+	technology:  "nbn-fw"
 }, {
 	name:          "Wireless Plus"
 	speed_tier:    "NBN100"
@@ -22,8 +23,9 @@ quokkanet: [{
 		price:  74.0
 		months: 6
 	}
-	data_cap_gb:   500
-	technology:    "nbn-fw"
+	data_cap_gb: 500
+	cis_url:     "https://quokkanet.au/cis-nbn-fw-broadband/"
+	technology:  "nbn-fw"
 }, {
 	name:          "Fast Wireless"
 	speed_tier:    "NBN250"
@@ -34,7 +36,8 @@ quokkanet: [{
 		price:  79.0
 		months: 6
 	}
-	technology:    "nbn-fw"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband/"
+	technology: "nbn-fw"
 }, {
 	name:          "Superfast Wireless"
 	speed_tier:    "NBN400"
@@ -45,5 +48,6 @@ quokkanet: [{
 		price:  89.0
 		months: 6
 	}
-	technology:    "nbn-fw"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband/"
+	technology: "nbn-fw"
 }]

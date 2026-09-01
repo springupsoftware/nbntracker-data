@@ -7,6 +7,7 @@ url: [{
 	upload_mbps:   5
 	monthly_price: 79.0
 	data_cap_gb:   500
+	cis_url:       "https://dashboard.url.net.au/cis/801"
 	technology:    "nbn-fw"
 }, {
 	name:          "FW Plus"
@@ -15,6 +16,7 @@ url: [{
 	upload_mbps:   20
 	monthly_price: 89.0
 	data_cap_gb:   500
+	cis_url:       "https://dashboard.url.net.au/cis/803"
 	technology:    "nbn-fw"
 }, {
 	name:          "FW Home Fast"
@@ -22,6 +24,7 @@ url: [{
 	download_mbps: 250
 	upload_mbps:   20
 	monthly_price: 90.0
+	cis_url:       "https://dashboard.url.net.au/cis/837"
 	technology:    "nbn-fw"
 }, {
 	name:          "FW Home Superfast"
@@ -29,5 +32,6 @@ url: [{
 	download_mbps: 400
 	upload_mbps:   40
 	monthly_price: 99.0
+	cis_url:       "https://dashboard.url.net.au/cis/836"
 	technology:    "nbn-fw"
 }]
