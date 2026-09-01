@@ -398,15 +398,11 @@ metadata.json, this file), `nbntracker/data/` sync
 | Southernphone satellite plans silently stale | Med | Flagged in notes + open question below; writer preserves them so they at least don't vanish |
 | planKey change affects an unknown consumer | Low | `planKey` is private to writer.go; grep-verified single use site |
 
-## Open questions
+## Resolved decisions (T7)
 
-1. **Flip FW** — flip doesn't sell nbn FW, so there is nothing to scrape.
-   Confirm this matches expectations (nbn.co's FW RSP list also omits flip).
-2. **Southernphone satellite pricing** — no longer published anywhere
-   reachable. Options: (a) keep the T6.1 entries with a staleness note
-   (default); (b) remove them; (c) user supplies current Pivotel prices
-   (e.g. via customer care) for a fresh manual entry.
-3. **FW speed convention** — OK to mix typical (25/4, 95/10) and nominal
-   (250/20, 400/40) within one provider, or should all four be nominal
-   (25/5, 100/20, 250/20, 400/40)? Default: keep API typical values,
-   nominal fallback.
+1. Flip FW: N/A — flip is not an nbn fixed wireless RSP. Confirmed.
+2. Southernphone satellite: **remove** the T6.1 manual Pivotel SMPP plan
+   entries (no longer priced anywhere reachable). The provider keeps its
+   `satellite` access-tech tag; only the plan entries go.
+3. FW speed convention: mixed typical/nominal is acceptable, with a note
+   in the provider `notes`.
