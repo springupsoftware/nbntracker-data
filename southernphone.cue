@@ -4,8 +4,6 @@ providers: southernphone: {
 	name:             "Southern Phone"
 	slug:             "southernphone"
 	website_url:      "https://www.southernphone.com.au"
-	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
-	satellite: sky_muster_premium: true
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
@@ -22,5 +20,7 @@ providers: southernphone: {
 		supports_pd: true
 	}
 	upstream: enabler: "Telcoinabox"
-	notes:            "Satellite plans are the Pivotel brand (pivotel.com.au). SMPP plan prices from pivotel.com.au/nbn-sky-muster-satellite (accessed 2026-08-24)."
+	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
+	satellite: sky_muster_premium: true
+	notes: "Fixed-line and fixed-wireless plans scraped from the Southern Phone products API. FW speeds mix API typical busy-period figures (25/4, 95/10) with nominal nbn TC4 tier speeds (250/20, 400/40) where the API hadn't published typical speeds yet. Satellite (Pivotel brand) plans are no longer publicly priced and are not tracked."
 }

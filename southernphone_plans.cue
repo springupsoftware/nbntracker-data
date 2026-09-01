@@ -6,67 +6,65 @@ southernphone: [{
 	download_mbps: 860
 	upload_mbps:   90
 	monthly_price: 95.0
-	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
+	cis_url:       "https://sthnphone.com/nbn-cis"
 }, {
 	name:          "nbn Fast X"
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   45
 	monthly_price: 89.0
-	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
+	cis_url:       "https://sthnphone.com/nbn-cis"
 }, {
 	name:          "nbn Fast"
 	speed_tier:    "NBN100"
 	download_mbps: 87
 	upload_mbps:   18
 	monthly_price: 89.0
-	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
+	cis_url:       "https://sthnphone.com/nbn-cis"
 }, {
 	name:          "nbn Standard"
 	speed_tier:    "NBN50"
 	download_mbps: 50
 	upload_mbps:   18
 	monthly_price: 79.0
-	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
+	cis_url:       "https://sthnphone.com/nbn-cis"
 }, {
 	name:          "nbn Basic"
 	speed_tier:    "NBN25"
 	download_mbps: 25
 	upload_mbps:   4
 	monthly_price: 59.0
-	cis_url:       "https://southernphone-prod.dotcms.cloud/dA/552a5bd7-7144-4f53-afd7-adba45301cc0/fileAsset/SPC%20nbn%20CIS%2014112025.pdf"
+	cis_url:       "https://sthnphone.com/nbn-cis"
 }, {
-	// Pivotel-branded Sky Muster Plus Premium plans.
-	name:          "nbn 25 Sky Muster Plus Premium"
+	name:          "Fixed Wireless Fast"
+	speed_tier:    "NBN250"
+	download_mbps: 250
+	upload_mbps:   20
+	monthly_price: 89.0
+	cis_url:       "https://sthnphone.com/nbnfw-cis"
+	technology:    "nbn-fw"
+}, {
+	name:          "Fixed Wireless Superfast"
+	speed_tier:    "NBN400"
+	download_mbps: 400
+	upload_mbps:   40
+	monthly_price: 95.0
+	cis_url:       "https://sthnphone.com/nbnfw-cis"
+	technology:    "nbn-fw"
+}, {
+	name:          "Fixed Wireless Plus"
+	speed_tier:    "NBN100"
+	download_mbps: 95
+	upload_mbps:   10
+	monthly_price: 79.0
+	cis_url:       "https://sthnphone.com/nbnfw-cis"
+	technology:    "nbn-fw"
+}, {
+	name:          "nbn Fixed Wireless"
 	speed_tier:    "NBN25"
 	download_mbps: 25
-	upload_mbps:   5
+	upload_mbps:   4
 	monthly_price: 59.0
-	promo: {
-		price:  55.0
-		months: 6
-	}
-	technology:    "satellite"
-}, {
-	name:          "nbn 50 Sky Muster Plus Premium"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   5
-	monthly_price: 75.0
-	promo: {
-		price:  70.0
-		months: 6
-	}
-	technology:    "satellite"
-}, {
-	name:          "nbn 100 Sky Muster Plus Premium"
-	speed_tier:    "NBN100"
-	download_mbps: 100
-	upload_mbps:   5
-	monthly_price: 99.0
-	promo: {
-		price:  89.0
-		months: 6
-	}
-	technology:    "satellite"
+	cis_url:       "https://sthnphone.com/nbnfw-cis"
+	technology:    "nbn-fw"
 }]

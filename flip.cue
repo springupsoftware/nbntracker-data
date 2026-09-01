@@ -18,5 +18,5 @@ providers: flip: {
 	upstream: enabler: "Swoop"
 	nbn_access_techs: ["fixed-line", "satellite"]
 	satellite: sky_muster_premium: true
-	notes:            "Satellite (SMPP) plan prices from Flip plans API Type=SkyMusterPlus (accessed 2026-08-24)."
+	notes: "Fixed-line and satellite (SMPP) plans scraped from the Flip plans API (Type=Standard and Type=SkyMusterPlus)."
 }

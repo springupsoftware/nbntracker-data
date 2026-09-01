@@ -10,6 +10,7 @@ flip: [{
 		price:  48.0
 		months: 12
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%2012months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Family"
 	speed_tier:    "NBN50"
@@ -20,6 +21,7 @@ flip: [{
 		price:  68.0
 		months: 6
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Super Speed"
 	speed_tier:    "NBN750"
@@ -30,6 +32,7 @@ flip: [{
 		price:  78.0
 		months: 4
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%204months%20-%20JUNE_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Turbo Boost"
 	speed_tier:    "NBN100"
@@ -40,6 +43,7 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Fast Speed"
 	speed_tier:    "NBN500"
@@ -50,6 +54,7 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Ultra Speed"
 	speed_tier:    "NBN1000"
@@ -60,6 +65,7 @@ flip: [{
 		price:  89.0
 		months: 4
 	}
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%204months%20-%20JUNE_2026%20_14%20Day%20Trial_.pdf"
 }, {
 	name:          "Sky 25"
 	speed_tier:    "NBN25"
@@ -70,7 +76,8 @@ flip: [{
 		price:  49.0
 		months: 6
 	}
-	technology:    "satellite"
+	cis_url:    "https://flipconnect.com.au/storage/pdf/nbn/NBN_NBNSKYMuster_CIS.pdf"
+	technology: "satellite"
 }, {
 	name:          "Sky 50"
 	speed_tier:    "NBN50"
@@ -81,7 +88,8 @@ flip: [{
 		price:  59.0
 		months: 6
 	}
-	technology:    "satellite"
+	cis_url:    "https://flipconnect.com.au/storage/pdf/nbn/NBN_NBNSKYMuster_CIS.pdf"
+	technology: "satellite"
 }, {
 	name:          "Sky 100"
 	speed_tier:    "NBN100"
@@ -92,5 +100,6 @@ flip: [{
 		price:  74.0
 		months: 6
 	}
-	technology:    "satellite"
+	cis_url:    "https://flipconnect.com.au/storage/pdf/nbn/NBN_NBNSKYMuster_CIS.pdf"
+	technology: "satellite"
 }]
