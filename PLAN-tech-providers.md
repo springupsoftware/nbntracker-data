@@ -143,7 +143,7 @@ should align with those names.
   - Files: `internal/model/model.go`, `internal/loader/loader.go`,
     `internal/handler/providers.go`, `internal/ui/templates/providers.html`
 
-- [ ] **T6: Populate plans for the 19 new RSPs** — detailed plan below.
+- [x] **T6: Populate plans for the 19 new RSPs** — detailed plan below. (T6.0/T6.1/T6.2/T6.4 done 2026-09-01; T6.3 deferred. 16 of 19 providers got plans; 3 unreachable — see notes.)
 
 ## T6 detailed plan
 
@@ -173,7 +173,7 @@ with prices instead of empty provider rows.
 
 ### Tasks
 
-- [ ] **T6.0: Writer round-trip for new fields (prerequisite)**
+- [x] **T6.0: Writer round-trip for new fields (prerequisite)**
   - `writer.go`: add `NBNAccessTechs []string` + `Satellite *satelliteFile`
     (new struct) to `providerFile`; add `Technology string` to `planFile`;
     `modelPlansToFile`: incoming `p.Technology` wins, else preserve existing
@@ -184,7 +184,7 @@ with prices instead of empty provider rows.
   - AC: `go test ./...` passes; regression diff clean.
   - Files: `internal/scraper/writer.go`, `internal/scraper/writer_test.go`
 
-- [ ] **T6.1: Satellite plans (7 providers, manual entry)**
+- [x] **T6.1: Satellite plans (7 providers, manual entry)** — 8 of 9 providers (bordernet.com.au unreachable 2026-08-24, noted). Plans in `*_plans.cue`, `technology: "satellite"`.
   - activ8me, bordernet, cmobile, infinnet, ipstar, multiwave, skymesh
     (+ flip and southernphone satellite plans if published).
   - Source each provider's SM / SM+PP pricing page (+ CIS where linked);
@@ -196,7 +196,7 @@ with prices instead of empty provider rows.
     all satellite plans have a data cap or an explicit unlimited tier.
   - Files: 7–9 new `<slug>_plans.cue` + note tweaks in `<slug>.cue`
 
-- [ ] **T6.2: Fixed-wireless plans (12 providers, manual entry)**
+- [x] **T6.2: Fixed-wireless plans (12 providers, manual entry)** — 9 of 12. Unreachable/skipped: alphacall (prices behind address-check JS), gippsland (site suspended), kinetix (site server error) — all noted in their provider files. New `NBN400` speed tier added to the schema for the nbn TC4 400/40 tier.
   - easyisp, alphacall, ausinternet, australiaonline, gippsland, kinetix,
     lightningip, lizzy, minttelecom, peakconnect, quokkanet, url.
   - Source each provider's nbn FW pricing page; only plans with published
@@ -206,14 +206,14 @@ with prices instead of empty provider rows.
   - AC: `cue export` clean; each of the 12 providers has ≥1 FW plan.
   - Files: 12 new `<slug>_plans.cue`
 
-- [ ] **T6.3: (Optional follow-up) Scrapers for API-friendly providers**
+- [ ] **T6.3: (Optional follow-up) Scrapers for API-friendly providers** — deferred. Revisit if a provider's price changes often; the sites captured in T6.2 were mostly static enough for one-off manual entry.
   - Only where a stable JSON API exists (check per provider; most small
     regional RSPs don't have one). Pattern: `internal/scraper/flip.go`.
   - Register in `isps.go`; tag plans with `Technology` in the scraper.
   - Do NOT register a scraper for a provider whose page is JS-heavy —
     manual entry + `notes` is more maintainable.
 
-- [ ] **T6.4: Verification pass**
+- [x] **T6.4: Verification pass** — `cue vet` clean; `go build`/`go test` clean; live server: `/providers?tech=satellite` lists all 9 nbn.co SM RSPs, `?tech=fixed-wireless` all 18; plan counts on the providers page and satellite/FW plan prices on the home page verified; `metadata.json` bumped.
   - `cue vet`/`cue export` clean; `go test ./...` passes.
   - Loader smoke: every one of the 19 providers has ≥1 plan; satellite plans
     all `technology: "satellite"`.
