@@ -300,9 +300,13 @@ non-fixed-line plans. Recon (2026-09-02) found:
    where absent, map `speed_tier_availability` to nbn TC4 nominal speeds
    (FW Home Fast → 250/20, FW Superfast → 400/40). Unknown tier values are
    skipped (never guessed).
-4. **Southernphone satellite stays manual** — no published prices to scrape.
-   The writer already preserves plans the scraper doesn't return, so the
-   T6.1 entries survive scraper runs untouched.
+4. **The fetched list is authoritative** — `WriteCUE` replaces the CUE
+   plan list with whatever `FetchPlans` returns; existing plans the
+   scraper doesn't return are dropped (this is how southernphone's
+   manual satellite entries get removed per decision 2 in "Resolved
+   decisions"). Rule: every `FetchPlans` must return ALL of the
+   provider's plans across all technologies, or they will be deleted on
+   the next run.
 
 ## Task list
 
