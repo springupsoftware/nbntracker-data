@@ -6,5 +6,5 @@ providers: minttelecom: {
 	website_url:      "https://minttelecom.com.au/plans/fixed-wireless"
 	nbn_access_techs: ["fixed-line", "fixed-wireless"]
 	support_location: "Australia"
-	notes:            "nbn Fixed Wireless RSP per nbn.co"
+	notes:            "nbn Fixed Wireless RSP per nbn.co. FW plan prices from minttelecom.com.au/plans/fixed-wireless (accessed 2026-08-24)."
 }

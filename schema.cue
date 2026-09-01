@@ -1,7 +1,9 @@
 package data
 
 // 1. Updated for 2026 "Accelerate Great" tiers
-#SpeedTier: "NBN12" | "NBN25" | "NBN50" | "NBN100" | "NBN250" | "NBN500" | "NBN750" | "NBN1000" | "NBN2000"
+// NBN400 is the nbn TC4 "new high speed fixed wireless" tier (400/40),
+// available to eligible fixed-wireless addresses.
+#SpeedTier: "NBN12" | "NBN25" | "NBN50" | "NBN100" | "NBN250" | "NBN400" | "NBN500" | "NBN750" | "NBN1000" | "NBN2000"
 
 #ConnectionType: "PPPoE" | "IPoE" | "unknown"
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
