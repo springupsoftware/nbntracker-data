@@ -4,6 +4,8 @@ providers: southernphone: {
 	name:             "Southern Phone"
 	slug:             "southernphone"
 	website_url:      "https://www.southernphone.com.au"
+	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
+	satellite: sky_muster_premium: true
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"

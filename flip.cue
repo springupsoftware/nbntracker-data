@@ -4,6 +4,8 @@ providers: flip: {
 	name:             "Flip"
 	slug:             "flip"
 	website_url:      "https://flipconnect.com.au"
+	nbn_access_techs: ["fixed-line", "satellite"]
+	satellite: sky_muster_premium: true
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "unknown"

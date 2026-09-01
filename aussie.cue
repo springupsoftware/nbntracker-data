@@ -4,6 +4,7 @@ providers: aussie: {
 	name:             "Aussie Broadband"
 	slug:             "aussie"
 	website_url:      "https://www.aussiebroadband.com.au"
+	nbn_access_techs: ["fixed-line", "fixed-wireless"]
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"

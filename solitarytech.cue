@@ -4,6 +4,7 @@ providers: solitarytech: {
 	name:             "Solitary Technology"
 	slug:             "solitarytech"
 	website_url:      "https://solitarytech.com.au"
+	nbn_access_techs: ["fixed-line", "fixed-wireless"]
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"

@@ -7,6 +7,16 @@ package data
 #CGNATOptOut:    "available" | "unavailable" | "unknown" | "N/A" | "paid_static_ip"
 #State:          "NSW" | "VIC" | "QLD" | "WA" | "SA" | "TAS" | "NT" | "ACT"
 
+// Access technologies an RSP sells on the nbn. Drives the site-wide filter.
+// Names align with the nbntracker matchmaker ("wireless"/"satellite" etc.)
+#AccessTech: "fixed-line" | "fixed-wireless" | "satellite"
+
+// The two nbn satellite products (different tiers/caps).
+#SatelliteProducts: {
+	sky_muster:         bool | *false
+	sky_muster_premium: bool | *false
+}
+
 #PaymentMethod: {
 	available:     bool | *true
 	surcharge_pct: number & >=0 & <=10 | *0
@@ -43,7 +53,7 @@ package data
 
 	data_cap_gb?: int & >0
 	category:     "residential" | "business" | "enterprise"
-	technology:   "nbn" | "nbn-fw" | "5g" | "4g" | *"nbn"
+	technology:   "nbn" | "nbn-fw" | "satellite" | "5g" | "4g" | *"nbn"
 
 	cis_url?: string
 	notes?:   string
@@ -93,6 +103,13 @@ package data
 	name:            string & !=""
 	slug:            string & !=""
 	website_url:     string & !=""
+
+	// Access technologies this RSP sells on the nbn (drives the tech filter).
+	// Default: fixed-line MTM only — every mainstream RSP sells at least this.
+	nbn_access_techs: [...#AccessTech] | *["fixed-line"]
+
+	// Optional detail for satellite RSPs (Sky Muster vs Sky Muster Plus Premium)
+	satellite?: #SatelliteProducts
 	connection_type: #ConnectionType | *"unknown"
 	cgnat:           bool | *false
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
