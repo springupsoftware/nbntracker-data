@@ -206,7 +206,7 @@ with prices instead of empty provider rows.
   - AC: `cue export` clean; each of the 12 providers has ≥1 FW plan.
   - Files: 12 new `<slug>_plans.cue`
 
-- [ ] **T6.3: (Optional follow-up) Scrapers for API-friendly providers** — deferred. Revisit if a provider's price changes often; the sites captured in T6.2 were mostly static enough for one-off manual entry.
+- [ ] **T6.3: (Optional follow-up) Scrapers for API-friendly providers** — pilot done: Aus Internet scraper (`internal/scraper/ausinternet.go`, static HTML, no browser). Remaining candidates if wanted: minttelecom, quokkanet, url, lightningip; flip/southernphone could extend to satellite plan tables.
   - Only where a stable JSON API exists (check per provider; most small
     regional RSPs don't have one). Pattern: `internal/scraper/flip.go`.
   - Register in `isps.go`; tag plans with `Technology` in the scraper.
