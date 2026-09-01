@@ -22,4 +22,5 @@ providers: southernphone: {
 		supports_pd: true
 	}
 	upstream: enabler: "Telcoinabox"
+	notes:            "Satellite plans are the Pivotel brand (pivotel.com.au). SMPP plan prices from pivotel.com.au/nbn-sky-muster-satellite (accessed 2026-08-24)."
 }

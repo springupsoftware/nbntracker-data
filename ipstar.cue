@@ -10,5 +10,5 @@ providers: ipstar: {
 		sky_muster_premium: true
 	}
 	support_location: "Australia"
-	notes:            "IPSTAR brand (separate from Infinet Broadband). Sky Muster + nbn Fixed Wireless RSP per nbn.co. 1300 477 827"
+	notes:            "IPSTAR Broadband (separate company from Infinet). Sky Muster + nbn Fixed Wireless RSP per nbn.co. 1300 477 827. SMPP plan prices from skymusterplus.ipstarbroadband.com.au/ (accessed 2026-08-24)."
 }

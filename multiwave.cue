@@ -7,5 +7,5 @@ providers: multiwave: {
 	nbn_access_techs: ["satellite"]
 	satellite: sky_muster_premium: true
 	support_location: "Australia"
-	notes:            "Sky Muster RSP per nbn.co (SM Plus Premium only). 1300 525 800"
+	notes:            "Sky Muster RSP per nbn.co (SM Plus Premium only). 1300 525 800. SMPP plan prices from multiwaveconnect.com.au/nbn-sky-muster-satellite/ (accessed 2026-08-24)."
 }

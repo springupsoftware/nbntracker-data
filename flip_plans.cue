@@ -8,7 +8,7 @@ flip: [{
 	monthly_price: 65.9
 	promo: {
 		price:  48.0
-		months: 6
+		months: 12
 	}
 }, {
 	name:          "Family"
@@ -60,4 +60,37 @@ flip: [{
 		price:  89.0
 		months: 4
 	}
+}, {
+	name:          "Sky 25"
+	speed_tier:    "NBN25"
+	download_mbps: 25
+	upload_mbps:   5
+	monthly_price: 59.9
+	promo: {
+		price:  49.0
+		months: 6
+	}
+	technology:    "satellite"
+}, {
+	name:          "Sky 50"
+	speed_tier:    "NBN50"
+	download_mbps: 50
+	upload_mbps:   5
+	monthly_price: 69.9
+	promo: {
+		price:  59.0
+		months: 6
+	}
+	technology:    "satellite"
+}, {
+	name:          "Sky 100"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   5
+	monthly_price: 79.9
+	promo: {
+		price:  74.0
+		months: 6
+	}
+	technology:    "satellite"
 }]

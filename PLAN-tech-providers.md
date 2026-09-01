@@ -121,6 +121,7 @@ should align with those names.
     minttelecom, peakconnect, quokkanet, url (+ infinnet/ipstar from T3).
   - Note: `nbn_access_techs` absent in export for plain-struct files is expected;
     default `["fixed-line"]` applies in the Go loader (see README).
+- [x] **T5** — see checkpoint below.
   - AC: `cue export` passes; each file tagged `"fixed-wireless"`; 100% of the
     18 RSPs on the nbn.co FW page are covered (incl. the 5 pre-existing).
   - Files: 13 new `*.cue`
@@ -142,12 +143,104 @@ should align with those names.
   - Files: `internal/model/model.go`, `internal/loader/loader.go`,
     `internal/handler/providers.go`, `internal/ui/templates/providers.html`
 
-- [ ] **T6: Populate plans for new providers (follow-up, optional)**
-  - Price/speed data for the 20 new RSPs via scraper (pattern:
-    `internal/scraper/solitarytech.go`) or manual entry; tag satellite plans
-    with `technology: "satellite"` and data caps.
-  - AC: at least the satellite providers have 1+ plan each with correct tier
-    and cap.
+- [ ] **T6: Populate plans for the 19 new RSPs** — detailed plan below.
+
+## T6 detailed plan
+
+### Objective
+
+Give the 19 new RSPs (7 satellite, 12 fixed-wireless) plan data with correct
+`technology` tags and data caps, so the tech-filter results show real plans
+with prices instead of empty provider rows.
+
+### Key findings (from code review, 2026-08-24)
+
+- **Writer round-trip hazard (must fix first):** `internal/scraper/writer.go`
+  round-trips `slug.cue` through the `providerFile` struct and re-serialises
+  it. `providerFile` lacks `nbn_access_techs`/`satellite` and `planFile` lacks
+  `technology` — running the scraper against any of these providers would
+  **silently delete the new fields**.
+- Plan data lives in `<slug>_plans.cue` (`slug: [{…}]`); loader prefers it
+  over embedded plans.
+- Scrapers: `internal/scraper/<slug>.go` + registration in `isps.go` `All()`;
+  `cmd/scraper -data ~/src/nbntracker-data -isp <slug> -skip-push`. Existing
+  providers with scrapers: flip, aussie, neptune, solitarytech, southernphone
+  (all fixed-line plans — their satellite/FW plans are NOT captured today).
+- `modelPlansToFile` drops plans with `upload_mbps == 0` and merges on
+  (download, upload) — fine for satellite/FW plans.
+- `#Plan` requires `monthly_price > 0` — plans without published prices cannot
+  be modelled; only add plans with visible prices.
+
+### Tasks
+
+- [ ] **T6.0: Writer round-trip for new fields (prerequisite)**
+  - `writer.go`: add `NBNAccessTechs []string` + `Satellite *satelliteFile`
+    (new struct) to `providerFile`; add `Technology string` to `planFile`;
+    `modelPlansToFile`: incoming `p.Technology` wins, else preserve existing
+    file value.
+  - Regression: run `go run ./cmd/scraper -data ~/src/nbntracker-data
+    -isp flip -skip-push`; `git diff` in nbntracker-data must NOT remove
+    `nbn_access_techs`/`satellite` from `flip.cue`/`southernphone.cue` etc.
+  - AC: `go test ./...` passes; regression diff clean.
+  - Files: `internal/scraper/writer.go`, `internal/scraper/writer_test.go`
+
+- [ ] **T6.1: Satellite plans (7 providers, manual entry)**
+  - activ8me, bordernet, cmobile, infinnet, ipstar, multiwave, skymesh
+    (+ flip and southernphone satellite plans if published).
+  - Source each provider's SM / SM+PP pricing page (+ CIS where linked);
+    record source URL + access date in the provider `notes`.
+  - Every plan: `technology: "satellite"`, `data_cap_gb` set (SM plans are
+    capped; include the unlimited tier if offered), tiers within nbn limits
+    (SM ≤ NBN100, SM+PP ≤ NBN50).
+  - AC: `cue export` clean; each of the 7 providers has ≥1 satellite plan;
+    all satellite plans have a data cap or an explicit unlimited tier.
+  - Files: 7–9 new `<slug>_plans.cue` + note tweaks in `<slug>.cue`
+
+- [ ] **T6.2: Fixed-wireless plans (12 providers, manual entry)**
+  - easyisp, alphacall, ausinternet, australiaonline, gippsland, kinetix,
+    lightningip, lizzy, minttelecom, peakconnect, quokkanet, url.
+  - Source each provider's nbn FW pricing page; only plans with published
+    prices.
+  - Every plan: `technology: "nbn-fw"` (FW plans are typically unlimited —
+    leave `data_cap_gb` absent).
+  - AC: `cue export` clean; each of the 12 providers has ≥1 FW plan.
+  - Files: 12 new `<slug>_plans.cue`
+
+- [ ] **T6.3: (Optional follow-up) Scrapers for API-friendly providers**
+  - Only where a stable JSON API exists (check per provider; most small
+    regional RSPs don't have one). Pattern: `internal/scraper/flip.go`.
+  - Register in `isps.go`; tag plans with `Technology` in the scraper.
+  - Do NOT register a scraper for a provider whose page is JS-heavy —
+    manual entry + `notes` is more maintainable.
+
+- [ ] **T6.4: Verification pass**
+  - `cue vet`/`cue export` clean; `go test ./...` passes.
+  - Loader smoke: every one of the 19 providers has ≥1 plan; satellite plans
+    all `technology: "satellite"`.
+  - Live: `/providers?tech=satellite` and `?tech=fixed-wireless` rows show
+    prices on the home page; bump `metadata.json`.
+
+### Checkpoints
+
+- After T6.0: regression diff clean before any plan data lands.
+- After T6.1: satellite filter shows priced plans (commit 1).
+- After T6.2: FW filter shows priced plans (commit 2).
+- After T6.4: full verification (commit 3, incl. metadata bump).
+
+### Risks
+
+| Risk | Impact | Mitigation |
+|---|---|---|
+| Writer round-trip deletes new fields | High | T6.0 is a hard prerequisite + regression check |
+| Price research for 19 small RSPs is slow/error-prone | Med | Phase satellite-first; source URL + date in `notes`; one commit per phase |
+| Some RSPs don't publish prices | Med | Skip those plans (schema requires a price); note in `notes` |
+| Stale prices drift from provider sites | Low | `metadata.json` timestamp; scrapers in T6.3 where feasible |
+
+### Resolved decisions (T6)
+
+1. `cis_url`: skip for T6.
+2. Flip/southernphone satellite plans: include in T6.1 (alongside their
+   existing fixed-line plans).
 
 ## Risks and mitigations
 
