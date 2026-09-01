@@ -259,3 +259,154 @@ with prices instead of empty provider rows.
 3. Per-plan `technology` tagging for the 20 new providers is still part of T6.
 4. No automation: `~/src/nbntracker-data` is the single source of truth (git repo);
    `nbntracker/data/` is refreshed manually when needed (T5 sync step stays).
+
+---
+
+# T7: Extend flip + southernphone scrapers to satellite and fixed-wireless plans
+
+## Overview
+
+Extend the two existing API-based scrapers so they also capture the
+non-fixed-line plans. Recon (2026-09-02) found:
+
+- **flip** — the plans API already exposes satellite plans via
+  `?Type=SkyMusterPlus` (3 plans: Sky 25/50/100, $59.90/$69.90/$79.90 with
+  6-month $49/$59/$74 promos, UL 5, per-plan `CIS` URL). **Flip does not sell
+  nbn fixed wireless** (not on nbn.co's FW RSP list; `nbn_access_techs` is
+  `[fixed-line, satellite]`) — the FW part of the ask is N/A for flip.
+- **southernphone** — the existing `get-all-products` API contains 4
+  `nbn_technology_type: WIRELESS` products (currently skipped by the
+  scraper): $59 (typical 25/4), $79 (typical 95/10), $89 Fast (no speed
+  published; `speed_tier_availability: "FW Home Fast"`), $95 Superfast (no
+  speed; `"FW Superfast"`), each with a per-product `cis_link`.
+  **Satellite is not in this API** and is no longer publicly priced:
+  pivotel.com.au/nbn-sky-muster-satellite now 301s to the home page,
+  pivotel.com.au/plans/nbn-sky-muster is enquiry-only ("contact an account
+  manager"), and southernphone's sitemap has no satellite plans page.
+  The T6.1 hand-entered Pivotel SMPP plans therefore stay **manual**.
+
+## Architecture decisions
+
+1. **Writer merge key becomes (download, upload, technology)** —
+   southernphone sells fixed-line "nbn Basic" 25/4 $59 and FW "nbn Fixed
+   Wireless" 25/4 $59; with the current (dl, ul) key the writer would merge
+   them into one plan. No existing data has same-speed-different-tech
+   duplicates, so the change is behaviour-preserving today.
+2. **Flip satellite speeds come from the API `Type` field** ("nbn 25" → 25),
+   not `EveningSpeed` — for satellite that field is a *typical evening*
+   value (19 for the 25 plan), unlike fixed-line where it is nominal.
+3. **Southernphone FW speeds**: keep the API's typical speeds where present
+   (25/4, 95/10 — consistent with the existing fixed-line plans' convention);
+   where absent, map `speed_tier_availability` to nbn TC4 nominal speeds
+   (FW Home Fast → 250/20, FW Superfast → 400/40). Unknown tier values are
+   skipped (never guessed).
+4. **Southernphone satellite stays manual** — no published prices to scrape.
+   The writer already preserves plans the scraper doesn't return, so the
+   T6.1 entries survive scraper runs untouched.
+
+## Task list
+
+### T7.0: Writer merge key includes technology (foundation)
+
+**Description:** Add `Technology string` to `planKey` in writer.go and use
+it in the `byKey` map (build + lookup + preserve). Add a regression test:
+two existing plans with same (dl, ul) but different `technology` are both
+preserved after a scraper run that returns neither.
+
+**Acceptance:**
+- [ ] `planKey` is (dl, ul, technology); merge uses it
+- [ ] Regression test passes; full `go test ./...` green
+
+**Files:** `internal/scraper/writer.go`, `internal/scraper/writecue_test.go`
+**Scope:** S · **Deps:** none
+
+### T7.1: flip satellite plans from the existing API
+
+**Description:** In flip.go, after fetching `Type=Standard`, fetch
+`Type=SkyMusterPlus` and map each plan: name, dl from the `Type` field
+("nbn 25" → 25; skip the plan if unparseable), ul from `UploadSpeed`,
+price from `MonthlyCost`, promo from `SpecialCost` + `PromoPeriod`,
+`cis_url` from `CIS`, `technology: "satellite"`. Return the combined list.
+The API shape is identical to the Standard response, so the existing JSON
+structs are reused.
+
+**Acceptance:**
+- [ ] Scraper run rewrites the 3 flip satellite plans (Sky 25/50/100) with
+      current prices and adds `cis_url`; the 6 fixed-line plans are unchanged
+- [ ] Second run is idempotent (`unchanged — skipping`)
+- [ ] `cue vet` clean on the data repo
+
+**Files:** `internal/scraper/flip.go` (+ a small unit test for the
+`Type`-field speed parse)
+**Scope:** S · **Deps:** T7.0
+
+### T7.2: southernphone fixed-wireless plans from the existing API
+
+**Description:** Remove the `WIRELESS` skip in southernphone.go. For
+`layout: nbn` products: technology = `"nbn-fw"` when
+`nbn_technology_type` contains WIRELESS, else unset. Speeds: parse
+`typical_speed` as today; if it doesn't match the speed regex, fall back to
+a `speed_tier_availability` → (dl, ul) map (`FW Home Fast` → 250/20,
+`FW Superfast` → 400/40; unmapped values skip the plan with a logged
+warning). `cis_url` from per-product `cis_link` when present (fall back to
+the existing hard-coded CIS for fixed-line).
+
+**Acceptance:**
+- [ ] Scraper run writes 4 FW plans: 25/4 $59, 95/10 $79, 250/20 $89,
+      400/40 $95 — all `technology: "nbn-fw"` with `cis_url`
+- [ ] Fixed-line plans and the 3 manual satellite plans are unchanged
+- [ ] Second run is idempotent; `cue vet` clean
+
+**Files:** `internal/scraper/southernphone.go` (+ unit test for the tier
+fallback map)
+**Scope:** S–M · **Deps:** T7.0
+
+### T7.3: Data run + notes + docs
+
+**Description:** Run both scrapers against `nbntracker-data`, review the
+diff, update the `notes` field in flip.cue / southernphone.cue (sources are
+now the APIs; note the southernphone satellite plans remain manual from
+pivotel.com.au, accessed 2026-08-24 and possibly stale), bump metadata,
+sync `nbntracker/data/`, commit both repos. Update this plan doc.
+
+**Acceptance:**
+- [ ] `cue vet` + `cue export` clean; app `go test` green
+- [ ] Live server: `/providers?tech=satellite` still 9, `?tech=fixed-wireless`
+      still 18; home page shows southernphone FW + flip satellite plans at
+      their tiers
+- [ ] Both repos committed; data copy synced
+
+**Files:** data repo (flip.cue, southernphone.cue, *_plans.cue,
+metadata.json, this file), `nbntracker/data/` sync
+**Scope:** S · **Deps:** T7.1, T7.2
+
+### Checkpoints
+
+- After T7.0: `go test ./...` green, writer behaviour unchanged for all
+  existing scrapers (spot-run one, e.g. `ausinternet`, → `unchanged`).
+- After T7.1 + T7.2: both providers' plan files match the acceptance lists
+  above; fixed-line and manual satellite plans byte-identical.
+- After T7.3: full verification pass (same as T6.4).
+
+## Risks
+
+| Risk | Impact | Mitigation |
+|---|---|---|
+| flip `Type` field format changes (e.g. no longer "nbn 25") | Med | Parse defensively; skip unparseable plan with an error, don't guess |
+| southernphone adds more WIRELESS tiers than the fallback map knows | Med | Unknown `speed_tier_availability` → skip + warn; visible in scraper output |
+| Mixed speed convention in southernphone FW (2 typical + 2 nominal) | Low | Note it in the provider `notes`; each value is the best published figure |
+| Southernphone satellite plans silently stale | Med | Flagged in notes + open question below; writer preserves them so they at least don't vanish |
+| planKey change affects an unknown consumer | Low | `planKey` is private to writer.go; grep-verified single use site |
+
+## Open questions
+
+1. **Flip FW** — flip doesn't sell nbn FW, so there is nothing to scrape.
+   Confirm this matches expectations (nbn.co's FW RSP list also omits flip).
+2. **Southernphone satellite pricing** — no longer published anywhere
+   reachable. Options: (a) keep the T6.1 entries with a staleness note
+   (default); (b) remove them; (c) user supplies current Pivotel prices
+   (e.g. via customer care) for a fresh manual entry.
+3. **FW speed convention** — OK to mix typical (25/4, 95/10) and nominal
+   (250/20, 400/40) within one provider, or should all four be nominal
+   (25/5, 100/20, 250/20, 400/40)? Default: keep API typical values,
+   nominal fallback.
