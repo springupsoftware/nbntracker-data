@@ -310,7 +310,7 @@ non-fixed-line plans. Recon (2026-09-02) found:
 
 ## Task list
 
-### T7.0: Writer merge key includes technology (foundation)
+### T7.0: Writer merge key includes technology (foundation) ✅ done
 
 **Description:** Add `Technology string` to `planKey` in writer.go and use
 it in the `byKey` map (build + lookup + preserve). Add a regression test:
@@ -324,7 +324,7 @@ preserved after a scraper run that returns neither.
 **Files:** `internal/scraper/writer.go`, `internal/scraper/writecue_test.go`
 **Scope:** S · **Deps:** none
 
-### T7.1: flip satellite plans from the existing API
+### T7.1: flip satellite plans from the existing API ✅ done
 
 **Description:** In flip.go, after fetching `Type=Standard`, fetch
 `Type=SkyMusterPlus` and map each plan: name, dl from the `Type` field
@@ -344,7 +344,7 @@ structs are reused.
 `Type`-field speed parse)
 **Scope:** S · **Deps:** T7.0
 
-### T7.2: southernphone fixed-wireless plans from the existing API
+### T7.2: southernphone fixed-wireless plans from the existing API ✅ done
 
 **Description:** Remove the `WIRELESS` skip in southernphone.go. For
 `layout: nbn` products: technology = `"nbn-fw"` when
@@ -365,7 +365,7 @@ the existing hard-coded CIS for fixed-line).
 fallback map)
 **Scope:** S–M · **Deps:** T7.0
 
-### T7.3: Data run + notes + docs
+### T7.3: Data run + notes + docs ✅ done
 
 **Description:** Run both scrapers against `nbntracker-data`, review the
 diff, update the `notes` field in flip.cue / southernphone.cue (sources are
