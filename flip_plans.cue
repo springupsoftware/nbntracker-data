@@ -8,7 +8,7 @@ flip: [{
 	monthly_price: 65.9
 	promo: {
 		price:  48.0
-		months: 6
+		months: 12
 	}
 }, {
 	name:          "Family"

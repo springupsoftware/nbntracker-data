@@ -29,7 +29,7 @@ amaysim: [{
 	upload_mbps:   18
 	monthly_price: 90.0
 	promo: {
-		price:  50.0
+		price:  80.0
 		months: 6
 	}
 	cis_url: "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
@@ -40,7 +40,7 @@ amaysim: [{
 	upload_mbps:   43
 	monthly_price: 90.0
 	promo: {
-		price:  50.0
+		price:  80.0
 		months: 6
 	}
 	cis_url: "https://www.amaysim.com.au/content/dam/amaysim/documents/critical-information-summary/nbn/Critical-Info-Summary-amaysim-Home-Internet-Plans.pdf"
