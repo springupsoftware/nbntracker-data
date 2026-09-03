@@ -18,10 +18,10 @@ kogan: [{
 	upload_mbps:   17
 	monthly_price: 80.9
 	promo: {
-		price:  69.9
+		price:  68.9
 		months: 12
 	}
-	cis_url: "https://kwalify-media-prod.s3.amazonaws.com/documents/260602_SilverUnlimited_CIS..pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260901_SilverUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Gold nbn® 98"
 	speed_tier:    "NBN100"
@@ -29,10 +29,10 @@ kogan: [{
 	upload_mbps:   17
 	monthly_price: 85.9
 	promo: {
-		price:  69.9
+		price:  68.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260708_GoldUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260901_GoldUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Gold Plus nbn® 500"
 	speed_tier:    "NBN500"
@@ -40,10 +40,10 @@ kogan: [{
 	upload_mbps:   42
 	monthly_price: 85.9
 	promo: {
-		price:  69.9
+		price:  68.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260302_GoldPlusUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260901_GoldPlusUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Platinum nbn® 740"
 	speed_tier:    "NBN750"
