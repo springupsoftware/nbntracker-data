@@ -56,7 +56,7 @@ fubar: [{
 	monthly_price: 99.9
 }, {
 	name:          "nbn Fixed Wireless Superfast (400/40)"
-	speed_tier:    "NBN500"
+	speed_tier:    "NBN400"
 	download_mbps: 400
 	upload_mbps:   40
 	monthly_price: 115.9

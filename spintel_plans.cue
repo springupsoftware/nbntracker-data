@@ -79,7 +79,7 @@ spintel: [{
 	cis_url: "https://www.spintel.net.au/static/critical_summary/NBN_CIS_v2.07.pdf"
 }, {
 	name:          "Fixed Wireless Superfast"
-	speed_tier:    "NBN500"
+	speed_tier:    "NBN400"
 	download_mbps: 400
 	upload_mbps:   40
 	monthly_price: 94.95

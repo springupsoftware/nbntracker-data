@@ -5,7 +5,6 @@ providers: kogan: {
 	slug:            "kogan"
 	website_url:     "https://www.koganinternet.com.au"
 	connection_type: "unknown"
-	cgnat:           false
 	cgnat_opt_out:   "unknown"
 	static_ip: {
 		available:    false

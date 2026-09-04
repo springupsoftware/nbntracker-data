@@ -4,7 +4,6 @@ providers: neptune: {
 	name:             "Neptune"
 	slug:             "neptune"
 	website_url:      "https://www.neptune.net.au"
-	nbn_access_techs: ["fixed-line", "fixed-wireless"]
 	connection_type:  "IPoE"
 	cgnat:            true
 	cgnat_opt_out:    "available"
@@ -23,4 +22,5 @@ providers: neptune: {
 		supports_pd:            true
 	}
 	upstream: enabler: "Superloop"
+	nbn_access_techs: ["fixed-line", "fixed-wireless"]
 }

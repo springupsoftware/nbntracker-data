@@ -5,7 +5,6 @@ providers: carboncomms: {
 	slug:             "carboncomms"
 	website_url:      "https://carboncomms.com.au"
 	connection_type:  "IPoE"
-	cgnat:            false
 	cgnat_opt_out:    "N/A"
 	support_location: "Australia"
 	static_ip: {
