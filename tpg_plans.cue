@@ -1,10 +1,10 @@
 package data
 
 tpg: [{
-	name:          "NBN100"
-	speed_tier:    "NBN100"
-	download_mbps: 98
-	upload_mbps:   17
+	name:          "NBN500"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   42
 	monthly_price: 94.99
 	promo: {
 		price:  69.99
@@ -34,17 +34,6 @@ tpg: [{
 	}
 	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
 }, {
-	name:          "NBN500"
-	speed_tier:    "NBN500"
-	download_mbps: 500
-	upload_mbps:   42
-	monthly_price: 94.99
-	promo: {
-		price:  69.99
-		months: 6
-	}
-	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
-}, {
 	name:          "NBN Home Superfast"
 	speed_tier:    "NBN750"
 	download_mbps: 740
@@ -63,6 +52,17 @@ tpg: [{
 	monthly_price: 114.99
 	promo: {
 		price:  84.99
+		months: 6
+	}
+	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
+}, {
+	name:          "NBN100"
+	speed_tier:    "NBN100"
+	download_mbps: 98
+	upload_mbps:   17
+	monthly_price: 94.99
+	promo: {
+		price:  69.99
 		months: 6
 	}
 	cis_url: "https://www.tpg.com.au/terms_conditions/CIS/nbn"
