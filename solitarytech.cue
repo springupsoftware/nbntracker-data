@@ -19,5 +19,6 @@ providers: solitarytech: {
 		supports_pd:            true
 	}
 	upstream: enabler: "Superloop"
-	nbn_access_techs: ["fixed-line", "fixed-wireless"]
+	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
+	satellite: sky_muster_premium: true
 }
