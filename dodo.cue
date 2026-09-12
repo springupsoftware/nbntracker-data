@@ -22,4 +22,6 @@ providers: dodo: {
 	}
 	upstream: backhaul: "Vocus"
 	nbn_access_techs: ["fixed-line"]
+	voip_available: true
+	voip_notes:       "Home Phone offered (homepage, checked 2026-09-12)"
 }

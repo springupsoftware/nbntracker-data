@@ -117,6 +117,11 @@ package data
 	cgnat_opt_out:   #CGNATOptOut | *"unknown"
 	static_ip: #StaticIP | *{available: false}
 
+	// Sells a VoIP/home-phone service to nbn customers (bundled or add-on).
+	// false = not known to offer. See voip_notes for evidence.
+	voip_available: bool | *false
+	voip_notes?:    string
+
 	plans: [...#Plan]
 
 	referral_params?:   string

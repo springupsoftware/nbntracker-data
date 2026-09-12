@@ -16,4 +16,6 @@ providers: telstra: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
+	voip_available: true
+	voip_notes:       "Home Phone plan offered (site nav, checked 2026-09-12)"
 }

@@ -26,4 +26,6 @@ providers: aussie: {
 		domestic_transit: "Own"
 	}
 	nbn_access_techs: ["fixed-line", "fixed-wireless"]
+	voip_available: true
+	voip_notes:       "VoIP add-on and bundled VoIP seniors plan; evidence: cisd/aussie/residential-voip-cis.pdf, res-voip-only-nbn-cis.pdf (checked 2026-09-12)"
 }

@@ -21,4 +21,6 @@ providers: mate: {
 		supports_pd:            true
 	}
 	upstream: {}
+	voip_available: true
+	voip_notes:       "NBN home phone guide + add-phone-service FAQ (checked 2026-09-12)"
 }

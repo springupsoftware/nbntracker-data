@@ -20,4 +20,6 @@ providers: optus: {
 		supports_pd:     false
 	}
 	upstream: backhaul: "Own"
+	voip_available: true
+	voip_notes:       "Home phone service with home internet; optus.com.au/internet/home-phone (checked 2026-09-12)"
 }

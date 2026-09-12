@@ -23,4 +23,6 @@ providers: origin: {
 		supports_pd:            true
 	}
 	upstream: enabler: "Superloop"
+	voip_available: true
+	voip_notes:       "Home Phone help pages: phone rates, setup, emergency calls (sitemap, checked 2026-09-12)"
 }

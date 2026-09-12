@@ -23,4 +23,6 @@ providers: superloop: {
 		supports_pd:            true
 	}
 	upstream: backhaul: "Own"
+	voip_available: true
+	voip_notes:       "Home Phone add-on; evidence: cisd/superloop/sl-residential-homephone-cis.pdf (checked 2026-09-12)"
 }

@@ -11,4 +11,6 @@ providers: activ8me: {
 	}
 	support_location: "Australia"
 	notes:            "Sky Muster RSP per nbn.co (SM + SM Plus Premium). 13 22 88. SMPP plan prices from activ8me.net.au/internet/skymuster (accessed 2026-08-24)."
+	voip_available: true
+	voip_notes:       "Copper and VoIP phone services (homepage, checked 2026-09-12)"
 }
