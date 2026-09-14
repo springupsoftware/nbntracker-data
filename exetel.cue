@@ -22,6 +22,6 @@ providers: exetel: {
 		supports_pd:            true
 	}
 	upstream: {}
-	voip_available: true
-	voip_notes:       "Home Phone / VoIP offered (site nav, checked 2026-09-12)"
+	voip_available: false
+	voip_notes:       "Home Phone / VoIP not offered"
 }
