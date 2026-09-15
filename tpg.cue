@@ -13,8 +13,8 @@ providers: tpg: {
 	}
 	notice_period_days: 30
 	billing_policy:     "30-day-notice"
-	ipv6: available:    false
-	upstream: backhaul: "Own"
+	ipv6: available: false
 	voip_available: true
-	voip_notes:       "Home Phone product (site nav, checked 2026-09-12)"
+	voip_notes:     "Home Phone product (site nav, checked 2026-09-12)"
+	upstream: backhaul: "Own"
 }

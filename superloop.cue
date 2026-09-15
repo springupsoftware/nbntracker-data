@@ -22,7 +22,7 @@ providers: superloop: {
 		default_enabled:        true
 		supports_pd:            true
 	}
-	upstream: backhaul: "Own"
 	voip_available: true
-	voip_notes:       "Home Phone add-on; evidence: cisd/superloop/sl-residential-homephone-cis.pdf (checked 2026-09-12)"
+	voip_notes:     "Home Phone add-on; evidence: cisd/superloop/sl-residential-homephone-cis.pdf (checked 2026-09-12)"
+	upstream: backhaul: "Own"
 }

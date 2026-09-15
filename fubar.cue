@@ -21,7 +21,7 @@ providers: fubar: {
 		default_enabled:        true
 		supports_pd:            true
 	}
-	upstream: {}
 	voip_available: true
-	voip_notes:       "Home Phone product at /voice-services/home-phone/ (checked 2026-09-12)"
+	voip_notes:     "Home Phone product at /voice-services/home-phone/ (checked 2026-09-12)"
+	upstream: {}
 }

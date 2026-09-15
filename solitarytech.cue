@@ -18,9 +18,9 @@ providers: solitarytech: {
 		default_enabled:        true
 		supports_pd:            true
 	}
+	voip_available: true
+	voip_notes:     "nbn Home Phone product at /nbn-home-phone/ (checked 2026-09-12)"
 	upstream: enabler: "Superloop"
 	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
 	satellite: sky_muster_premium: true
-	voip_available: true
-	voip_notes:       "nbn Home Phone product at /nbn-home-phone/ (checked 2026-09-12)"
 }

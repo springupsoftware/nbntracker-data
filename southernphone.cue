@@ -19,10 +19,10 @@ providers: southernphone: {
 		assignment:  "dynamic"
 		supports_pd: true
 	}
+	voip_available: true
+	voip_notes:     "Home Phone and VoIP offered (homepage, checked 2026-09-12)"
 	upstream: enabler: "Telcoinabox"
 	nbn_access_techs: ["fixed-line", "fixed-wireless", "satellite"]
 	satellite: sky_muster_premium: true
 	notes: "Fixed-line and fixed-wireless plans scraped from the Southern Phone products API. FW speeds mix API typical busy-period figures (25/4, 95/10) with nominal nbn TC4 tier speeds (250/20, 400/40) where the API hadn't published typical speeds yet. Satellite (Pivotel brand) plans are no longer publicly priced and are not tracked."
-	voip_available: true
-	voip_notes:       "Home Phone and VoIP offered (homepage, checked 2026-09-12)"
 }

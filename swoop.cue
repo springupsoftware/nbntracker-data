@@ -21,10 +21,10 @@ providers: swoop: {
 		default_enabled:        true
 		supports_pd:            true
 	}
+	voip_available: true
+	voip_notes:     "VoIP add-on for internet customers; evidence: cisd/swoop/cis-voip.pdf (checked 2026-09-12)"
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
-	voip_available: true
-	voip_notes:       "VoIP add-on for internet customers; evidence: cisd/swoop/cis-voip.pdf (checked 2026-09-12)"
 }

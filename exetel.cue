@@ -21,7 +21,6 @@ providers: exetel: {
 		assignment:             "dynamic"
 		supports_pd:            true
 	}
+	voip_notes: "Home Phone / VoIP not offered"
 	upstream: {}
-	voip_available: false
-	voip_notes:       "Home Phone / VoIP not offered"
 }

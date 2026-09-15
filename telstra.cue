@@ -12,10 +12,10 @@ providers: telstra: {
 		monthly_cost: 0.0
 	}
 	ipv6: available: false
+	voip_available: true
+	voip_notes:     "Home Phone plan offered (site nav, checked 2026-09-12)"
 	upstream: {
 		backhaul:         "Own"
 		domestic_transit: "Own"
 	}
-	voip_available: true
-	voip_notes:       "Home Phone plan offered (site nav, checked 2026-09-12)"
 }

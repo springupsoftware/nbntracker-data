@@ -20,7 +20,7 @@ providers: carboncomms: {
 		default_enabled:        true
 		supports_pd:            true
 	}
-	upstream: enabler: "Aussie Broadband"
 	voip_available: true
-	voip_notes:       "VoIP services and hardware (site nav, checked 2026-09-12)"
+	voip_notes:     "VoIP services and hardware (site nav, checked 2026-09-12)"
+	upstream: enabler: "Aussie Broadband"
 }
