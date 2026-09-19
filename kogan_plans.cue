@@ -1,17 +1,6 @@
 package data
 
 kogan: [{
-	name:          "Kogan Gold Plus nbn® 500"
-	speed_tier:    "NBN500"
-	download_mbps: 500
-	upload_mbps:   42
-	monthly_price: 85.9
-	promo: {
-		price:  69.9
-		months: 12
-	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260302_GoldPlusUnlimited_CIS.pdf"
-}, {
 	name:          "Kogan Platinum nbn® 740"
 	speed_tier:    "NBN750"
 	download_mbps: 740
@@ -21,7 +10,7 @@ kogan: [{
 		price:  84.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260206_PlatinumUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_PlatinumUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Diamond nbn® 850"
 	speed_tier:    "NBN1000"
@@ -32,7 +21,7 @@ kogan: [{
 		price:  94.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260206_DiamondUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_DiamondUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Bronze nbn® 25"
 	speed_tier:    "NBN25"
@@ -43,7 +32,7 @@ kogan: [{
 		price:  58.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260130_BronzeUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_BronzeUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Silver nbn® 50"
 	speed_tier:    "NBN50"
@@ -54,7 +43,7 @@ kogan: [{
 		price:  69.9
 		months: 12
 	}
-	cis_url: "https://kwalify-media-prod.s3.amazonaws.com/documents/260602_SilverUnlimited_CIS..pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_SilverUnlimited_CIS.pdf"
 }, {
 	name:          "Kogan Gold nbn® 98"
 	speed_tier:    "NBN100"
@@ -65,5 +54,16 @@ kogan: [{
 		price:  69.9
 		months: 12
 	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260708_GoldUnlimited_CIS.pdf"
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_GoldUnlimited_CIS.pdf"
+}, {
+	name:          "Kogan Gold Plus nbn® 500"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   42
+	monthly_price: 85.9
+	promo: {
+		price:  69.9
+		months: 12
+	}
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_GoldPlusUnlimited_CIS.pdf"
 }]
