@@ -1,33 +1,13 @@
 package data
 
 belong: [{
-	name:          "Starter"
-	speed_tier:    "NBN25"
-	download_mbps: 25
-	upload_mbps:   10
-	monthly_price: 75.0
-	promo: {
-		price:  49.0
-		months: 6
-	}
-}, {
-	name:          "Fast"
-	speed_tier:    "NBN500"
-	download_mbps: 500
-	upload_mbps:   50
+	name:          "Premium"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
 	monthly_price: 95.0
 	promo: {
 		price:  59.0
-		months: 6
-	}
-}, {
-	name:          "Standard Plus"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   20
-	monthly_price: 91.0
-	promo: {
-		price:  55.0
 		months: 6
 	}
 }, {
@@ -41,13 +21,33 @@ belong: [{
 		months: 6
 	}
 }, {
-	name:          "Premium"
-	speed_tier:    "NBN100"
-	download_mbps: 100
+	name:          "Standard Plus"
+	speed_tier:    "NBN50"
+	download_mbps: 50
 	upload_mbps:   20
+	monthly_price: 91.0
+	promo: {
+		price:  55.0
+		months: 6
+	}
+}, {
+	name:          "Fast"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   50
 	monthly_price: 95.0
 	promo: {
 		price:  59.0
+		months: 6
+	}
+}, {
+	name:          "Starter"
+	speed_tier:    "NBN25"
+	download_mbps: 25
+	upload_mbps:   10
+	monthly_price: 75.0
+	promo: {
+		price:  49.0
 		months: 6
 	}
 }]
