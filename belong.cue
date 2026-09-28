@@ -6,7 +6,7 @@ providers: belong: {
 	website_url:      "https://www.belong.com.au"
 	connection_type:  "IPoE"
 	cgnat:            true
-	cgnat_opt_out:    "unavailable"
+	cgnat_opt_out:    "available"
 	support_location: "Hybrid"
 	static_ip: {
 		available:    false
