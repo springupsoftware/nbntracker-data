@@ -36,7 +36,7 @@ aussie: [{
 	monthly_price: 99.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Hyper-Fast PRO"
+	name:          "Turbo-Fast PRO"
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   200
