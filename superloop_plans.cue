@@ -40,7 +40,7 @@ superloop: [{
 	upload_mbps:   50
 	monthly_price: 95.0
 	promo: {
-		price:  65.0
+		price:  74.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
@@ -51,7 +51,7 @@ superloop: [{
 	upload_mbps:   50
 	monthly_price: 104.0
 	promo: {
-		price:  74.0
+		price:  79.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
@@ -62,7 +62,7 @@ superloop: [{
 	upload_mbps:   100
 	monthly_price: 114.0
 	promo: {
-		price:  84.0
+		price:  89.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
@@ -95,7 +95,7 @@ superloop: [{
 	upload_mbps:   100
 	monthly_price: 107.0
 	promo: {
-		price:  82.0
+		price:  87.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"
@@ -117,7 +117,7 @@ superloop: [{
 	upload_mbps:   200
 	monthly_price: 128.0
 	promo: {
-		price:  103.0
+		price:  108.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/smb/nbn/2026-07/CIS_Superloop_totalbiz.pdf"

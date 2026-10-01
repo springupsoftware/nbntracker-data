@@ -10,7 +10,7 @@ flip: [{
 		price:  48.0
 		months: 12
 	}
-	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%2012months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip-NBN-CIS-Promo-12months-OCT_2026%20_14-Day-Trial_.pdf"
 }, {
 	name:          "Family"
 	speed_tier:    "NBN50"
@@ -21,7 +21,7 @@ flip: [{
 		price:  68.0
 		months: 6
 	}
-	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip_NBN_CIS_Promo_6months_APRIL_2026%20_14Day_Trial.pdf"
 }, {
 	name:          "Super Speed"
 	speed_tier:    "NBN750"
@@ -43,7 +43,7 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
-	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip_NBN_CIS_Promo_6months_APRIL_2026%20_14Day_Trial.pdf"
 }, {
 	name:          "Fast Speed"
 	speed_tier:    "NBN500"
@@ -54,7 +54,7 @@ flip: [{
 		price:  69.0
 		months: 6
 	}
-	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip%20NBN%20CIS%20-%20Promo%206months%20-%20SEP_2026%20_14%20Day%20Trial_.pdf"
+	cis_url: "https://flipconnect.com.au/storage/pdf/nbn/Flip_NBN_CIS_Promo_6months_APRIL_2026%20_14Day_Trial.pdf"
 }, {
 	name:          "Ultra Speed"
 	speed_tier:    "NBN1000"
