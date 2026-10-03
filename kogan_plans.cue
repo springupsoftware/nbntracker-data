@@ -1,6 +1,17 @@
 package data
 
 kogan: [{
+	name:          "Kogan Platinum nbn® 740"
+	speed_tier:    "NBN750"
+	download_mbps: 740
+	upload_mbps:   42
+	monthly_price: 94.9
+	promo: {
+		price:  84.9
+		months: 12
+	}
+	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_PlatinumUnlimited_CIS.pdf"
+}, {
 	name:          "Kogan Diamond nbn® 850"
 	speed_tier:    "NBN1000"
 	download_mbps: 850
@@ -55,15 +66,4 @@ kogan: [{
 		months: 12
 	}
 	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_GoldPlusUnlimited_CIS.pdf"
-}, {
-	name:          "Kogan Platinum nbn® 740"
-	speed_tier:    "NBN750"
-	download_mbps: 740
-	upload_mbps:   42
-	monthly_price: 94.9
-	promo: {
-		price:  84.9
-		months: 12
-	}
-	cis_url: "https://kogan-prod-assets.s3.amazonaws.com/files/docs/KNBN/CIS/2026/260921_PlatinumUnlimited_CIS.pdf"
 }]
