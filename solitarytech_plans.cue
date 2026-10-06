@@ -39,7 +39,7 @@ solitarytech: [{
 	name:          "Fixed Wireless Basic Lite"
 	speed_tier:    "NBN25"
 	download_mbps: 25
-	upload_mbps:   10
+	upload_mbps:   5
 	monthly_price: 54.0
 	cis_url:       "https://solitarytech.com.au/legal/cis/resi-fw-fy26.pdf"
 	technology:    "nbn-fw"
@@ -94,6 +94,14 @@ solitarytech: [{
 	upload_mbps:   50
 	monthly_price: 99.0
 	cis_url:       "https://solitarytech.com.au/legal/cis/resi-fl-fy26.pdf"
+}, {
+	name:          "Fixed Wireless Basic Lite"
+	speed_tier:    "NBN25"
+	download_mbps: 25
+	upload_mbps:   10
+	monthly_price: 54.0
+	cis_url:       "https://solitarytech.com.au/legal/cis/resi-fw-fy26.pdf"
+	technology:    "nbn-fw"
 }, {
 	name:          "Sky Muster 25"
 	speed_tier:    "NBN25"
