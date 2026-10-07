@@ -7,7 +7,7 @@ optus: [{
 	upload_mbps:   10
 	monthly_price: 83.0
 	promo: {
-		price:  68.0
+		price:  73.0
 		months: 12
 	}
 }, {
@@ -17,7 +17,7 @@ optus: [{
 	upload_mbps:   20
 	monthly_price: 97.0
 	promo: {
-		price:  82.0
+		price:  87.0
 		months: 12
 	}
 }, {
@@ -27,7 +27,7 @@ optus: [{
 	upload_mbps:   100
 	monthly_price: 99.0
 	promo: {
-		price:  84.0
+		price:  89.0
 		months: 12
 	}
 }, {
@@ -37,7 +37,27 @@ optus: [{
 	upload_mbps:   100
 	monthly_price: 129.0
 	promo: {
-		price:  114.0
+		price:  119.0
 		months: 12
+	}
+}, {
+	name:          "Promo plan"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   100
+	monthly_price: 109.0
+	promo: {
+		price:  69.0
+		months: 6
+	}
+}, {
+	name:          "Promo Plus plan"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   100
+	monthly_price: 109.0
+	promo: {
+		price:  69.0
+		months: 6
 	}
 }]
