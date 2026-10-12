@@ -1,6 +1,16 @@
 package data
 
 belong: [{
+	name:          "Ultrafast"
+	speed_tier:    "NBN1000"
+	download_mbps: 1000
+	upload_mbps:   100
+	monthly_price: 110.0
+	promo: {
+		price:  75.0
+		months: 6
+	}
+}, {
 	name:          "Fast"
 	speed_tier:    "NBN500"
 	download_mbps: 500
@@ -38,16 +48,6 @@ belong: [{
 	monthly_price: 91.0
 	promo: {
 		price:  55.0
-		months: 6
-	}
-}, {
-	name:          "Ultrafast"
-	speed_tier:    "NBN1000"
-	download_mbps: 1000
-	upload_mbps:   100
-	monthly_price: 110.0
-	promo: {
-		price:  75.0
 		months: 6
 	}
 }]
