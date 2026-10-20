@@ -17,7 +17,7 @@ arctel: [{
 	upload_mbps:   50
 	monthly_price: 99.99
 	promo: {
-		price:  89.99
+		price:  86.99
 		months: 24
 	}
 }, {
@@ -27,7 +27,7 @@ arctel: [{
 	upload_mbps:   100
 	monthly_price: 112.99
 	promo: {
-		price:  99.99
+		price:  95.99
 		months: 24
 	}
 }, {
@@ -35,11 +35,11 @@ arctel: [{
 	speed_tier:    "NBN25"
 	download_mbps: 25
 	upload_mbps:   10
-	monthly_price: 48.99
+	monthly_price: 51.99
 }, {
 	name:          "Fast"
 	speed_tier:    "NBN100"
 	download_mbps: 100
 	upload_mbps:   20
-	monthly_price: 79.99
+	monthly_price: 60.99
 }]
