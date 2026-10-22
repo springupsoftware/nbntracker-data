@@ -14,6 +14,7 @@ providers: telstra: {
 	ipv6: {
 	      available: true
 	      prefix_delegation_size: 56
+	      supports_pd: true
 	}
 
 	voip_available: true
