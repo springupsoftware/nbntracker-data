@@ -22,61 +22,106 @@ aussie: [{
 	monthly_price: 95.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-lower-nbn-cis.pdf"
 }, {
-	name:          "Super-Fast PRO"
-	speed_tier:    "NBN250"
-	download_mbps: 250
-	upload_mbps:   100
+	name:          "Fast"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
+	monthly_price: 99.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
+}, {
+	name:          "Fast plus"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   40
 	monthly_price: 114.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
 }, {
-	name:          "Fast"
+	name:          "Fast Fibre"
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   50
 	monthly_price: 99.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Turbo-Fast PRO"
-	speed_tier:    "NBN500"
-	download_mbps: 500
-	upload_mbps:   200
-	monthly_price: 136.0
-	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
-}, {
-	name:          "Super-Fast"
+	name:          "Superfast Fibre"
 	speed_tier:    "NBN750"
 	download_mbps: 750
 	upload_mbps:   50
 	monthly_price: 119.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Ultra-Fast"
+	name:          "Ultrafast Fibre"
 	speed_tier:    "NBN1000"
 	download_mbps: 1000
 	upload_mbps:   100
 	monthly_price: 129.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Ultra-Fast PRO"
-	speed_tier:    "NBN1000"
-	download_mbps: 1000
-	upload_mbps:   400
-	monthly_price: 160.0
+	name:          "Hyperfast HFC"
+	speed_tier:    "NBN2000"
+	download_mbps: 2000
+	upload_mbps:   100
+	monthly_price: 189.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Hyper-Fast"
+	name:          "Hyperfast"
 	speed_tier:    "NBN2000"
 	download_mbps: 2000
 	upload_mbps:   200
 	monthly_price: 189.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
-	name:          "Hyper-Fast PRO"
+	name:          "Superfast Pro"
+	speed_tier:    "NBN250"
+	download_mbps: 250
+	upload_mbps:   100
+	monthly_price: 114.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
+}, {
+	name:          "Turbofast Pro"
+	speed_tier:    "NBN500"
+	download_mbps: 500
+	upload_mbps:   200
+	monthly_price: 136.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
+}, {
+	name:          "Ultrafast Pro"
+	speed_tier:    "NBN1000"
+	download_mbps: 1000
+	upload_mbps:   400
+	monthly_price: 160.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
+}, {
+	name:          "Hyperfast Pro"
 	speed_tier:    "NBN2000"
 	download_mbps: 2000
 	upload_mbps:   500
 	monthly_price: 220.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
+}, {
+	name:          "Fixed Wireless Plus"
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
+	monthly_price: 95.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
+	technology:    "nbn-fw"
+}, {
+	name:          "Fixed Wireless Fast"
+	speed_tier:    "NBN250"
+	download_mbps: 250
+	upload_mbps:   20
+	monthly_price: 99.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-higher-nbn-cis.pdf"
+	technology:    "nbn-fw"
+}, {
+	name:          "Fixed Wireless Superfast"
+	speed_tier:    "NBN400"
+	download_mbps: 400
+	upload_mbps:   40
+	monthly_price: 119.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
+	technology:    "nbn-fw"
 }, {
 	name:          "12-1"
 	speed_tier:    "NBN12"

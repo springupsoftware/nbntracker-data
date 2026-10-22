@@ -21,13 +21,13 @@ belong: [{
 		months: 6
 	}
 }, {
-	name:          "Standard Plus"
-	speed_tier:    "NBN50"
-	download_mbps: 50
+	name:          "Premium"
+	speed_tier:    "NBN100"
+	download_mbps: 100
 	upload_mbps:   20
-	monthly_price: 91.0
+	monthly_price: 95.0
 	promo: {
-		price:  55.0
+		price:  59.0
 		months: 6
 	}
 }, {
@@ -41,13 +41,13 @@ belong: [{
 		months: 6
 	}
 }, {
-	name:          "Premium"
-	speed_tier:    "NBN100"
-	download_mbps: 100
+	name:          "Standard Plus"
+	speed_tier:    "NBN50"
+	download_mbps: 50
 	upload_mbps:   20
-	monthly_price: 95.0
+	monthly_price: 91.0
 	promo: {
-		price:  59.0
+		price:  55.0
 		months: 6
 	}
 }]

@@ -42,9 +42,9 @@ optus: [{
 	}
 }, {
 	name:          "Promo plan"
-	speed_tier:    "NBN500"
-	download_mbps: 500
-	upload_mbps:   100
+	speed_tier:    "NBN100"
+	download_mbps: 100
+	upload_mbps:   20
 	monthly_price: 109.0
 	promo: {
 		price:  69.0
