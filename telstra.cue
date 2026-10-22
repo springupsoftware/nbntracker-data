@@ -11,7 +11,11 @@ providers: telstra: {
 		available:    true
 		monthly_cost: 10
 	}
-	ipv6: available: true
+	ipv6: {
+	      available: true
+	      prefix_delegation_size: 56
+	}
+
 	voip_available: true
 	voip_notes:     "Home Phone plan offered (site nav, checked 2026-09-12)"
 	upstream: {
