@@ -7,8 +7,9 @@ dodo: [{
 	upload_mbps:   10
 	monthly_price: 73.99
 	promo: {
-		price:  43.99
-		months: 6
+		price:    43.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }, {
@@ -18,8 +19,9 @@ dodo: [{
 	upload_mbps:   20
 	monthly_price: 87.99
 	promo: {
-		price:  57.99
-		months: 6
+		price:    57.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }, {
@@ -29,8 +31,9 @@ dodo: [{
 	upload_mbps:   20
 	monthly_price: 92.99
 	promo: {
-		price:  62.99
-		months: 6
+		price:    62.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }, {
@@ -40,8 +43,9 @@ dodo: [{
 	upload_mbps:   50
 	monthly_price: 92.99
 	promo: {
-		price:  62.99
-		months: 6
+		price:    62.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }, {
@@ -51,8 +55,9 @@ dodo: [{
 	upload_mbps:   50
 	monthly_price: 99.99
 	promo: {
-		price:  69.99
-		months: 6
+		price:    69.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }, {
@@ -62,8 +67,9 @@ dodo: [{
 	upload_mbps:   100
 	monthly_price: 109.99
 	promo: {
-		price:  79.99
-		months: 6
+		price:    79.99
+		months:   6
+		end_date: "2026-12-08"
 	}
 	cis_url: "https://www.dodo.com/sites/dodo/files/cis/Dodo_NBN_CIS.pdf"
 }]

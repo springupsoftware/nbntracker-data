@@ -14,8 +14,9 @@ telstra: [{
 	upload_mbps:   20
 	monthly_price: 99.0
 	promo: {
-		price:  69.0
-		months: 6
+		price:    69.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -25,8 +26,9 @@ telstra: [{
 	upload_mbps:   20
 	monthly_price: 99.0
 	promo: {
-		price:  69.0
-		months: 6
+		price:    69.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -36,8 +38,9 @@ telstra: [{
 	upload_mbps:   20
 	monthly_price: 99.0
 	promo: {
-		price:  69.0
-		months: 6
+		price:    69.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -47,8 +50,9 @@ telstra: [{
 	upload_mbps:   48
 	monthly_price: 99.0
 	promo: {
-		price:  69.0
-		months: 6
+		price:    69.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -58,8 +62,9 @@ telstra: [{
 	upload_mbps:   50
 	monthly_price: 99.0
 	promo: {
-		price:  69.0
-		months: 6
+		price:    69.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -69,8 +74,9 @@ telstra: [{
 	upload_mbps:   50
 	monthly_price: 119.0
 	promo: {
-		price:  79.0
-		months: 6
+		price:    79.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }, {
@@ -80,8 +86,9 @@ telstra: [{
 	upload_mbps:   50
 	monthly_price: 129.0
 	promo: {
-		price:  89.0
-		months: 6
+		price:    89.0
+		months:   6
+		end_date: "2026-11-02"
 	}
 	cis_url: "https://www.telstra.com.au/content/dam/tcom/personal/help/pdf/cis-personal/nbn-key-facts/key-fact-sheet-nbn-services-all-types.pdf"
 }]

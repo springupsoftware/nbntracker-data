@@ -48,9 +48,15 @@ package data
 	monthly_price: number & >0
 
 	// Support for 2026's multi-stage promo cycles
+	// months: how long the promo price lasts from signup.
+	// end_date: optional ISO date string ("YYYY-MM-DD", or "YYYY-MM" for
+	//          month precision) until which the promo is available to new
+	//          customers; absent = unknown. Format is validated by the
+	//          Go loader, not CUE (CUE has no regex constraint).
 	promo?: {
-		price:  number & >0
-		months: int & >0
+		price:    number & >0
+		months:   int & >0
+		end_date?: string
 	}
 
 	data_cap_gb?: int & >0
