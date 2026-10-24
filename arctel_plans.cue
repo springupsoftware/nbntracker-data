@@ -7,8 +7,8 @@ arctel: [{
 	upload_mbps:   50
 	monthly_price: 84.99
 	promo: {
-		price:  67.99
-		months: 12
+		price:  77.99
+		months: 24
 	}
 }, {
 	name:          "Ultra Fast"
