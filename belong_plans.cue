@@ -12,17 +12,6 @@ belong: [{
 		end_date: "2026-11-04"
 	}
 }, {
-	name:          "Starter"
-	speed_tier:    "NBN25"
-	download_mbps: 25
-	upload_mbps:   10
-	monthly_price: 75.0
-	promo: {
-		price:    49.0
-		months:   6
-		end_date: "2026-11-04"
-	}
-}, {
 	name:          "Standard Plus"
 	speed_tier:    "NBN50"
 	download_mbps: 50
@@ -34,17 +23,6 @@ belong: [{
 		end_date: "2026-11-04"
 	}
 }, {
-	name:          "Ultrafast"
-	speed_tier:    "NBN1000"
-	download_mbps: 1000
-	upload_mbps:   100
-	monthly_price: 110.0
-	promo: {
-		price:    75.0
-		months:   6
-		end_date: "2026-11-04"
-	}
-}, {
 	name:          "Premium"
 	speed_tier:    "NBN100"
 	download_mbps: 100
@@ -52,6 +30,28 @@ belong: [{
 	monthly_price: 95.0
 	promo: {
 		price:    59.0
+		months:   6
+		end_date: "2026-11-04"
+	}
+}, {
+	name:          "Starter"
+	speed_tier:    "NBN25"
+	download_mbps: 25
+	upload_mbps:   10
+	monthly_price: 75.0
+	promo: {
+		price:    49.0
+		months:   6
+		end_date: "2026-11-04"
+	}
+}, {
+	name:          "Ultrafast"
+	speed_tier:    "NBN1000"
+	download_mbps: 1000
+	upload_mbps:   100
+	monthly_price: 110.0
+	promo: {
+		price:    75.0
 		months:   6
 		end_date: "2026-11-04"
 	}
