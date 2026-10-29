@@ -165,6 +165,13 @@ aussie: [{
 	monthly_price: 136.0
 	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
 }, {
+	name:          "1000-100"
+	speed_tier:    "NBN1000"
+	download_mbps: 1000
+	upload_mbps:   100
+	monthly_price: 129.0
+	cis_url:       "https://assets.aussiebroadband.com.au/web/assets/legal/cis/abb-resi-highest-nbn-cis.pdf"
+}, {
 	name:          "1000-400"
 	speed_tier:    "NBN1000"
 	download_mbps: 1000

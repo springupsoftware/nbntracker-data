@@ -5,11 +5,7 @@ arctel: [{
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   50
-	monthly_price: 84.99
-	promo: {
-		price:  77.99
-		months: 24
-	}
+	monthly_price: 59.99
 }, {
 	name:          "Ultra Fast"
 	speed_tier:    "NBN750"
