@@ -41,5 +41,5 @@ arctel: [{
 	speed_tier:    "NBN100"
 	download_mbps: 100
 	upload_mbps:   20
-	monthly_price: 60.99
+	monthly_price: 84.99
 }]
