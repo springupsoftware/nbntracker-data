@@ -38,9 +38,9 @@ superloop: [{
 	speed_tier:    "NBN500"
 	download_mbps: 500
 	upload_mbps:   50
-	monthly_price: 95.0
+	monthly_price: 99.0
 	promo: {
-		price:  74.0
+		price:  69.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
@@ -49,9 +49,9 @@ superloop: [{
 	speed_tier:    "NBN750"
 	download_mbps: 750
 	upload_mbps:   50
-	monthly_price: 104.0
+	monthly_price: 109.0
 	promo: {
-		price:  79.0
+		price:  84.0
 		months: 6
 	}
 	cis_url: "https://files.superloop.com/cis/residential/nbn/2026-07/SL_CIS_Residential_nbn.pdf"
