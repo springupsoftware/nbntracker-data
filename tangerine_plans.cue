@@ -7,17 +7,7 @@ tangerine: [{
 	upload_mbps:   10
 	monthly_price: 72.9
 	promo: {
-		price:  42.9
-		months: 6
-	}
-}, {
-	name:          "Value Plus"
-	speed_tier:    "NBN50"
-	download_mbps: 50
-	upload_mbps:   20
-	monthly_price: 89.9
-	promo: {
-		price:  64.9
+		price:  39.9
 		months: 6
 	}
 }, {
@@ -27,7 +17,7 @@ tangerine: [{
 	upload_mbps:   50
 	monthly_price: 92.9
 	promo: {
-		price:  62.9
+		price:  59.9
 		months: 6
 	}
 }, {

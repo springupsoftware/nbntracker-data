@@ -1,7 +1,7 @@
 package data
 
 quokkanet: [{
-	name:          "25 Wireless"
+	name:          "nbn Fixed Wireless 25"
 	speed_tier:    "NBN25"
 	download_mbps: 25
 	upload_mbps:   5
@@ -10,11 +10,10 @@ quokkanet: [{
 		price:  49.0
 		months: 6
 	}
-	data_cap_gb: 500
-	cis_url:     "https://quokkanet.au/cis-nbn-fw-broadband/"
-	technology:  "nbn-fw"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband"
+	technology: "nbn-fw"
 }, {
-	name:          "Wireless Plus"
+	name:          "nbn Fixed Wireless 100"
 	speed_tier:    "NBN100"
 	download_mbps: 100
 	upload_mbps:   20
@@ -23,11 +22,10 @@ quokkanet: [{
 		price:  74.0
 		months: 6
 	}
-	data_cap_gb: 500
-	cis_url:     "https://quokkanet.au/cis-nbn-fw-broadband/"
-	technology:  "nbn-fw"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband"
+	technology: "nbn-fw"
 }, {
-	name:          "Fast Wireless"
+	name:          "nbn Fixed Wireless 250"
 	speed_tier:    "NBN250"
 	download_mbps: 250
 	upload_mbps:   20
@@ -36,10 +34,10 @@ quokkanet: [{
 		price:  79.0
 		months: 6
 	}
-	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband/"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband"
 	technology: "nbn-fw"
 }, {
-	name:          "Superfast Wireless"
+	name:          "nbn Superfast Wireless 400"
 	speed_tier:    "NBN400"
 	download_mbps: 400
 	upload_mbps:   40
@@ -48,6 +46,6 @@ quokkanet: [{
 		price:  89.0
 		months: 6
 	}
-	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband/"
+	cis_url:    "https://quokkanet.au/cis-nbn-fw-broadband"
 	technology: "nbn-fw"
 }]
